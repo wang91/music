@@ -24,15 +24,24 @@
 		CC4777A529923F3F003E533A /* sand-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC47779D29923F3F003E533A /* sand-4.wav */; };
 		CC4777A629923F3F003E533A /* sand-8.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC47779E29923F3F003E533A /* sand-8.wav */; };
 		CC4777A729923F3F003E533A /* sand-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC47779F29923F3F003E533A /* sand-1.wav */; };
+		CC9F8E8C29938533001C5BC9 /* MusicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9F8E8A29938533001C5BC9 /* MusicController.swift */; };
+		CC9F8E8D29938533001C5BC9 /* MusicController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC9F8E8B29938533001C5BC9 /* MusicController.xib */; };
+		CC9F8E9229938BB3001C5BC9 /* RootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9F8E8E29938BB3001C5BC9 /* RootController.swift */; };
+		CC9F8E9329938BB3001C5BC9 /* RecordController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC9F8E8F29938BB3001C5BC9 /* RecordController.xib */; };
+		CC9F8E9429938BB3001C5BC9 /* RecordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9F8E9029938BB3001C5BC9 /* RecordController.swift */; };
+		CC9F8E9529938BB3001C5BC9 /* RootController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC9F8E9129938BB3001C5BC9 /* RootController.xib */; };
 		CCB72D3C2990F0A500129465 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB72D3B2990F0A500129465 /* AppDelegate.swift */; };
 		CCB72D3E2990F0A500129465 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB72D3D2990F0A500129465 /* SceneDelegate.swift */; };
-		CCB72D402990F0A500129465 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB72D3F2990F0A500129465 /* ViewController.swift */; };
-		CCB72D432990F0A500129465 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB72D412990F0A500129465 /* Main.storyboard */; };
 		CCB72D452990F0A600129465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB72D442990F0A600129465 /* Assets.xcassets */; };
 		CCB72D482990F0A600129465 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB72D462990F0A600129465 /* LaunchScreen.storyboard */; };
+		CCB8D9E22993905500EB5963 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCB8D9E12993905500EB5963 /* Info.plist */; };
+		D39E90AE7A1CDF68C6409CA9 /* Pods_MusicStudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CE39F703654436D806AE97E /* Pods_MusicStudio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CE39F703654436D806AE97E /* Pods_MusicStudio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicStudio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC44C1E39FB3EEB15F2BB3F /* Pods-MusicStudio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicStudio.debug.xcconfig"; path = "Target Support Files/Pods-MusicStudio/Pods-MusicStudio.debug.xcconfig"; sourceTree = "<group>"; };
+		CB45E2CA5F97BE6D93EE36DA /* Pods-MusicStudio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicStudio.release.xcconfig"; path = "Target Support Files/Pods-MusicStudio/Pods-MusicStudio.release.xcconfig"; sourceTree = "<group>"; };
 		CC47778829922BBF003E533A /* stage-3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "stage-3.wav"; sourceTree = "<group>"; };
 		CC47778929922BBF003E533A /* stage-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "stage-2.wav"; sourceTree = "<group>"; };
 		CC47778A29922BBF003E533A /* stage-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "stage-1.wav"; sourceTree = "<group>"; };
@@ -49,14 +58,18 @@
 		CC47779D29923F3F003E533A /* sand-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-4.wav"; sourceTree = "<group>"; };
 		CC47779E29923F3F003E533A /* sand-8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-8.wav"; sourceTree = "<group>"; };
 		CC47779F29923F3F003E533A /* sand-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-1.wav"; sourceTree = "<group>"; };
+		CC9F8E8A29938533001C5BC9 /* MusicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicController.swift; sourceTree = "<group>"; };
+		CC9F8E8B29938533001C5BC9 /* MusicController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicController.xib; sourceTree = "<group>"; };
+		CC9F8E8E29938BB3001C5BC9 /* RootController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootController.swift; sourceTree = "<group>"; };
+		CC9F8E8F29938BB3001C5BC9 /* RecordController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordController.xib; sourceTree = "<group>"; };
+		CC9F8E9029938BB3001C5BC9 /* RecordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordController.swift; sourceTree = "<group>"; };
+		CC9F8E9129938BB3001C5BC9 /* RootController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootController.xib; sourceTree = "<group>"; };
 		CCB72D382990F0A500129465 /* MusicStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB72D3B2990F0A500129465 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCB72D3D2990F0A500129465 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CCB72D3F2990F0A500129465 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CCB72D422990F0A500129465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCB72D442990F0A600129465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCB72D472990F0A600129465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CCB72D492990F0A600129465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB8D9E12993905500EB5963 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,15 +78,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC47778629922B9D003E533A /* AudioKit in Frameworks */,
+				D39E90AE7A1CDF68C6409CA9 /* Pods_MusicStudio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C298676F3C8F7F31B5E487FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEC44C1E39FB3EEB15F2BB3F /* Pods-MusicStudio.debug.xcconfig */,
+				CB45E2CA5F97BE6D93EE36DA /* Pods-MusicStudio.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CC47778429922B9D003E533A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1CE39F703654436D806AE97E /* Pods_MusicStudio.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -101,12 +125,26 @@
 			path = Sample;
 			sourceTree = "<group>";
 		};
+		CC9F8E892993850E001C5BC9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC9F8E9029938BB3001C5BC9 /* RecordController.swift */,
+				CC9F8E8F29938BB3001C5BC9 /* RecordController.xib */,
+				CC9F8E8E29938BB3001C5BC9 /* RootController.swift */,
+				CC9F8E9129938BB3001C5BC9 /* RootController.xib */,
+				CC9F8E8A29938533001C5BC9 /* MusicController.swift */,
+				CC9F8E8B29938533001C5BC9 /* MusicController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		CCB72D2F2990F0A500129465 = {
 			isa = PBXGroup;
 			children = (
 				CCB72D3A2990F0A500129465 /* MusicStudio */,
 				CCB72D392990F0A500129465 /* Products */,
 				CC47778429922B9D003E533A /* Frameworks */,
+				C298676F3C8F7F31B5E487FC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,12 +161,11 @@
 			children = (
 				CCB72D3B2990F0A500129465 /* AppDelegate.swift */,
 				CCB72D3D2990F0A500129465 /* SceneDelegate.swift */,
-				CCB72D3F2990F0A500129465 /* ViewController.swift */,
+				CC9F8E892993850E001C5BC9 /* Controller */,
 				CC47778729922BBF003E533A /* Sample */,
-				CCB72D412990F0A500129465 /* Main.storyboard */,
 				CCB72D442990F0A600129465 /* Assets.xcassets */,
+				CCB8D9E12993905500EB5963 /* Info.plist */,
 				CCB72D462990F0A600129465 /* LaunchScreen.storyboard */,
-				CCB72D492990F0A600129465 /* Info.plist */,
 			);
 			path = MusicStudio;
 			sourceTree = "<group>";
@@ -140,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCB72D4C2990F0A600129465 /* Build configuration list for PBXNativeTarget "MusicStudio" */;
 			buildPhases = (
+				0C6235AFE3A8A1771DF8A8A7 /* [CP] Check Pods Manifest.lock */,
 				CCB72D342990F0A500129465 /* Sources */,
 				CCB72D352990F0A500129465 /* Frameworks */,
 				CCB72D362990F0A500129465 /* Resources */,
+				4895968248044F8A5307624B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -201,14 +240,17 @@
 				CC47779329922BBF003E533A /* stage-5.wav in Resources */,
 				CC47779229922BBF003E533A /* stage-1.wav in Resources */,
 				CC4777A629923F3F003E533A /* sand-8.wav in Resources */,
+				CC9F8E9329938BB3001C5BC9 /* RecordController.xib in Resources */,
 				CC4777A029923F3F003E533A /* sand-2.wav in Resources */,
 				CCB72D452990F0A600129465 /* Assets.xcassets in Resources */,
+				CC9F8E8D29938533001C5BC9 /* MusicController.xib in Resources */,
+				CCB8D9E22993905500EB5963 /* Info.plist in Resources */,
 				CC47779429922BBF003E533A /* stage-4.wav in Resources */,
 				CC4777A229923F3F003E533A /* sand-7.wav in Resources */,
+				CC9F8E9529938BB3001C5BC9 /* RootController.xib in Resources */,
 				CC4777A529923F3F003E533A /* sand-4.wav in Resources */,
 				CC47779129922BBF003E533A /* stage-2.wav in Resources */,
 				CC47779729922BBF003E533A /* stage-8.wav in Resources */,
-				CCB72D432990F0A500129465 /* Main.storyboard in Resources */,
 				CC47779629922BBF003E533A /* stage-7.wav in Resources */,
 				CC4777A129923F3F003E533A /* sand-5.wav in Resources */,
 				CC4777A729923F3F003E533A /* sand-1.wav in Resources */,
@@ -221,28 +263,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C6235AFE3A8A1771DF8A8A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MusicStudio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4895968248044F8A5307624B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MusicStudio/Pods-MusicStudio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MusicStudio/Pods-MusicStudio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MusicStudio/Pods-MusicStudio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CCB72D342990F0A500129465 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCB72D402990F0A500129465 /* ViewController.swift in Sources */,
 				CCB72D3C2990F0A500129465 /* AppDelegate.swift in Sources */,
 				CCB72D3E2990F0A500129465 /* SceneDelegate.swift in Sources */,
+				CC9F8E8C29938533001C5BC9 /* MusicController.swift in Sources */,
+				CC9F8E9429938BB3001C5BC9 /* RecordController.swift in Sources */,
+				CC9F8E9229938BB3001C5BC9 /* RootController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CCB72D412990F0A500129465 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CCB72D422990F0A500129465 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CCB72D462990F0A600129465 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -370,6 +448,7 @@
 		};
 		CCB72D4D2990F0A600129465 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEC44C1E39FB3EEB15F2BB3F /* Pods-MusicStudio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -378,9 +457,15 @@
 				DEVELOPMENT_TEAM = Q55T7745P3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MusicStudio/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Music Studio";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Scan and import photo with the camera.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "启用麦克风，录制音频";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Import photo from albums.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -391,14 +476,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.taolee.music.MusicStudio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CCB72D4E2990F0A600129465 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB45E2CA5F97BE6D93EE36DA /* Pods-MusicStudio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -407,9 +496,15 @@
 				DEVELOPMENT_TEAM = Q55T7745P3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MusicStudio/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Music Studio";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Scan and import photo with the camera.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "启用麦克风，录制音频";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Import photo from albums.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -420,9 +515,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.taolee.music.MusicStudio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
