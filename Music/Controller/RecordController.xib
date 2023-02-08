@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RecordController" customModule="MusicStudio" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RecordController" customModule="Music" customModuleProvider="target">
             <connections>
                 <outlet property="duration" destination="X6c-cR-1bU" id="9Fh-da-BGY"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -22,11 +22,15 @@
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kVe-kp-6Pd">
                     <rect key="frame" x="366" y="221.66666666666666" width="120" height="49.999999999999972"/>
+                    <color key="backgroundColor" systemColor="systemPinkColor"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="120" id="fRZ-5w-mGn"/>
                         <constraint firstAttribute="height" constant="50" id="s4c-CK-Kpd"/>
                     </constraints>
-                    <state key="normal" title="开始录制"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="开始录制">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
                     <connections>
                         <action selector="record:" destination="-1" eventType="touchUpInside" id="4rO-hw-qTB"/>
                     </connections>
@@ -63,6 +67,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

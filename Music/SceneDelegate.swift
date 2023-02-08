@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  MusicStudio
+//  Music
 //
-//  Created by YouKe Wang on 2023/2/6.
+//  Created by YouKe Wang on 2023/2/8.
 //
 
 import UIKit
@@ -16,14 +16,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        
-        
         guard let _ = (scene as? UIWindowScene) else { return }
         
         if let windowSence = scene as? UIWindowScene  {
             self.window = UIWindow(windowScene: windowSence)
             self.window?.backgroundColor = .white
-            let navVC = UINavigationController(rootViewController: RootController(nibName: "RootContorller", bundle: nil))
+            let navVC = UINavigationController(rootViewController: RootController(nibName: "RootController", bundle: nil))
             navVC.view.backgroundColor = .white
             self.window?.rootViewController = navVC
             self.window?.makeKeyAndVisible()

@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  MusicStudio
+//  Music
 //
-//  Created by YouKe Wang on 2023/2/6.
+//  Created by YouKe Wang on 2023/2/8.
 //
 
 import UIKit
