@@ -1,0 +1,20 @@
+PODS:
+  - AudioRecorder (0.0.1):
+    - SwiftCommonTools2
+  - SwiftCommonTools2 (0.0.6)
+
+DEPENDENCIES:
+  - AudioRecorder
+
+SPEC REPOS:
+  trunk:
+    - AudioRecorder
+    - SwiftCommonTools2
+
+SPEC CHECKSUMS:
+  AudioRecorder: 044ba40232c60c6209bc2488eb3157464dbbc56b
+  SwiftCommonTools2: 61c9b54ea6e42f52cd4d93c75e969125fc4f8183
+
+PODFILE CHECKSUM: 095b636348fcd96cdd166b643ac3bcbc7cefdd8a
+
+COCOAPODS: 1.11.3
