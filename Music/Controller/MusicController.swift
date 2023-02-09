@@ -100,9 +100,9 @@ class MusicController: UIViewController {
             if sender.isSelected {
                 dataSet[sender.tag].status = true
                 if sender.tag < 4 {
-                    sender.backgroundColor = .red
+                    sender.backgroundColor = .purple
                 }else{
-                    sender.backgroundColor = .blue
+                    sender.backgroundColor = .orange
                 }
             }else{
                 dataSet[sender.tag].status = false
