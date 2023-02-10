@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RootController" customModule="MusicStudio" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RootController" customModule="Music" customModuleProvider="target">
             <connections>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -35,7 +35,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Lb-SH-63g">
-                    <rect key="frame" x="366" y="221.66666666666666" width="120" height="49.999999999999972"/>
+                    <rect key="frame" x="366" y="181.66666666666666" width="120" height="50"/>
                     <color key="backgroundColor" systemColor="systemOrangeColor"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="WHx-pK-MX9"/>
@@ -49,13 +49,30 @@
                         <action selector="playMusic:" destination="-1" eventType="touchUpInside" id="xMt-NO-VON"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLf-lo-OnK">
+                    <rect key="frame" x="366" y="241.66666666666663" width="120" height="50"/>
+                    <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="756-mu-byJ"/>
+                        <constraint firstAttribute="width" constant="120" id="da9-Cn-26t"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="演奏MIDI">
+                        <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="playMIDI:" destination="-1" eventType="touchUpInside" id="pJj-RO-egQ"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
+                <constraint firstItem="dLf-lo-OnK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="9kA-GB-sr6"/>
                 <constraint firstItem="bpR-uB-Owe" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="BbP-Vc-7sm"/>
+                <constraint firstItem="dLf-lo-OnK" firstAttribute="top" secondItem="3Lb-SH-63g" secondAttribute="bottom" constant="10" id="adl-Kz-NeG"/>
                 <constraint firstItem="3Lb-SH-63g" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="fnZ-E2-Tln"/>
-                <constraint firstItem="3Lb-SH-63g" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="50" id="h9d-J4-KEX"/>
+                <constraint firstItem="3Lb-SH-63g" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="10" id="h9d-J4-KEX"/>
                 <constraint firstItem="bpR-uB-Owe" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-50" id="uML-R7-ZQe"/>
             </constraints>
             <point key="canvasLocation" x="102" y="20"/>

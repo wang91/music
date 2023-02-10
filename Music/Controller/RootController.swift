@@ -19,6 +19,9 @@ class RootController: UIViewController {
         self.navigationController?.pushViewController(RecordController(nibName: "RecordController", bundle: nil), animated: true)
     }
     
+    @IBAction func playMIDI(_ sender: UIButton) {
+        self.navigationController?.pushViewController(MIDIPlayController(nibName: "MIDIPlayController", bundle: nil), animated: true)
+    }
     @IBAction func playMusic(_ sender: UIButton) {
         self.navigationController?.pushViewController(MusicController(nibName: "MusicController", bundle: nil), animated: true)
     }
