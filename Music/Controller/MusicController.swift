@@ -15,43 +15,53 @@ class MusicController: UIViewController {
     @IBOutlet weak var oneL: UILabel!
     var dataSet:[(index:Int,status:Bool,source:String)] = []
         
-        let engine = AudioEngine()
-        let player = MultiSegmentAudioPlayer()
-        let player2 = MultiSegmentAudioPlayer()
-        
-        var segments = [StreamableAudioSegment]()
-        var segments2 = [StreamableAudioSegment]()
-        
-        var timer: Timer?
-        var count:Int = 0
-        var isPlaying:Bool = false {
-            didSet {
-                playBtn.isSelected = isPlaying
-                if isPlaying {
-                    timer = Timer.scheduledTimer(timeInterval: 0.05, target: self, selector: #selector(updateSlider), userInfo: nil, repeats: true)
-                    player.playSegments(audioSegments: segments)
-                    player2.playSegments(audioSegments: segments2)
-                }else{
-                    if ((timer?.isValid) != nil) {
-                        timer?.invalidate()
-                    }
-                    player.stop()
-                    player2.stop()
-                    let orix = topView.frame.origin.x + 40 + 60 + 30
-                    sliderView.frame = CGRect(x: orix, y: topView.frame.origin.y, width: 10, height: 220)
+    let engine = AudioEngine()
+    var mixer:Mixer!
+    // Recorded playback
+    var recordedPlayback:AudioPlayer!
+    var tape:AVAudioFile!
+    var recorder:NodeRecorder!
+    
+    let player = MultiSegmentAudioPlayer()
+    let player2 = MultiSegmentAudioPlayer()
+    
+    var segments = [StreamableAudioSegment]()
+    var segments2 = [StreamableAudioSegment]()
+    
+    var timer: Timer?
+    var count:Int = 0
+    var isPlaying:Bool = false {
+        didSet {
+            playBtn.isSelected = isPlaying
+            if isPlaying {
+                timer = Timer.scheduledTimer(timeInterval: 0.05, target: self, selector: #selector(updateSlider), userInfo: nil, repeats: true)
+                player.playSegments(audioSegments: segments)
+                player2.playSegments(audioSegments: segments2)
+            }else{
+                if ((timer?.isValid) != nil) {
+                    timer?.invalidate()
                 }
+                player.stop()
+                player2.stop()
+                let orix = topView.frame.origin.x + 40 + 60 + 30
+                sliderView.frame = CGRect(x: orix, y: topView.frame.origin.y, width: 10, height: 220)
             }
         }
-        
-        @IBOutlet weak var playBtn: UIButton!
-        @IBOutlet weak var topView: UIView!
-        @IBOutlet weak var addtTrackBtn: UIButton!
-        
-        @IBOutlet weak var trackOneView: UIView!
-        
-        @IBOutlet weak var trackTwoView: UIView!
-        
-        @IBOutlet weak var sliderView: UIView!
+    }
+    
+    
+    @IBOutlet weak var playBtn: UIButton!
+    @IBOutlet weak var topView: UIView!
+    @IBOutlet weak var addtTrackBtn: UIButton!
+    
+    @IBOutlet weak var trackOneView: UIView!
+    
+    @IBOutlet weak var trackTwoView: UIView!
+    
+    @IBOutlet weak var sliderView: UIView!
+    
+    
+    
         override func viewDidLoad() {
             super.viewDidLoad()
             
@@ -59,7 +69,7 @@ class MusicController: UIViewController {
             for i in 0..<8 {
                 dataSet.append((index: i, status: false, source: ""))
             }
-            let mixer = Mixer(player,player2)
+            mixer = Mixer(player,player2)
             engine.output = mixer
             rewind()
         }
@@ -137,6 +147,30 @@ class MusicController: UIViewController {
                 }
             }
         }
+    
+    @IBAction func startOrStopRecord(_ sender: UIButton) {
+        sender.isSelected = !sender.isSelected
+        isPlaying = sender.isSelected
+        if sender.isSelected {
+            
+            do {
+                self.recorder = try NodeRecorder(node: self.mixer)
+                self.tape = self.recorder.audioFile
+                try self.recorder.reset()
+                try self.recorder.record()
+            } catch {
+                
+            }
+        }else{
+            if self.recorder != nil {
+                self.recorder.stop()
+                let controller = MusicResultController(nibName: "MusicResultController", bundle: nil)
+                controller.recordFile = self.recorder.audioFile
+                self.navigationController?.pushViewController(controller, animated: true)
+            }
+        }
+    }
+    
     }
 
     private class ExampleSegment: StreamableAudioSegment {

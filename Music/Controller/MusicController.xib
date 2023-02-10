@@ -266,8 +266,11 @@
                     <rect key="frame" x="20" y="299" width="812" height="40"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qYe-UV-tTj">
-                            <rect key="frame" x="387.66666666666669" y="3" width="37" height="34"/>
+                            <rect key="frame" x="331" y="3" width="50" height="34"/>
                             <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="XN2-aN-wY3"/>
+                            </constraints>
                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                             <state key="normal" title="演奏">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -277,12 +280,26 @@
                                 <action selector="playOrStop:" destination="-1" eventType="touchUpInside" id="oT4-Sc-zxu"/>
                             </connections>
                         </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iHQ-m4-WWd">
+                            <rect key="frame" x="419" y="3" width="74" height="34"/>
+                            <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="开始录制">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <state key="selected" title="停止录制"/>
+                            <connections>
+                                <action selector="startOrStopRecord:" destination="-1" eventType="touchUpInside" id="Rpf-Od-3ux"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
+                        <constraint firstItem="iHQ-m4-WWd" firstAttribute="centerX" secondItem="RGr-bu-B7D" secondAttribute="centerX" constant="50" id="JTd-6O-Czn"/>
                         <constraint firstItem="qYe-UV-tTj" firstAttribute="centerY" secondItem="RGr-bu-B7D" secondAttribute="centerY" id="cTH-jW-ALI"/>
                         <constraint firstAttribute="height" constant="40" id="h2G-x9-oQH"/>
-                        <constraint firstItem="qYe-UV-tTj" firstAttribute="centerX" secondItem="RGr-bu-B7D" secondAttribute="centerX" id="quq-hK-L8D"/>
+                        <constraint firstItem="qYe-UV-tTj" firstAttribute="centerX" secondItem="RGr-bu-B7D" secondAttribute="centerX" constant="-50" id="quq-hK-L8D"/>
+                        <constraint firstItem="iHQ-m4-WWd" firstAttribute="centerY" secondItem="RGr-bu-B7D" secondAttribute="centerY" id="wqf-JP-TaX"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E78-Ol-JEo">

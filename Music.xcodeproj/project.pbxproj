@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		05CADABDC1890DD2DB24C630 /* Pods_Music.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42B9B634D26F9890ABDC40C /* Pods_Music.framework */; };
+		CC5B1AFA2995F192005E8027 /* MusicResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5B1AF82995F192005E8027 /* MusicResultController.swift */; };
+		CC5B1AFB2995F192005E8027 /* MusicResultController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5B1AF92995F192005E8027 /* MusicResultController.xib */; };
 		CCDBC1EC2993A0320032A1BD /* sand-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1D52993A0320032A1BD /* sand-1.wav */; };
 		CCDBC1ED2993A0320032A1BD /* sand-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1D62993A0320032A1BD /* sand-2.wav */; };
 		CCDBC1EE2993A0320032A1BD /* sand-3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1D72993A0320032A1BD /* sand-3.wav */; };
@@ -40,6 +42,8 @@
 /* Begin PBXFileReference section */
 		A525181CB975EE9C93165524 /* Pods-Music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music.debug.xcconfig"; path = "Target Support Files/Pods-Music/Pods-Music.debug.xcconfig"; sourceTree = "<group>"; };
 		BEB5A15800A3E6336A9E273C /* Pods-Music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music.release.xcconfig"; path = "Target Support Files/Pods-Music/Pods-Music.release.xcconfig"; sourceTree = "<group>"; };
+		CC5B1AF82995F192005E8027 /* MusicResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicResultController.swift; sourceTree = "<group>"; };
+		CC5B1AF92995F192005E8027 /* MusicResultController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicResultController.xib; sourceTree = "<group>"; };
 		CCDBC1D52993A0320032A1BD /* sand-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-1.wav"; sourceTree = "<group>"; };
 		CCDBC1D62993A0320032A1BD /* sand-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-2.wav"; sourceTree = "<group>"; };
 		CCDBC1D72993A0320032A1BD /* sand-3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-3.wav"; sourceTree = "<group>"; };
@@ -134,6 +138,8 @@
 				CCDBC1E92993A0320032A1BD /* RecordController.xib */,
 				CCDBC1E82993A0320032A1BD /* RootController.swift */,
 				CCDBC1EB2993A0320032A1BD /* RootController.xib */,
+				CC5B1AF82995F192005E8027 /* MusicResultController.swift */,
+				CC5B1AF92995F192005E8027 /* MusicResultController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -266,6 +272,7 @@
 				CCDBC1F82993A0320032A1BD /* stage-6.wav in Resources */,
 				CCDBC1EE2993A0320032A1BD /* sand-3.wav in Resources */,
 				CCDBC1FA2993A0320032A1BD /* stage-8.wav in Resources */,
+				CC5B1AFB2995F192005E8027 /* MusicResultController.xib in Resources */,
 				CCDBC1F92993A0320032A1BD /* stage-7.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,6 +330,7 @@
 				CCF9AF2229939DDE00AA61F6 /* SceneDelegate.swift in Sources */,
 				CCDBC1FC2993A0320032A1BD /* MusicController.swift in Sources */,
 				CCDBC2002993A0320032A1BD /* RecordController.swift in Sources */,
+				CC5B1AFA2995F192005E8027 /* MusicResultController.swift in Sources */,
 				CCDBC1FE2993A0320032A1BD /* RootController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
