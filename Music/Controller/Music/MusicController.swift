@@ -173,7 +173,7 @@ class MusicController: UIViewController {
     
     }
 
-    private class ExampleSegment: StreamableAudioSegment {
+    class ExampleSegment: StreamableAudioSegment {
         var audioFile: AVAudioFile
         var playbackStartTime: TimeInterval = 0
         var fileStartTime: TimeInterval = 0

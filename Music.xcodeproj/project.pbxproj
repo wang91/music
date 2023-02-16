@@ -10,6 +10,24 @@
 		05CADABDC1890DD2DB24C630 /* Pods_Music.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42B9B634D26F9890ABDC40C /* Pods_Music.framework */; };
 		CC5B1AFA2995F192005E8027 /* MusicResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5B1AF82995F192005E8027 /* MusicResultController.swift */; };
 		CC5B1AFB2995F192005E8027 /* MusicResultController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5B1AF92995F192005E8027 /* MusicResultController.xib */; };
+		CC661C6C299CC4C100786AEB /* RootCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC661C6A299CC4C100786AEB /* RootCell.swift */; };
+		CC661C6D299CC4C100786AEB /* RootCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC661C6B299CC4C100786AEB /* RootCell.xib */; };
+		CC661C70299CCACB00786AEB /* ShakeDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC661C6E299CCACB00786AEB /* ShakeDemoController.swift */; };
+		CC661C71299CCACB00786AEB /* ShakeDemoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC661C6F299CCACB00786AEB /* ShakeDemoController.xib */; };
+		CC661C79299CD1E100786AEB /* ShakeTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC661C77299CD1E100786AEB /* ShakeTopCell.swift */; };
+		CC661C7A299CD1E100786AEB /* ShakeTopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC661C78299CD1E100786AEB /* ShakeTopCell.xib */; };
+		CC661C7D299DD75E00786AEB /* ShakeInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC661C7B299DD75E00786AEB /* ShakeInfoCell.swift */; };
+		CC661C7E299DD75E00786AEB /* ShakeInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC661C7C299DD75E00786AEB /* ShakeInfoCell.xib */; };
+		CC661C81299DDCB300786AEB /* ShakeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC661C80299DDCB300786AEB /* ShakeModel.swift */; };
+		CC661C84299E1E2B00786AEB /* shake-0.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CC661C83299E1E2B00786AEB /* shake-0.m4a */; };
+		CC661C86299E1E3900786AEB /* shake-1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CC661C85299E1E3900786AEB /* shake-1.m4a */; };
+		CC661C88299E1E4400786AEB /* shake-2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CC661C87299E1E4400786AEB /* shake-2.m4a */; };
+		CC661C8A299E1E7D00786AEB /* shake-3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CC661C89299E1E7D00786AEB /* shake-3.m4a */; };
+		CC661C8F299E1E8B00786AEB /* shake-7.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CC661C8B299E1E8B00786AEB /* shake-7.m4a */; };
+		CC661C90299E1E8B00786AEB /* shake-6.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CC661C8C299E1E8B00786AEB /* shake-6.m4a */; };
+		CC661C91299E1E8B00786AEB /* shake-5.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CC661C8D299E1E8B00786AEB /* shake-5.m4a */; };
+		CC661C92299E1E8B00786AEB /* shake-4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CC661C8E299E1E8B00786AEB /* shake-4.m4a */; };
+		CC661C94299E1EA400786AEB /* shake-8.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CC661C93299E1EA400786AEB /* shake-8.m4a */; };
 		CC6B80A0299615D400371B0E /* MIDIPlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B809E299615D400371B0E /* MIDIPlayController.swift */; };
 		CC6B80A1299615D400371B0E /* MIDIPlayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC6B809F299615D400371B0E /* MIDIPlayController.xib */; };
 		CC6B80A3299638B900371B0E /* sand-1.mid in Resources */ = {isa = PBXBuildFile; fileRef = CC6B80A2299638B900371B0E /* sand-1.mid */; };
@@ -50,6 +68,24 @@
 		CC32ED102996156D00FA50FD /* AudioKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AudioKit; path = ../AudioKitSource/AudioKit; sourceTree = "<group>"; };
 		CC5B1AF82995F192005E8027 /* MusicResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicResultController.swift; sourceTree = "<group>"; };
 		CC5B1AF92995F192005E8027 /* MusicResultController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicResultController.xib; sourceTree = "<group>"; };
+		CC661C6A299CC4C100786AEB /* RootCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCell.swift; sourceTree = "<group>"; };
+		CC661C6B299CC4C100786AEB /* RootCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootCell.xib; sourceTree = "<group>"; };
+		CC661C6E299CCACB00786AEB /* ShakeDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeDemoController.swift; sourceTree = "<group>"; };
+		CC661C6F299CCACB00786AEB /* ShakeDemoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShakeDemoController.xib; sourceTree = "<group>"; };
+		CC661C77299CD1E100786AEB /* ShakeTopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShakeTopCell.swift; sourceTree = "<group>"; };
+		CC661C78299CD1E100786AEB /* ShakeTopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShakeTopCell.xib; sourceTree = "<group>"; };
+		CC661C7B299DD75E00786AEB /* ShakeInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeInfoCell.swift; sourceTree = "<group>"; };
+		CC661C7C299DD75E00786AEB /* ShakeInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShakeInfoCell.xib; sourceTree = "<group>"; };
+		CC661C80299DDCB300786AEB /* ShakeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeModel.swift; sourceTree = "<group>"; };
+		CC661C83299E1E2B00786AEB /* shake-0.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shake-0.m4a"; sourceTree = "<group>"; };
+		CC661C85299E1E3900786AEB /* shake-1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shake-1.m4a"; sourceTree = "<group>"; };
+		CC661C87299E1E4400786AEB /* shake-2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shake-2.m4a"; sourceTree = "<group>"; };
+		CC661C89299E1E7D00786AEB /* shake-3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shake-3.m4a"; sourceTree = "<group>"; };
+		CC661C8B299E1E8B00786AEB /* shake-7.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shake-7.m4a"; sourceTree = "<group>"; };
+		CC661C8C299E1E8B00786AEB /* shake-6.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shake-6.m4a"; sourceTree = "<group>"; };
+		CC661C8D299E1E8B00786AEB /* shake-5.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shake-5.m4a"; sourceTree = "<group>"; };
+		CC661C8E299E1E8B00786AEB /* shake-4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shake-4.m4a"; sourceTree = "<group>"; };
+		CC661C93299E1EA400786AEB /* shake-8.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shake-8.m4a"; sourceTree = "<group>"; };
 		CC6B809E299615D400371B0E /* MIDIPlayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIPlayController.swift; sourceTree = "<group>"; };
 		CC6B809F299615D400371B0E /* MIDIPlayController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MIDIPlayController.xib; sourceTree = "<group>"; };
 		CC6B80A2299638B900371B0E /* sand-1.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "sand-1.mid"; sourceTree = "<group>"; };
@@ -116,6 +152,85 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CC661C66299CC3BA00786AEB /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				CCDBC1E82993A0320032A1BD /* RootController.swift */,
+				CCDBC1EB2993A0320032A1BD /* RootController.xib */,
+				CC661C6A299CC4C100786AEB /* RootCell.swift */,
+				CC661C6B299CC4C100786AEB /* RootCell.xib */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		CC661C67299CC3CD00786AEB /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				CCDBC1EA2993A0320032A1BD /* RecordController.swift */,
+				CCDBC1E92993A0320032A1BD /* RecordController.xib */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		CC661C68299CC3DF00786AEB /* MIDI */ = {
+			isa = PBXGroup;
+			children = (
+				CC6B809E299615D400371B0E /* MIDIPlayController.swift */,
+				CC6B809F299615D400371B0E /* MIDIPlayController.xib */,
+			);
+			path = MIDI;
+			sourceTree = "<group>";
+		};
+		CC661C69299CC3ED00786AEB /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				CC661C7F299DDC6200786AEB /* Model */,
+				CC661C76299CD1E100786AEB /* Cell */,
+				CCDBC1E62993A0320032A1BD /* MusicController.swift */,
+				CCDBC1E72993A0320032A1BD /* MusicController.xib */,
+				CC5B1AF82995F192005E8027 /* MusicResultController.swift */,
+				CC5B1AF92995F192005E8027 /* MusicResultController.xib */,
+				CC661C6E299CCACB00786AEB /* ShakeDemoController.swift */,
+				CC661C6F299CCACB00786AEB /* ShakeDemoController.xib */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		CC661C76299CD1E100786AEB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CC661C77299CD1E100786AEB /* ShakeTopCell.swift */,
+				CC661C78299CD1E100786AEB /* ShakeTopCell.xib */,
+				CC661C7B299DD75E00786AEB /* ShakeInfoCell.swift */,
+				CC661C7C299DD75E00786AEB /* ShakeInfoCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CC661C7F299DDC6200786AEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC661C80299DDCB300786AEB /* ShakeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC661C82299E1E1900786AEB /* AudioFile */ = {
+			isa = PBXGroup;
+			children = (
+				CC661C83299E1E2B00786AEB /* shake-0.m4a */,
+				CC661C85299E1E3900786AEB /* shake-1.m4a */,
+				CC661C87299E1E4400786AEB /* shake-2.m4a */,
+				CC661C89299E1E7D00786AEB /* shake-3.m4a */,
+				CC661C8E299E1E8B00786AEB /* shake-4.m4a */,
+				CC661C8D299E1E8B00786AEB /* shake-5.m4a */,
+				CC661C8C299E1E8B00786AEB /* shake-6.m4a */,
+				CC661C8B299E1E8B00786AEB /* shake-7.m4a */,
+				CC661C93299E1EA400786AEB /* shake-8.m4a */,
+			);
+			path = AudioFile;
+			sourceTree = "<group>";
+		};
 		CCDBC1D42993A0320032A1BD /* Sample */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,16 +260,10 @@
 		CCDBC1E52993A0320032A1BD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CCDBC1E62993A0320032A1BD /* MusicController.swift */,
-				CCDBC1E72993A0320032A1BD /* MusicController.xib */,
-				CCDBC1EA2993A0320032A1BD /* RecordController.swift */,
-				CCDBC1E92993A0320032A1BD /* RecordController.xib */,
-				CCDBC1E82993A0320032A1BD /* RootController.swift */,
-				CCDBC1EB2993A0320032A1BD /* RootController.xib */,
-				CC5B1AF82995F192005E8027 /* MusicResultController.swift */,
-				CC5B1AF92995F192005E8027 /* MusicResultController.xib */,
-				CC6B809E299615D400371B0E /* MIDIPlayController.swift */,
-				CC6B809F299615D400371B0E /* MIDIPlayController.xib */,
+				CC661C69299CC3ED00786AEB /* Music */,
+				CC661C68299CC3DF00786AEB /* MIDI */,
+				CC661C67299CC3CD00786AEB /* Record */,
+				CC661C66299CC3BA00786AEB /* Root */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -189,6 +298,7 @@
 		CCF9AF1E29939DDE00AA61F6 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				CC661C82299E1E1900786AEB /* AudioFile */,
 				CCF9AF1F29939DDE00AA61F6 /* AppDelegate.swift */,
 				CCF9AF2129939DDE00AA61F6 /* SceneDelegate.swift */,
 				CCF9AF2829939DDE00AA61F6 /* Assets.xcassets */,
@@ -266,14 +376,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCDBC1F62993A0320032A1BD /* stage-5.wav in Resources */,
+				CC661C71299CCACB00786AEB /* ShakeDemoController.xib in Resources */,
+				CC661C90299E1E8B00786AEB /* shake-6.m4a in Resources */,
+				CC661C91299E1E8B00786AEB /* shake-5.m4a in Resources */,
+				CC661C7A299CD1E100786AEB /* ShakeTopCell.xib in Resources */,
+				CC661C94299E1EA400786AEB /* shake-8.m4a in Resources */,
+				CC661C8A299E1E7D00786AEB /* shake-3.m4a in Resources */,
+				CC661C8F299E1E8B00786AEB /* shake-7.m4a in Resources */,
 				CCDBC1F02993A0320032A1BD /* sand-6.wav in Resources */,
 				CCDBC1F52993A0320032A1BD /* stage-1.wav in Resources */,
+				CC661C86299E1E3900786AEB /* shake-1.m4a in Resources */,
 				CC6B80A729963DFD00371B0E /* drumSimp.exs in Resources */,
+				CC661C6D299CC4C100786AEB /* RootCell.xib in Resources */,
 				CCDBC2062993A90F0032A1BD /* MusicController.xib in Resources */,
 				CCDBC1FB2993A0320032A1BD /* sand-8.wav in Resources */,
+				CC661C84299E1E2B00786AEB /* shake-0.m4a in Resources */,
 				CCDBC1FF2993A0320032A1BD /* RecordController.xib in Resources */,
+				CC661C92299E1E8B00786AEB /* shake-4.m4a in Resources */,
 				CCDBC1F32993A0320032A1BD /* stage-3.wav in Resources */,
 				CCF9AF2C29939DDE00AA61F6 /* LaunchScreen.storyboard in Resources */,
+				CC661C7E299DD75E00786AEB /* ShakeInfoCell.xib in Resources */,
 				CCDBC1EC2993A0320032A1BD /* sand-1.wav in Resources */,
 				CCF9AF2929939DDE00AA61F6 /* Assets.xcassets in Resources */,
 				CCDBC1ED2993A0320032A1BD /* sand-2.wav in Resources */,
@@ -285,6 +407,7 @@
 				CC6B80A1299615D400371B0E /* MIDIPlayController.xib in Resources */,
 				CCDBC1F72993A0320032A1BD /* stage-4.wav in Resources */,
 				CCDBC1F82993A0320032A1BD /* stage-6.wav in Resources */,
+				CC661C88299E1E4400786AEB /* shake-2.m4a in Resources */,
 				CCDBC1EE2993A0320032A1BD /* sand-3.wav in Resources */,
 				CCDBC1FA2993A0320032A1BD /* stage-8.wav in Resources */,
 				CC5B1AFB2995F192005E8027 /* MusicResultController.xib in Resources */,
@@ -346,10 +469,15 @@
 				CCF9AF2029939DDE00AA61F6 /* AppDelegate.swift in Sources */,
 				CC6B80A0299615D400371B0E /* MIDIPlayController.swift in Sources */,
 				CCF9AF2229939DDE00AA61F6 /* SceneDelegate.swift in Sources */,
+				CC661C79299CD1E100786AEB /* ShakeTopCell.swift in Sources */,
+				CC661C70299CCACB00786AEB /* ShakeDemoController.swift in Sources */,
 				CCDBC1FC2993A0320032A1BD /* MusicController.swift in Sources */,
 				CCDBC2002993A0320032A1BD /* RecordController.swift in Sources */,
+				CC661C6C299CC4C100786AEB /* RootCell.swift in Sources */,
+				CC661C81299DDCB300786AEB /* ShakeModel.swift in Sources */,
 				CC5B1AFA2995F192005E8027 /* MusicResultController.swift in Sources */,
 				CCDBC1FE2993A0320032A1BD /* RootController.swift in Sources */,
+				CC661C7D299DD75E00786AEB /* ShakeInfoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,9 +621,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Music/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Music Studio";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "启用麦克风录制音频";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -524,9 +654,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Music/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Music Studio";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "启用麦克风录制音频";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
