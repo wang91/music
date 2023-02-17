@@ -11,48 +11,33 @@ import AVFoundation
 
 class MIDIPlayController: UIViewController {
 
-    private var sequencer: AppleSequencer!
-    private var mixer = Mixer()
-    var engine = AudioEngine()
-    private var drumKit = MIDISampler(name: "Drums")
+    @IBOutlet weak var SF2View: UIView!
+    @IBOutlet weak var SF2Btn: UIButton!
+    @IBOutlet weak var SF2Name: UILabel!
+    
+    @IBOutlet weak var MIDIView: UIView!
+    @IBOutlet weak var MIDIBtn: UIButton!
+    @IBOutlet weak var MIDIName: UILabel!
+    
+    @IBOutlet weak var playView: UIView!
+    @IBOutlet weak var playBtn: UIButton!
+    @IBOutlet weak var currentL: UILabel!
+    @IBOutlet weak var totalL: UILabel!
+    @IBOutlet weak var slider: UISlider!
+    
+    var midiUrl:URL?
+    var bankUrl:URL?
+    
+    var timer:Timer?
+    
+    
     var midiPlayer:AVMIDIPlayer!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         createAVMIDIPlayerFromMIDIFIle()
-        
-        
-        
     }
 
-    func audiKitPlayMIDI() {
-        mixer = Mixer(drumKit)
-        engine.output = mixer
-        do {
-            if let fileURL = Bundle.main.url(forResource: "drumSimp", withExtension: "exs") {
-                try drumKit.loadInstrument(url: fileURL)
-            } else {
-                Log("Could not find file")
-            }
-//            if let fileURL = Bundle.main.url(forResource: "Cyberpunk", withExtension: "sf2") {
-//                try drumKit.loadInstrument(url: fileURL)
-//            } else {
-//                Log("Could not find file")
-//            }
-        } catch {
-            Log("A file was not found.")
-        }
-        do {
-            try engine.start()
-        } catch {
-            Log("AudioKit did not start!")
-        }
-
-        sequencer = AppleSequencer(filename: "sand-1")
-        sequencer.enableLooping()
-        sequencer.tracks[0].setMIDIOutput(drumKit.midiIn)
-        
-    }
+    
     func createAVMIDIPlayerFromMIDIFIle() {
             
         guard let midiFileURL = Bundle.main.url(forResource: "sand-1", withExtension: "mid") else {
@@ -74,21 +59,37 @@ class MIDIPlayController: UIViewController {
         self.midiPlayer.rate = 1.0 // default
         
         Log("Duration: \(midiPlayer.duration)")
+        self.totalL.text = String(format: "%.1fs", midiPlayer.duration)
     }
     @IBAction func playmidi(_ sender: UIButton) {
         sender.isSelected = !sender.isSelected
         if sender.isSelected {
-//            sequencer.play()
+            timer = Timer.scheduledTimer(timeInterval: 0.05, target: self, selector: #selector(updateSlider), userInfo: nil, repeats: true)
             self.midiPlayer.play({
                 Log("finished")
-                self.midiPlayer.currentPosition = 0
+                DispatchQueue.main.async {
+                    self.midiPlayer.currentPosition = 0
+                    self.currentL.text = "0.0s"
+                    self.slider.value = 0.0
+                    self.timer?.invalidate()
+                }
             })
         }else{
-//            sequencer.stop()
             if midiPlayer.isPlaying {
                 midiPlayer.stop()
+                self.timer?.invalidate()
             }
         }
+    }
+    @objc func updateSlider() {
+        self.slider.setValue(Float(midiPlayer.currentPosition/midiPlayer.duration), animated: true)
+        self.currentL.text = String(format: "%.1fs", midiPlayer.currentPosition)
+    }
+    @IBAction func chooseSoundfile(_ sender: UIButton) {
+        
+    }
+    @IBAction func chooseMIDIFile(_ sender: UIButton) {
+        
     }
     
 

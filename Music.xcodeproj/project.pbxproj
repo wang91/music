@@ -28,6 +28,7 @@
 		CC661C91299E1E8B00786AEB /* shake-5.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CC661C8D299E1E8B00786AEB /* shake-5.m4a */; };
 		CC661C92299E1E8B00786AEB /* shake-4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CC661C8E299E1E8B00786AEB /* shake-4.m4a */; };
 		CC661C94299E1EA400786AEB /* shake-8.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CC661C93299E1EA400786AEB /* shake-8.m4a */; };
+		CC661C98299F65C800786AEB /* MIDIPlayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC661C97299F65C800786AEB /* MIDIPlayManager.swift */; };
 		CC6B80A0299615D400371B0E /* MIDIPlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B809E299615D400371B0E /* MIDIPlayController.swift */; };
 		CC6B80A1299615D400371B0E /* MIDIPlayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC6B809F299615D400371B0E /* MIDIPlayController.xib */; };
 		CC6B80A3299638B900371B0E /* sand-1.mid in Resources */ = {isa = PBXBuildFile; fileRef = CC6B80A2299638B900371B0E /* sand-1.mid */; };
@@ -86,6 +87,7 @@
 		CC661C8D299E1E8B00786AEB /* shake-5.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shake-5.m4a"; sourceTree = "<group>"; };
 		CC661C8E299E1E8B00786AEB /* shake-4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shake-4.m4a"; sourceTree = "<group>"; };
 		CC661C93299E1EA400786AEB /* shake-8.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shake-8.m4a"; sourceTree = "<group>"; };
+		CC661C97299F65C800786AEB /* MIDIPlayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIPlayManager.swift; sourceTree = "<group>"; };
 		CC6B809E299615D400371B0E /* MIDIPlayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIPlayController.swift; sourceTree = "<group>"; };
 		CC6B809F299615D400371B0E /* MIDIPlayController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MIDIPlayController.xib; sourceTree = "<group>"; };
 		CC6B80A2299638B900371B0E /* sand-1.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "sand-1.mid"; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 		CC661C68299CC3DF00786AEB /* MIDI */ = {
 			isa = PBXGroup;
 			children = (
+				CC661C96299F65B600786AEB /* Model */,
 				CC6B809E299615D400371B0E /* MIDIPlayController.swift */,
 				CC6B809F299615D400371B0E /* MIDIPlayController.xib */,
 			);
@@ -235,14 +238,22 @@
 			isa = PBXGroup;
 			children = (
 				CC6B80A629963DFD00371B0E /* drumSimp.exs */,
+				CC6B80A8299643D300371B0E /* Cyberpunk.sf2 */,
 			);
 			path = SFFile;
+			sourceTree = "<group>";
+		};
+		CC661C96299F65B600786AEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC661C97299F65C800786AEB /* MIDIPlayManager.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		CCDBC1D42993A0320032A1BD /* Sample */ = {
 			isa = PBXGroup;
 			children = (
-				CC6B80A8299643D300371B0E /* Cyberpunk.sf2 */,
 				CC6B80A2299638B900371B0E /* sand-1.mid */,
 				CCDBC1D52993A0320032A1BD /* sand-1.wav */,
 				CCDBC1D62993A0320032A1BD /* sand-2.wav */,
@@ -481,6 +492,7 @@
 				CC661C70299CCACB00786AEB /* ShakeDemoController.swift in Sources */,
 				CCDBC1FC2993A0320032A1BD /* MusicController.swift in Sources */,
 				CCDBC2002993A0320032A1BD /* RecordController.swift in Sources */,
+				CC661C98299F65C800786AEB /* MIDIPlayManager.swift in Sources */,
 				CC661C6C299CC4C100786AEB /* RootCell.swift in Sources */,
 				CC661C81299DDCB300786AEB /* ShakeModel.swift in Sources */,
 				CC5B1AFA2995F192005E8027 /* MusicResultController.swift in Sources */,
