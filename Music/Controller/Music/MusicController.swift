@@ -28,7 +28,7 @@ class MusicController: UIViewController {
     var segments = [StreamableAudioSegment]()
     var segments2 = [StreamableAudioSegment]()
     
-    var timer: Timer?
+    var timer:Timer?
     var count:Int = 0
     var isPlaying:Bool = false {
         didSet {

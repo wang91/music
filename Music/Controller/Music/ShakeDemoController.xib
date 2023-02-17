@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_12" orientation="landscape" appearance="light"/>
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -14,49 +14,61 @@
                 <outlet property="playBtn" destination="bx9-rr-4Kh" id="UW5-if-FW8"/>
                 <outlet property="recordBtn" destination="eEh-sl-AhD" id="Br6-Cd-mVa"/>
                 <outlet property="tableView" destination="QA3-LB-wjM" id="iDG-WX-kxC"/>
+                <outlet property="timeL" destination="fwb-8u-RK3" id="DyJ-iD-H1U"/>
                 <outlet property="topView" destination="n8f-LE-4wm" id="wes-29-WXa"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n8f-LE-4wm">
-                    <rect key="frame" x="0.0" y="59" width="852" height="40"/>
+                    <rect key="frame" x="0.0" y="59" width="393" height="40"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEh-sl-AhD">
-                            <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                            <rect key="frame" x="0.0" y="0.0" width="80" height="40"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="40" id="LE9-3w-UQO"/>
+                                <constraint firstAttribute="width" constant="80" id="LE9-3w-UQO"/>
                             </constraints>
                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                            <state key="normal" image="record.circle" catalog="system"/>
+                            <state key="normal" title="录制">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
                             <connections>
                                 <action selector="startOrStopRecord:" destination="-1" eventType="touchUpInside" id="9jA-U1-uA7"/>
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bx9-rr-4Kh">
-                            <rect key="frame" x="60" y="0.0" width="40" height="40"/>
+                            <rect key="frame" x="100" y="0.0" width="80" height="40"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="40" id="TSs-7A-lAk"/>
+                                <constraint firstAttribute="width" constant="80" id="TSs-7A-lAk"/>
                             </constraints>
                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                            <state key="normal" title="S">
+                            <state key="normal" title="播放">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
-                            <state key="selected" title="T"/>
+                            <state key="selected" title="停止"/>
                             <connections>
                                 <action selector="startOrStopPlay:" destination="-1" eventType="touchUpInside" id="yrO-zI-Nw0"/>
                             </connections>
                         </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0s" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fwb-8u-RK3">
+                            <rect key="frame" x="190" y="0.0" width="33" height="40"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
                         <constraint firstItem="bx9-rr-4Kh" firstAttribute="leading" secondItem="eEh-sl-AhD" secondAttribute="trailing" constant="20" id="98R-2Z-g14"/>
+                        <constraint firstItem="fwb-8u-RK3" firstAttribute="leading" secondItem="bx9-rr-4Kh" secondAttribute="trailing" constant="10" id="B6W-9R-v0Q"/>
                         <constraint firstItem="eEh-sl-AhD" firstAttribute="top" secondItem="n8f-LE-4wm" secondAttribute="top" id="FEg-8M-Dda"/>
                         <constraint firstAttribute="bottom" secondItem="eEh-sl-AhD" secondAttribute="bottom" id="GvR-W3-HqK"/>
+                        <constraint firstItem="fwb-8u-RK3" firstAttribute="top" secondItem="n8f-LE-4wm" secondAttribute="top" id="Icd-7W-Li9"/>
+                        <constraint firstAttribute="bottom" secondItem="fwb-8u-RK3" secondAttribute="bottom" id="a15-EU-z6e"/>
                         <constraint firstItem="bx9-rr-4Kh" firstAttribute="top" secondItem="n8f-LE-4wm" secondAttribute="top" id="aMC-XX-j68"/>
                         <constraint firstAttribute="height" constant="40" id="j6p-Jf-UTn"/>
                         <constraint firstItem="eEh-sl-AhD" firstAttribute="leading" secondItem="n8f-LE-4wm" secondAttribute="leading" id="pnD-Q7-u67"/>
@@ -64,7 +76,7 @@
                     </constraints>
                 </view>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="QA3-LB-wjM">
-                    <rect key="frame" x="0.0" y="99" width="852" height="260"/>
+                    <rect key="frame" x="0.0" y="99" width="393" height="719"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </tableView>
             </subviews>
@@ -83,7 +95,6 @@
         </view>
     </objects>
     <resources>
-        <image name="record.circle" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -231,11 +231,18 @@
 			path = AudioFile;
 			sourceTree = "<group>";
 		};
+		CC661C95299F4CC200786AEB /* SFFile */ = {
+			isa = PBXGroup;
+			children = (
+				CC6B80A629963DFD00371B0E /* drumSimp.exs */,
+			);
+			path = SFFile;
+			sourceTree = "<group>";
+		};
 		CCDBC1D42993A0320032A1BD /* Sample */ = {
 			isa = PBXGroup;
 			children = (
 				CC6B80A8299643D300371B0E /* Cyberpunk.sf2 */,
-				CC6B80A629963DFD00371B0E /* drumSimp.exs */,
 				CC6B80A2299638B900371B0E /* sand-1.mid */,
 				CCDBC1D52993A0320032A1BD /* sand-1.wav */,
 				CCDBC1D62993A0320032A1BD /* sand-2.wav */,
@@ -298,6 +305,7 @@
 		CCF9AF1E29939DDE00AA61F6 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				CC661C95299F4CC200786AEB /* SFFile */,
 				CC661C82299E1E1900786AEB /* AudioFile */,
 				CCF9AF1F29939DDE00AA61F6 /* AppDelegate.swift */,
 				CCF9AF2129939DDE00AA61F6 /* SceneDelegate.swift */,
