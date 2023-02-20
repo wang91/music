@@ -30,10 +30,15 @@ class MIDIPlayController: UIViewController {
     
     var timer:Timer?
     
+    var bankArr:Array<String> = ["Bassoon","Accordion","Clarinet","Guitar Harmonics","MT-32 Drum Kit","Shannai","Violin","Rock Piano"]
     
     var midiPlayer:AVMIDIPlayer!
     override func viewDidLoad() {
         super.viewDidLoad()
+        guard let bankURL = Bundle.main.url(forResource: "Bassoon", withExtension: "sf2") else {
+            fatalError("\"sibeliusGMajor.mid\" file not found.")
+        }
+        self.bankUrl = bankURL
         createAVMIDIPlayerFromMIDIFIle()
     }
 
@@ -44,7 +49,7 @@ class MIDIPlayController: UIViewController {
             fatalError("\"sibeliusGMajor.mid\" file not found.")
         }
         
-        guard let bankURL = Bundle.main.url(forResource: "Cyberpunk", withExtension: "sf2") else {
+        guard let bankURL = self.bankUrl else {
             fatalError("\"GeneralUser GS MuseScore v1.442.sf2\" file not found.")
         }
         
@@ -86,6 +91,19 @@ class MIDIPlayController: UIViewController {
         self.currentL.text = String(format: "%.1fs", midiPlayer.currentPosition)
     }
     @IBAction func chooseSoundfile(_ sender: UIButton) {
+        let alert = UIAlertController(title: "选择SF2", message: nil, preferredStyle: .actionSheet)
+        for item in bankArr {
+            alert.addAction(UIAlertAction(title: item, style: .default, handler: { action in
+                guard let bankURL = Bundle.main.url(forResource: item, withExtension: "sf2") else {
+                    fatalError("\"sf2\" file not found.")
+                }
+                self.SF2Name.text = item
+                self.bankUrl = bankURL
+                self.createAVMIDIPlayerFromMIDIFIle()
+            }))
+        }
+        alert.addAction(UIAlertAction(title:"取消", style: .cancel))
+        self.present(alert, animated: true)
         
     }
     @IBAction func chooseMIDIFile(_ sender: UIButton) {

@@ -35,6 +35,14 @@
 		CC6B80A5299639C300371B0E /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = CC6B80A4299639C300371B0E /* AudioKit */; };
 		CC6B80A729963DFD00371B0E /* drumSimp.exs in Resources */ = {isa = PBXBuildFile; fileRef = CC6B80A629963DFD00371B0E /* drumSimp.exs */; };
 		CC6B80A9299643D300371B0E /* Cyberpunk.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CC6B80A8299643D300371B0E /* Cyberpunk.sf2 */; };
+		CCC9F41D29A31210006CC4F0 /* Accordion.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F41C29A31210006CC4F0 /* Accordion.sf2 */; };
+		CCC9F41F29A31219006CC4F0 /* Bassoon.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F41E29A31219006CC4F0 /* Bassoon.sf2 */; };
+		CCC9F42129A31225006CC4F0 /* Clarinet.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F42029A31225006CC4F0 /* Clarinet.sf2 */; };
+		CCC9F42329A31235006CC4F0 /* Guitar Harmonics.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F42229A31235006CC4F0 /* Guitar Harmonics.sf2 */; };
+		CCC9F42529A31243006CC4F0 /* MT-32 Drum Kit.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F42429A31243006CC4F0 /* MT-32 Drum Kit.sf2 */; };
+		CCC9F42729A31251006CC4F0 /* Rock Piano.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F42629A31251006CC4F0 /* Rock Piano.sf2 */; };
+		CCC9F42929A31261006CC4F0 /* Violin.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F42829A31261006CC4F0 /* Violin.sf2 */; };
+		CCC9F42B29A31280006CC4F0 /* Shannai.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F42A29A31280006CC4F0 /* Shannai.sf2 */; };
 		CCDBC1EC2993A0320032A1BD /* sand-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1D52993A0320032A1BD /* sand-1.wav */; };
 		CCDBC1ED2993A0320032A1BD /* sand-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1D62993A0320032A1BD /* sand-2.wav */; };
 		CCDBC1EE2993A0320032A1BD /* sand-3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1D72993A0320032A1BD /* sand-3.wav */; };
@@ -93,6 +101,14 @@
 		CC6B80A2299638B900371B0E /* sand-1.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "sand-1.mid"; sourceTree = "<group>"; };
 		CC6B80A629963DFD00371B0E /* drumSimp.exs */ = {isa = PBXFileReference; lastKnownFileType = file; path = drumSimp.exs; sourceTree = "<group>"; };
 		CC6B80A8299643D300371B0E /* Cyberpunk.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cyberpunk.sf2; sourceTree = "<group>"; };
+		CCC9F41C29A31210006CC4F0 /* Accordion.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Accordion.sf2; sourceTree = "<group>"; };
+		CCC9F41E29A31219006CC4F0 /* Bassoon.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bassoon.sf2; sourceTree = "<group>"; };
+		CCC9F42029A31225006CC4F0 /* Clarinet.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Clarinet.sf2; sourceTree = "<group>"; };
+		CCC9F42229A31235006CC4F0 /* Guitar Harmonics.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Guitar Harmonics.sf2"; sourceTree = "<group>"; };
+		CCC9F42429A31243006CC4F0 /* MT-32 Drum Kit.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MT-32 Drum Kit.sf2"; sourceTree = "<group>"; };
+		CCC9F42629A31251006CC4F0 /* Rock Piano.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rock Piano.sf2"; sourceTree = "<group>"; };
+		CCC9F42829A31261006CC4F0 /* Violin.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Violin.sf2; sourceTree = "<group>"; };
+		CCC9F42A29A31280006CC4F0 /* Shannai.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Shannai.sf2; sourceTree = "<group>"; };
 		CCDBC1D52993A0320032A1BD /* sand-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-1.wav"; sourceTree = "<group>"; };
 		CCDBC1D62993A0320032A1BD /* sand-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-2.wav"; sourceTree = "<group>"; };
 		CCDBC1D72993A0320032A1BD /* sand-3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-3.wav"; sourceTree = "<group>"; };
@@ -238,6 +254,14 @@
 			isa = PBXGroup;
 			children = (
 				CC6B80A629963DFD00371B0E /* drumSimp.exs */,
+				CCC9F41E29A31219006CC4F0 /* Bassoon.sf2 */,
+				CCC9F41C29A31210006CC4F0 /* Accordion.sf2 */,
+				CCC9F42029A31225006CC4F0 /* Clarinet.sf2 */,
+				CCC9F42229A31235006CC4F0 /* Guitar Harmonics.sf2 */,
+				CCC9F42429A31243006CC4F0 /* MT-32 Drum Kit.sf2 */,
+				CCC9F42A29A31280006CC4F0 /* Shannai.sf2 */,
+				CCC9F42829A31261006CC4F0 /* Violin.sf2 */,
+				CCC9F42629A31251006CC4F0 /* Rock Piano.sf2 */,
 				CC6B80A8299643D300371B0E /* Cyberpunk.sf2 */,
 			);
 			path = SFFile;
@@ -402,6 +426,7 @@
 				CC661C94299E1EA400786AEB /* shake-8.m4a in Resources */,
 				CC661C8A299E1E7D00786AEB /* shake-3.m4a in Resources */,
 				CC661C8F299E1E8B00786AEB /* shake-7.m4a in Resources */,
+				CCC9F41D29A31210006CC4F0 /* Accordion.sf2 in Resources */,
 				CCDBC1F02993A0320032A1BD /* sand-6.wav in Resources */,
 				CCDBC1F52993A0320032A1BD /* stage-1.wav in Resources */,
 				CC661C86299E1E3900786AEB /* shake-1.m4a in Resources */,
@@ -421,17 +446,24 @@
 				CCDBC2012993A0320032A1BD /* RootController.xib in Resources */,
 				CCDBC1F12993A0320032A1BD /* sand-4.wav in Resources */,
 				CCDBC1F42993A0320032A1BD /* stage-2.wav in Resources */,
+				CCC9F42729A31251006CC4F0 /* Rock Piano.sf2 in Resources */,
 				CCDBC1F22993A0320032A1BD /* sand-5.wav in Resources */,
 				CCDBC1EF2993A0320032A1BD /* sand-7.wav in Resources */,
 				CC6B80A1299615D400371B0E /* MIDIPlayController.xib in Resources */,
+				CCC9F42329A31235006CC4F0 /* Guitar Harmonics.sf2 in Resources */,
 				CCDBC1F72993A0320032A1BD /* stage-4.wav in Resources */,
 				CCDBC1F82993A0320032A1BD /* stage-6.wav in Resources */,
 				CC661C88299E1E4400786AEB /* shake-2.m4a in Resources */,
 				CCDBC1EE2993A0320032A1BD /* sand-3.wav in Resources */,
+				CCC9F42129A31225006CC4F0 /* Clarinet.sf2 in Resources */,
 				CCDBC1FA2993A0320032A1BD /* stage-8.wav in Resources */,
+				CCC9F42529A31243006CC4F0 /* MT-32 Drum Kit.sf2 in Resources */,
 				CC5B1AFB2995F192005E8027 /* MusicResultController.xib in Resources */,
 				CC6B80A3299638B900371B0E /* sand-1.mid in Resources */,
 				CCDBC1F92993A0320032A1BD /* stage-7.wav in Resources */,
+				CCC9F41F29A31219006CC4F0 /* Bassoon.sf2 in Resources */,
+				CCC9F42B29A31280006CC4F0 /* Shannai.sf2 in Resources */,
+				CCC9F42929A31261006CC4F0 /* Violin.sf2 in Resources */,
 				CC6B80A9299643D300371B0E /* Cyberpunk.sf2 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
