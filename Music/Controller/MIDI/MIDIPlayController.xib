@@ -141,25 +141,19 @@
                             </connections>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fhO-7G-vn2">
-                            <rect key="frame" x="83" y="5" width="40" height="30"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="40" id="CNQ-yo-Smr"/>
-                            </constraints>
+                            <rect key="frame" x="83" y="5" width="19.666666666666671" height="30"/>
                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j3c-TZ-sef">
-                            <rect key="frame" x="333" y="5" width="40" height="30"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="40" id="ZZu-5P-ejS"/>
-                            </constraints>
+                            <rect key="frame" x="356" y="5" width="17" height="30"/>
                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="kl2-zW-CSN">
-                            <rect key="frame" x="121" y="5" width="214" height="31"/>
+                            <rect key="frame" x="100.66666666666669" y="5" width="257.33333333333337" height="31"/>
                             <color key="minimumTrackTintColor" systemColor="systemOrangeColor"/>
                             <color key="maximumTrackTintColor" systemColor="systemBlueColor"/>
                         </slider>

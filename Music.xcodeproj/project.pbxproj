@@ -43,6 +43,8 @@
 		CCC9F42729A31251006CC4F0 /* Rock Piano.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F42629A31251006CC4F0 /* Rock Piano.sf2 */; };
 		CCC9F42929A31261006CC4F0 /* Violin.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F42829A31261006CC4F0 /* Violin.sf2 */; };
 		CCC9F42B29A31280006CC4F0 /* Shannai.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F42A29A31280006CC4F0 /* Shannai.sf2 */; };
+		CCC9F42E29A317BD006CC4F0 /* sibeliusGMajor.mid in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F42C29A317BD006CC4F0 /* sibeliusGMajor.mid */; };
+		CCC9F42F29A317BD006CC4F0 /* ntbldmtn.mid in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F42D29A317BD006CC4F0 /* ntbldmtn.mid */; };
 		CCDBC1EC2993A0320032A1BD /* sand-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1D52993A0320032A1BD /* sand-1.wav */; };
 		CCDBC1ED2993A0320032A1BD /* sand-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1D62993A0320032A1BD /* sand-2.wav */; };
 		CCDBC1EE2993A0320032A1BD /* sand-3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1D72993A0320032A1BD /* sand-3.wav */; };
@@ -109,6 +111,8 @@
 		CCC9F42629A31251006CC4F0 /* Rock Piano.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rock Piano.sf2"; sourceTree = "<group>"; };
 		CCC9F42829A31261006CC4F0 /* Violin.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Violin.sf2; sourceTree = "<group>"; };
 		CCC9F42A29A31280006CC4F0 /* Shannai.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Shannai.sf2; sourceTree = "<group>"; };
+		CCC9F42C29A317BD006CC4F0 /* sibeliusGMajor.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = sibeliusGMajor.mid; sourceTree = "<group>"; };
+		CCC9F42D29A317BD006CC4F0 /* ntbldmtn.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = ntbldmtn.mid; sourceTree = "<group>"; };
 		CCDBC1D52993A0320032A1BD /* sand-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-1.wav"; sourceTree = "<group>"; };
 		CCDBC1D62993A0320032A1BD /* sand-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-2.wav"; sourceTree = "<group>"; };
 		CCDBC1D72993A0320032A1BD /* sand-3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-3.wav"; sourceTree = "<group>"; };
@@ -237,6 +241,8 @@
 		CC661C82299E1E1900786AEB /* AudioFile */ = {
 			isa = PBXGroup;
 			children = (
+				CCC9F42D29A317BD006CC4F0 /* ntbldmtn.mid */,
+				CCC9F42C29A317BD006CC4F0 /* sibeliusGMajor.mid */,
 				CC661C83299E1E2B00786AEB /* shake-0.m4a */,
 				CC661C85299E1E3900786AEB /* shake-1.m4a */,
 				CC661C87299E1E4400786AEB /* shake-2.m4a */,
@@ -453,6 +459,7 @@
 				CCC9F42329A31235006CC4F0 /* Guitar Harmonics.sf2 in Resources */,
 				CCDBC1F72993A0320032A1BD /* stage-4.wav in Resources */,
 				CCDBC1F82993A0320032A1BD /* stage-6.wav in Resources */,
+				CCC9F42F29A317BD006CC4F0 /* ntbldmtn.mid in Resources */,
 				CC661C88299E1E4400786AEB /* shake-2.m4a in Resources */,
 				CCDBC1EE2993A0320032A1BD /* sand-3.wav in Resources */,
 				CCC9F42129A31225006CC4F0 /* Clarinet.sf2 in Resources */,
@@ -460,6 +467,7 @@
 				CCC9F42529A31243006CC4F0 /* MT-32 Drum Kit.sf2 in Resources */,
 				CC5B1AFB2995F192005E8027 /* MusicResultController.xib in Resources */,
 				CC6B80A3299638B900371B0E /* sand-1.mid in Resources */,
+				CCC9F42E29A317BD006CC4F0 /* sibeliusGMajor.mid in Resources */,
 				CCDBC1F92993A0320032A1BD /* stage-7.wav in Resources */,
 				CCC9F41F29A31219006CC4F0 /* Bassoon.sf2 in Resources */,
 				CCC9F42B29A31280006CC4F0 /* Shannai.sf2 in Resources */,
