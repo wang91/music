@@ -55,7 +55,7 @@ class RootController: UIViewController ,UITableViewDelegate, UITableViewDataSour
     }
     
     func playMIDI() {
-        self.navigationController?.pushViewController(MIDIPlayController(nibName: "MIDIPlayController", bundle: nil), animated: true)
+        self.navigationController?.pushViewController(AMIDIPlayController(nibName: "AMIDIPlayController", bundle: nil), animated: true)
     }
     func playMusic() {
         self.navigationController?.pushViewController(ShakeDemoController(nibName: "ShakeDemoController", bundle: nil), animated: true)

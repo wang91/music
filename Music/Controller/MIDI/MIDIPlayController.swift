@@ -31,15 +31,15 @@ class MIDIPlayController: UIViewController {
     var timer:Timer?
     
     var bankArr:Array<String> = ["Bassoon","Accordion","Clarinet","Guitar Harmonics","MT-32 Drum Kit","Shannai","Violin","Rock Piano"]
-    var midiArr:Array<String> = ["sand-1","ntbldmtn","sibeliusGMajor"]
+    var midiArr:Array<String> = ["Demo","sand-1","ntbldmtn","sibeliusGMajor"]
     var midiPlayer:AVMIDIPlayer!
     override func viewDidLoad() {
         super.viewDidLoad()
-        guard let bankURL = Bundle.main.url(forResource: "Bassoon", withExtension: "sf2") else {
+        guard let bankURL = Bundle.main.url(forResource: "Bassoon.sf2", withExtension: nil) else {
             fatalError("\"sibeliusGMajor.mid\" file not found.")
         }
         self.bankUrl = bankURL
-        guard let midiFileURL = Bundle.main.url(forResource: "sand-1", withExtension: "mid") else {
+        guard let midiFileURL = Bundle.main.url(forResource: "Demo", withExtension: "mid") else {
             fatalError("\"sibeliusGMajor.mid\" file not found.")
         }
         self.midiUrl = midiFileURL
@@ -56,7 +56,6 @@ class MIDIPlayController: UIViewController {
         guard let bankURL = self.bankUrl else {
             fatalError("\"GeneralUser GS MuseScore v1.442.sf2\" file not found.")
         }
-        
         do {
             try self.midiPlayer = AVMIDIPlayer(contentsOf: midiFileURL, soundBankURL: bankURL)
             Log("created midi player with sound bank url \(bankURL)")
@@ -79,6 +78,7 @@ class MIDIPlayController: UIViewController {
                 DispatchQueue.main.async {
                     self.midiPlayer.currentPosition = 0
                     self.currentL.text = "0.0s"
+                    self.playBtn.isSelected = false
                     self.slider.value = 0.0
                     self.timer?.invalidate()
                 }
