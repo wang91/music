@@ -2,23 +2,27 @@ PODS:
   - Alamofire (5.6.4)
   - AudioRecorder (0.0.1):
     - SwiftCommonTools2
+  - MBProgressHUD (1.2.0)
   - SwiftCommonTools2 (0.0.6)
 
 DEPENDENCIES:
   - Alamofire
   - AudioRecorder
+  - MBProgressHUD (~> 1.2.0)
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - AudioRecorder
+    - MBProgressHUD
     - SwiftCommonTools2
 
 SPEC CHECKSUMS:
   Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
   AudioRecorder: 044ba40232c60c6209bc2488eb3157464dbbc56b
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   SwiftCommonTools2: 61c9b54ea6e42f52cd4d93c75e969125fc4f8183
 
-PODFILE CHECKSUM: e320e4d6d3babcc8c5125922e7d67d8e090ce3d3
+PODFILE CHECKSUM: 55f5167451b46b59d234814d93de805f409f5e22
 
 COCOAPODS: 1.11.3

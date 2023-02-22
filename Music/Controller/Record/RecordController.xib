@@ -33,14 +33,14 @@
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <state key="normal" title="开始录制">
-                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
                     <connections>
                         <action selector="record:" destination="-1" eventType="touchUpInside" id="4rO-hw-qTB"/>
                     </connections>
                 </button>
                 <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="IS5-Fo-1Ir">
-                    <rect key="frame" x="115.66666666666669" y="359.33333333333331" width="161.66666666666663" height="33.666666666666686"/>
+                    <rect key="frame" x="115.66666666666667" y="359.33333333333331" width="161.66666666666663" height="33.666666666666686"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已录制：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uVm-Hi-F4N">
                             <rect key="frame" x="0.0" y="0.0" width="69.333333333333329" height="33.666666666666664"/>
@@ -57,17 +57,17 @@
                     </subviews>
                 </stackView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="39l-yU-vDM">
-                    <rect key="frame" x="20" y="758" width="353" height="60"/>
+                    <rect key="frame" x="20" y="773" width="353" height="45"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lRK-Z8-Ddv">
-                            <rect key="frame" x="20" y="0.0" width="100" height="60"/>
-                            <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            <rect key="frame" x="20" y="0.0" width="70" height="45"/>
+                            <color key="backgroundColor" systemColor="systemOrangeColor"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="100" id="Wr4-cK-GUh"/>
+                                <constraint firstAttribute="width" constant="70" id="Wr4-cK-GUh"/>
                             </constraints>
                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                             <state key="normal" title="播放">
-                                <color key="titleColor" systemColor="systemPinkColor"/>
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
                             <state key="selected" title="停止">
                                 <color key="titleColor" systemColor="systemPinkColor"/>
@@ -77,12 +77,12 @@
                             </connections>
                         </button>
                         <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="6e6-fQ-GGi">
-                            <rect key="frame" x="188" y="0.0" width="97" height="61"/>
+                            <rect key="frame" x="158" y="0.0" width="127" height="46"/>
                             <color key="minimumTrackTintColor" systemColor="systemOrangeColor"/>
                             <color key="maximumTrackTintColor" systemColor="systemPinkColor"/>
                         </slider>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0s" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wuz-wE-nd6">
-                            <rect key="frame" x="130" y="0.0" width="50" height="60"/>
+                            <rect key="frame" x="100" y="0.0" width="50" height="45"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="50" id="jAp-oD-Buq"/>
                             </constraints>
@@ -91,7 +91,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0s" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3T-MI-ipA">
-                            <rect key="frame" x="293" y="0.0" width="50" height="60"/>
+                            <rect key="frame" x="293" y="0.0" width="50" height="45"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="50" id="uG9-SH-gCQ"/>
                             </constraints>
@@ -100,7 +100,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="bottom" secondItem="l3T-MI-ipA" secondAttribute="bottom" id="07Z-Tf-XD9"/>
                         <constraint firstItem="Wuz-wE-nd6" firstAttribute="leading" secondItem="lRK-Z8-Ddv" secondAttribute="trailing" constant="10" id="0b2-1b-Zi8"/>
@@ -112,39 +112,50 @@
                         <constraint firstAttribute="bottom" secondItem="Wuz-wE-nd6" secondAttribute="bottom" id="D04-f7-M8q"/>
                         <constraint firstAttribute="bottom" secondItem="6e6-fQ-GGi" secondAttribute="bottom" id="Lyf-Po-wyR"/>
                         <constraint firstAttribute="trailing" secondItem="l3T-MI-ipA" secondAttribute="trailing" constant="10" id="UYa-G2-vVX"/>
-                        <constraint firstAttribute="height" constant="60" id="eVc-mv-b8d"/>
+                        <constraint firstAttribute="height" constant="45" id="eVc-mv-b8d"/>
                         <constraint firstItem="lRK-Z8-Ddv" firstAttribute="top" secondItem="39l-yU-vDM" secondAttribute="top" id="g5Y-ry-1K8"/>
                         <constraint firstItem="l3T-MI-ipA" firstAttribute="leading" secondItem="6e6-fQ-GGi" secondAttribute="trailing" constant="10" id="occ-RV-zqc"/>
                         <constraint firstItem="6e6-fQ-GGi" firstAttribute="leading" secondItem="Wuz-wE-nd6" secondAttribute="trailing" constant="10" id="v6v-3I-I2a"/>
                     </constraints>
                 </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kAc-ZO-aGt">
+                    <rect key="frame" x="136.66666666666666" y="481" width="119.99999999999997" height="50"/>
+                    <color key="backgroundColor" systemColor="systemPinkColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="dHO-3d-w1d"/>
+                        <constraint firstAttribute="width" constant="120" id="der-Ti-LhJ"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="音频转换">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="convertAudioToMIDI:" destination="-1" eventType="touchUpInside" id="rLK-jF-ojV"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="39l-yU-vDM" secondAttribute="trailing" constant="20" id="2Th-bp-Czs"/>
+                <constraint firstItem="kAc-ZO-aGt" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="6cx-r0-Tz3"/>
                 <constraint firstItem="IS5-Fo-1Ir" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-50" id="L1k-yc-iXl"/>
                 <constraint firstItem="IS5-Fo-1Ir" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="WY0-L7-DXn"/>
                 <constraint firstItem="kVe-kp-6Pd" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="dAg-3l-ZjJ"/>
                 <constraint firstItem="39l-yU-vDM" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="law-Ky-WEA"/>
                 <constraint firstItem="39l-yU-vDM" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="n6Q-Cm-zVa"/>
+                <constraint firstItem="kAc-ZO-aGt" firstAttribute="top" secondItem="kVe-kp-6Pd" secondAttribute="bottom" constant="30" id="vVp-IH-AjN"/>
                 <constraint firstItem="kVe-kp-6Pd" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ycC-0z-Fxf"/>
             </constraints>
             <point key="canvasLocation" x="94.366197183098592" y="19.083969465648853"/>
         </view>
     </objects>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

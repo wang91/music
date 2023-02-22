@@ -34,3 +34,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+extension UIApplication {
+    
+    func mainAppWindow() -> UIWindow? {
+        for window in self.windows {
+            if window.windowLevel == .init(0.0) {
+                return window
+            }
+        }
+        return UIApplication.shared.keyWindow
+    }
+    
+}

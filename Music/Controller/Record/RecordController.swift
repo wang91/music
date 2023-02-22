@@ -77,9 +77,11 @@ class RecordController: UIViewController, AudioRecorderDelegate {
             }
         }
     }
-
+//MARK: - 播放录音
     @IBAction func playOrStopRecord(_ sender: UIButton) {
         if recordFile == nil || recordPlayer == nil {
+            print("Didn't get test file1")
+            JKToast.showToast(title: "请先录制音频")
             return
         }
         sender.isSelected = !sender.isSelected
@@ -95,6 +97,7 @@ class RecordController: UIViewController, AudioRecorderDelegate {
             sliderView.value = 0.0
         }
     }
+    // MARK: - 更新进度条
     @objc func updateSlider() {
        
         if recordPlayer == nil {
@@ -111,6 +114,25 @@ class RecordController: UIViewController, AudioRecorderDelegate {
             recordPlayer?.currentTime = 0
             titmeL.text = "0.0s"
             sliderView.value = 0.0
+        }
+    }
+    @IBAction func convertAudioToMIDI(_ sender: UIButton) {
+        guard let url1 = recordFile?.url else {
+            JKprint("Didn't get test file1")
+            JKToast.showToast(title: "请先录制音频")
+            return
+        }
+        JKToast.showDefault()
+        NetworkManager.netWork.uploadAudio(url: "", file: url1, name: "file") { result in
+            JKToast.hideDefault()
+            if let url = result as? URL {
+                print("midi 文件地址", url.absoluteString)
+                let controller = RecordMIDIController(nibName: "RecordMIDIController", bundle: nil)
+                controller.midiURL = url
+                self.navigationController?.pushViewController(controller, animated: true)
+            }
+        } fail: { error in
+            JKToast.hideDefault()
         }
     }
 }

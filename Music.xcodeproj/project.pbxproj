@@ -73,6 +73,11 @@
 		CCDBC2062993A90F0032A1BD /* MusicController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1E72993A0320032A1BD /* MusicController.xib */; };
 		CCE9587029A5B315007D2B62 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE9586F29A5B315007D2B62 /* NetworkManager.swift */; };
 		CCE9587229A5BFE7007D2B62 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE9587129A5BFE7007D2B62 /* Const.swift */; };
+		CCE9589529A5EA88007D2B62 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE9589429A5EA88007D2B62 /* Toast.swift */; };
+		CCE9589929A5EAF5007D2B62 /* Bridge.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE9589829A5EAF5007D2B62 /* Bridge.m */; };
+		CCE9589B29A5EB6D007D2B62 /* CommonSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE9589A29A5EB6D007D2B62 /* CommonSetting.swift */; };
+		CCE958A129A5EFEB007D2B62 /* RecordMIDIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE9589F29A5EFEB007D2B62 /* RecordMIDIController.swift */; };
+		CCE958A229A5EFEB007D2B62 /* RecordMIDIController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCE958A029A5EFEB007D2B62 /* RecordMIDIController.xib */; };
 		CCF9AF2029939DDE00AA61F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9AF1F29939DDE00AA61F6 /* AppDelegate.swift */; };
 		CCF9AF2229939DDE00AA61F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9AF2129939DDE00AA61F6 /* SceneDelegate.swift */; };
 		CCF9AF2929939DDE00AA61F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF9AF2829939DDE00AA61F6 /* Assets.xcassets */; };
@@ -147,6 +152,13 @@
 		CCDBC1EB2993A0320032A1BD /* RootController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootController.xib; sourceTree = "<group>"; };
 		CCE9586F29A5B315007D2B62 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		CCE9587129A5BFE7007D2B62 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		CCE9589429A5EA88007D2B62 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		CCE9589629A5EAF5007D2B62 /* Music-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Music-Bridging-Header.h"; sourceTree = "<group>"; };
+		CCE9589729A5EAF5007D2B62 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		CCE9589829A5EAF5007D2B62 /* Bridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bridge.m; sourceTree = "<group>"; };
+		CCE9589A29A5EB6D007D2B62 /* CommonSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonSetting.swift; sourceTree = "<group>"; };
+		CCE9589F29A5EFEB007D2B62 /* RecordMIDIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordMIDIController.swift; sourceTree = "<group>"; };
+		CCE958A029A5EFEB007D2B62 /* RecordMIDIController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordMIDIController.xib; sourceTree = "<group>"; };
 		CCF9AF1C29939DDE00AA61F6 /* Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Music.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF9AF1F29939DDE00AA61F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCF9AF2129939DDE00AA61F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -202,6 +214,8 @@
 			children = (
 				CCDBC1EA2993A0320032A1BD /* RecordController.swift */,
 				CCDBC1E92993A0320032A1BD /* RecordController.xib */,
+				CCE9589F29A5EFEB007D2B62 /* RecordMIDIController.swift */,
+				CCE958A029A5EFEB007D2B62 /* RecordMIDIController.xib */,
 			);
 			path = Record;
 			sourceTree = "<group>";
@@ -349,6 +363,18 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
+		CCE9589329A5EA71007D2B62 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CCE9589429A5EA88007D2B62 /* Toast.swift */,
+				CCE9589A29A5EB6D007D2B62 /* CommonSetting.swift */,
+				CCE9589729A5EAF5007D2B62 /* Bridge.h */,
+				CCE9589829A5EAF5007D2B62 /* Bridge.m */,
+				CCE9589629A5EAF5007D2B62 /* Music-Bridging-Header.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		CCF9AF1329939DDE00AA61F6 = {
 			isa = PBXGroup;
 			children = (
@@ -371,6 +397,7 @@
 		CCF9AF1E29939DDE00AA61F6 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				CCE9589329A5EA71007D2B62 /* View */,
 				CCE9586E29A5B2FD007D2B62 /* Network */,
 				CC661C95299F4CC200786AEB /* SFFile */,
 				CC661C82299E1E1900786AEB /* AudioFile */,
@@ -422,6 +449,7 @@
 				TargetAttributes = {
 					CCF9AF1B29939DDE00AA61F6 = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
@@ -461,6 +489,7 @@
 				CC661C8F299E1E8B00786AEB /* shake-7.m4a in Resources */,
 				CCC9F41D29A31210006CC4F0 /* Accordion.sf2 in Resources */,
 				CCDBC1F02993A0320032A1BD /* sand-6.wav in Resources */,
+				CCE958A229A5EFEB007D2B62 /* RecordMIDIController.xib in Resources */,
 				CCDBC1F52993A0320032A1BD /* stage-1.wav in Resources */,
 				CCC9F44629A4D3C3006CC4F0 /* GeneralUser GS MuseScore v1.442.sf2 in Resources */,
 				CC661C86299E1E3900786AEB /* shake-1.m4a in Resources */,
@@ -556,6 +585,7 @@
 			files = (
 				CCF9AF2029939DDE00AA61F6 /* AppDelegate.swift in Sources */,
 				CC6B80A0299615D400371B0E /* MIDIPlayController.swift in Sources */,
+				CCE9589529A5EA88007D2B62 /* Toast.swift in Sources */,
 				CCF9AF2229939DDE00AA61F6 /* SceneDelegate.swift in Sources */,
 				CC661C79299CD1E100786AEB /* ShakeTopCell.swift in Sources */,
 				CC661C70299CCACB00786AEB /* ShakeDemoController.swift in Sources */,
@@ -563,9 +593,12 @@
 				CCDBC2002993A0320032A1BD /* RecordController.swift in Sources */,
 				CC661C98299F65C800786AEB /* MIDIPlayManager.swift in Sources */,
 				CCC9F43E29A4C063006CC4F0 /* AMIDIPlayController.swift in Sources */,
+				CCE9589929A5EAF5007D2B62 /* Bridge.m in Sources */,
 				CC661C6C299CC4C100786AEB /* RootCell.swift in Sources */,
+				CCE9589B29A5EB6D007D2B62 /* CommonSetting.swift in Sources */,
 				CC661C81299DDCB300786AEB /* ShakeModel.swift in Sources */,
 				CC5B1AFA2995F192005E8027 /* MusicResultController.swift in Sources */,
+				CCE958A129A5EFEB007D2B62 /* RecordMIDIController.swift in Sources */,
 				CCE9587029A5B315007D2B62 /* NetworkManager.swift in Sources */,
 				CCE9587229A5BFE7007D2B62 /* Const.swift in Sources */,
 				CCDBC1FE2993A0320032A1BD /* RootController.swift in Sources */,
@@ -707,6 +740,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q55T7745P3;
@@ -729,6 +763,8 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Music/View/Music-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -740,6 +776,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q55T7745P3;
@@ -762,6 +799,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Music/View/Music-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
