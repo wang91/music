@@ -1,20 +1,24 @@
 PODS:
+  - Alamofire (5.6.4)
   - AudioRecorder (0.0.1):
     - SwiftCommonTools2
   - SwiftCommonTools2 (0.0.6)
 
 DEPENDENCIES:
+  - Alamofire
   - AudioRecorder
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - AudioRecorder
     - SwiftCommonTools2
 
 SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
   AudioRecorder: 044ba40232c60c6209bc2488eb3157464dbbc56b
   SwiftCommonTools2: 61c9b54ea6e42f52cd4d93c75e969125fc4f8183
 
-PODFILE CHECKSUM: eb8ecf7128e218a017f2cdcbadd21b85dcbeae2d
+PODFILE CHECKSUM: e320e4d6d3babcc8c5125922e7d67d8e090ce3d3
 
 COCOAPODS: 1.11.3

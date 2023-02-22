@@ -3,4 +3,5 @@ use_frameworks!
 
 target 'Music' do
   pod 'AudioRecorder'
+  pod 'Alamofire'
 end

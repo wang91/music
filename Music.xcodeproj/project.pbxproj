@@ -71,6 +71,8 @@
 		CCDBC2002993A0320032A1BD /* RecordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDBC1EA2993A0320032A1BD /* RecordController.swift */; };
 		CCDBC2012993A0320032A1BD /* RootController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1EB2993A0320032A1BD /* RootController.xib */; };
 		CCDBC2062993A90F0032A1BD /* MusicController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1E72993A0320032A1BD /* MusicController.xib */; };
+		CCE9587029A5B315007D2B62 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE9586F29A5B315007D2B62 /* NetworkManager.swift */; };
+		CCE9587229A5BFE7007D2B62 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE9587129A5BFE7007D2B62 /* Const.swift */; };
 		CCF9AF2029939DDE00AA61F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9AF1F29939DDE00AA61F6 /* AppDelegate.swift */; };
 		CCF9AF2229939DDE00AA61F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9AF2129939DDE00AA61F6 /* SceneDelegate.swift */; };
 		CCF9AF2929939DDE00AA61F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF9AF2829939DDE00AA61F6 /* Assets.xcassets */; };
@@ -143,6 +145,8 @@
 		CCDBC1E92993A0320032A1BD /* RecordController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordController.xib; sourceTree = "<group>"; };
 		CCDBC1EA2993A0320032A1BD /* RecordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordController.swift; sourceTree = "<group>"; };
 		CCDBC1EB2993A0320032A1BD /* RootController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootController.xib; sourceTree = "<group>"; };
+		CCE9586F29A5B315007D2B62 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CCE9587129A5BFE7007D2B62 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		CCF9AF1C29939DDE00AA61F6 /* Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Music.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF9AF1F29939DDE00AA61F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCF9AF2129939DDE00AA61F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -336,6 +340,15 @@
 			name = Packages;
 			sourceTree = "<group>";
 		};
+		CCE9586E29A5B2FD007D2B62 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CCE9586F29A5B315007D2B62 /* NetworkManager.swift */,
+				CCE9587129A5BFE7007D2B62 /* Const.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		CCF9AF1329939DDE00AA61F6 = {
 			isa = PBXGroup;
 			children = (
@@ -358,6 +371,7 @@
 		CCF9AF1E29939DDE00AA61F6 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				CCE9586E29A5B2FD007D2B62 /* Network */,
 				CC661C95299F4CC200786AEB /* SFFile */,
 				CC661C82299E1E1900786AEB /* AudioFile */,
 				CCF9AF1F29939DDE00AA61F6 /* AppDelegate.swift */,
@@ -552,6 +566,8 @@
 				CC661C6C299CC4C100786AEB /* RootCell.swift in Sources */,
 				CC661C81299DDCB300786AEB /* ShakeModel.swift in Sources */,
 				CC5B1AFA2995F192005E8027 /* MusicResultController.swift in Sources */,
+				CCE9587029A5B315007D2B62 /* NetworkManager.swift in Sources */,
+				CCE9587229A5BFE7007D2B62 /* Const.swift in Sources */,
 				CCDBC1FE2993A0320032A1BD /* RootController.swift in Sources */,
 				CC661C7D299DD75E00786AEB /* ShakeInfoCell.swift in Sources */,
 			);

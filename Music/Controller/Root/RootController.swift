@@ -51,7 +51,18 @@ class RootController: UIViewController ,UITableViewDelegate, UITableViewDataSour
         }
     }
     func recordAudio() {
-        self.navigationController?.pushViewController(RecordController(nibName: "RecordController", bundle: nil), animated: true)
+        guard let url1 = Bundle.main.url(forResource: "stage-1", withExtension: "wav") else {
+            print("Didn't get test file1")
+            return
+        }
+        let fileData = NSData(contentsOf: url1)
+        NetworkManager.netWork.uploadAudio(url: "", file: url1, name: "file") { result in
+            
+        } fail: { error in
+            
+        }
+
+//        self.navigationController?.pushViewController(RecordController(nibName: "RecordController", bundle: nil), animated: true)
     }
     
     func playMIDI() {
