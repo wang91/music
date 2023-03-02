@@ -8,6 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		05CADABDC1890DD2DB24C630 /* Pods_Music.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42B9B634D26F9890ABDC40C /* Pods_Music.framework */; };
+		CC185FDF29A87D6F005EDF3B /* Call and Response Guitar.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC185FDE29A87D6F005EDF3B /* Call and Response Guitar.caf */; };
+		CC185FE229A87E4C005EDF3B /* Altered State Beat 01.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC185FE129A87E4C005EDF3B /* Altered State Beat 01.caf */; };
+		CC185FE429A87E55005EDF3B /* Against Time Piano.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC185FE329A87E55005EDF3B /* Against Time Piano.caf */; };
+		CC185FE629A87E65005EDF3B /* Against Time Keys.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC185FE529A87E65005EDF3B /* Against Time Keys.caf */; };
+		CC185FE829A87E87005EDF3B /* Against Time Staccato Strings.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC185FE729A87E87005EDF3B /* Against Time Staccato Strings.caf */; };
+		CC185FEA29A87E95005EDF3B /* Against Time Sax Sample.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC185FE929A87E95005EDF3B /* Against Time Sax Sample.caf */; };
+		CC185FEC29A88042005EDF3B /* Amber Beat 01.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC185FEB29A88042005EDF3B /* Amber Beat 01.caf */; };
+		CC185FF329AC8A09005EDF3B /* SequencerPlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC185FF129AC8A09005EDF3B /* SequencerPlayController.swift */; };
+		CC185FF429AC8A09005EDF3B /* SequencerPlayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC185FF229AC8A09005EDF3B /* SequencerPlayController.xib */; };
+		CC185FF629AC8FD4005EDF3B /* 4tracks.mid in Resources */ = {isa = PBXBuildFile; fileRef = CC185FF529AC8FD4005EDF3B /* 4tracks.mid */; };
+		CC18600829AC9068005EDF3B /* Guitar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC185FF829AC9068005EDF3B /* Guitar.mp3 */; };
+		CC18600929AC9068005EDF3B /* clap_D#1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC185FF929AC9068005EDF3B /* clap_D#1.wav */; };
+		CC18600A29AC9068005EDF3B /* Bass Synth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC185FFA29AC9068005EDF3B /* Bass Synth.mp3 */; };
+		CC18600B29AC9068005EDF3B /* hi_tom_D2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC185FFB29AC9068005EDF3B /* hi_tom_D2.wav */; };
+		CC18600C29AC9068005EDF3B /* Strings.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC185FFC29AC9068005EDF3B /* Strings.mp3 */; };
+		CC18600D29AC9068005EDF3B /* alphabet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC185FFD29AC9068005EDF3B /* alphabet.mp3 */; };
+		CC18600E29AC9068005EDF3B /* mid_tom_B1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC185FFE29AC9068005EDF3B /* mid_tom_B1.wav */; };
+		CC18600F29AC9068005EDF3B /* beat.aiff in Resources */ = {isa = PBXBuildFile; fileRef = CC185FFF29AC9068005EDF3B /* beat.aiff */; };
+		CC18601029AC9068005EDF3B /* Synth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC18600029AC9068005EDF3B /* Synth.mp3 */; };
+		CC18601129AC9068005EDF3B /* closed_hi_hat_F#1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC18600129AC9068005EDF3B /* closed_hi_hat_F#1.wav */; };
+		CC18601229AC9068005EDF3B /* bass_drum_C1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC18600229AC9068005EDF3B /* bass_drum_C1.wav */; };
+		CC18601329AC9068005EDF3B /* lo_tom_F1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC18600329AC9068005EDF3B /* lo_tom_F1.wav */; };
+		CC18601429AC9068005EDF3B /* Piano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC18600429AC9068005EDF3B /* Piano.mp3 */; };
+		CC18601529AC9068005EDF3B /* open_hi_hat_A#1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC18600529AC9068005EDF3B /* open_hi_hat_A#1.wav */; };
+		CC18601629AC9068005EDF3B /* Counting.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC18600629AC9068005EDF3B /* Counting.mp3 */; };
+		CC18601729AC9068005EDF3B /* snare_D1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC18600729AC9068005EDF3B /* snare_D1.wav */; };
+		CC18601929AC9E06005EDF3B /* SequcenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC18601829AC9E06005EDF3B /* SequcenView.swift */; };
+		CC18601C29AC9E24005EDF3B /* Keyboard in Frameworks */ = {isa = PBXBuildFile; productRef = CC18601B29AC9E24005EDF3B /* Keyboard */; };
+		CC1E12A329A7087100CCE544 /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = CC1E12A229A7087100CCE544 /* AudioKit */; };
+		CC1E12A829A7090B00CCE544 /* Electric_Piano.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CC1E12A629A7090B00CCE544 /* Electric_Piano.sf2 */; };
+		CC1E12A929A7090B00CCE544 /* Grand_Piano.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CC1E12A729A7090B00CCE544 /* Grand_Piano.sf2 */; };
+		CC1E12AB29A7101A00CCE544 /* Florestan_Basic.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CC1E12AA29A7101A00CCE544 /* Florestan_Basic.sf2 */; };
+		CC1E12AD29A7132700CCE544 /* Test-1.mid in Resources */ = {isa = PBXBuildFile; fileRef = CC1E12AC29A7132700CCE544 /* Test-1.mid */; };
+		CC1E12B329A73C2400CCE544 /* Beat.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC1E12AF29A73C2400CCE544 /* Beat.caf */; };
+		CC1E12B429A73C2400CCE544 /* Guitar.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC1E12B029A73C2400CCE544 /* Guitar.caf */; };
+		CC1E12B529A73C2400CCE544 /* Bass.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC1E12B129A73C2400CCE544 /* Bass.caf */; };
+		CC1E12B729A73C6400CCE544 /* Piano.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC1E12B629A73C6400CCE544 /* Piano.caf */; };
+		CC1E12B929A7462F00CCE544 /* Aftershock Synth Lead.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC1E12B829A7462F00CCE544 /* Aftershock Synth Lead.caf */; };
+		CC1E12BB29A7483000CCE544 /* Amalgamate Chord Layers.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC1E12BA29A7483000CCE544 /* Amalgamate Chord Layers.caf */; };
+		CC1E12BD29A74C9100CCE544 /* zhou.mid in Resources */ = {isa = PBXBuildFile; fileRef = CC1E12BC29A74C9100CCE544 /* zhou.mid */; };
+		CC1E12C129A755EA00CCE544 /* AudioPlayMidiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E12BF29A755EA00CCE544 /* AudioPlayMidiController.swift */; };
+		CC1E12C229A755EA00CCE544 /* AudioPlayMidiController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC1E12C029A755EA00CCE544 /* AudioPlayMidiController.xib */; };
+		CC1E12C429A75AA000CCE544 /* AudioKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = CC1E12C329A75AA000CCE544 /* AudioKitUI */; };
 		CC5B1AFA2995F192005E8027 /* MusicResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5B1AF82995F192005E8027 /* MusicResultController.swift */; };
 		CC5B1AFB2995F192005E8027 /* MusicResultController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5B1AF92995F192005E8027 /* MusicResultController.xib */; };
 		CC661C6C299CC4C100786AEB /* RootCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC661C6A299CC4C100786AEB /* RootCell.swift */; };
@@ -19,20 +62,10 @@
 		CC661C7D299DD75E00786AEB /* ShakeInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC661C7B299DD75E00786AEB /* ShakeInfoCell.swift */; };
 		CC661C7E299DD75E00786AEB /* ShakeInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC661C7C299DD75E00786AEB /* ShakeInfoCell.xib */; };
 		CC661C81299DDCB300786AEB /* ShakeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC661C80299DDCB300786AEB /* ShakeModel.swift */; };
-		CC661C84299E1E2B00786AEB /* shake-0.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CC661C83299E1E2B00786AEB /* shake-0.m4a */; };
-		CC661C86299E1E3900786AEB /* shake-1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CC661C85299E1E3900786AEB /* shake-1.m4a */; };
-		CC661C88299E1E4400786AEB /* shake-2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CC661C87299E1E4400786AEB /* shake-2.m4a */; };
-		CC661C8A299E1E7D00786AEB /* shake-3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CC661C89299E1E7D00786AEB /* shake-3.m4a */; };
-		CC661C8F299E1E8B00786AEB /* shake-7.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CC661C8B299E1E8B00786AEB /* shake-7.m4a */; };
-		CC661C90299E1E8B00786AEB /* shake-6.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CC661C8C299E1E8B00786AEB /* shake-6.m4a */; };
-		CC661C91299E1E8B00786AEB /* shake-5.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CC661C8D299E1E8B00786AEB /* shake-5.m4a */; };
-		CC661C92299E1E8B00786AEB /* shake-4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CC661C8E299E1E8B00786AEB /* shake-4.m4a */; };
-		CC661C94299E1EA400786AEB /* shake-8.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CC661C93299E1EA400786AEB /* shake-8.m4a */; };
 		CC661C98299F65C800786AEB /* MIDIPlayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC661C97299F65C800786AEB /* MIDIPlayManager.swift */; };
 		CC6B80A0299615D400371B0E /* MIDIPlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B809E299615D400371B0E /* MIDIPlayController.swift */; };
 		CC6B80A1299615D400371B0E /* MIDIPlayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC6B809F299615D400371B0E /* MIDIPlayController.xib */; };
 		CC6B80A3299638B900371B0E /* sand-1.mid in Resources */ = {isa = PBXBuildFile; fileRef = CC6B80A2299638B900371B0E /* sand-1.mid */; };
-		CC6B80A5299639C300371B0E /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = CC6B80A4299639C300371B0E /* AudioKit */; };
 		CC6B80A729963DFD00371B0E /* drumSimp.exs in Resources */ = {isa = PBXBuildFile; fileRef = CC6B80A629963DFD00371B0E /* drumSimp.exs */; };
 		CC6B80A9299643D300371B0E /* Cyberpunk.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CC6B80A8299643D300371B0E /* Cyberpunk.sf2 */; };
 		CCC9F41D29A31210006CC4F0 /* Accordion.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F41C29A31210006CC4F0 /* Accordion.sf2 */; };
@@ -78,6 +111,7 @@
 		CCE9589B29A5EB6D007D2B62 /* CommonSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE9589A29A5EB6D007D2B62 /* CommonSetting.swift */; };
 		CCE958A129A5EFEB007D2B62 /* RecordMIDIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE9589F29A5EFEB007D2B62 /* RecordMIDIController.swift */; };
 		CCE958A229A5EFEB007D2B62 /* RecordMIDIController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCE958A029A5EFEB007D2B62 /* RecordMIDIController.xib */; };
+		CCE958A829A60853007D2B62 /* TrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE958A729A60853007D2B62 /* TrackView.swift */; };
 		CCF9AF2029939DDE00AA61F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9AF1F29939DDE00AA61F6 /* AppDelegate.swift */; };
 		CCF9AF2229939DDE00AA61F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9AF2129939DDE00AA61F6 /* SceneDelegate.swift */; };
 		CCF9AF2929939DDE00AA61F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF9AF2829939DDE00AA61F6 /* Assets.xcassets */; };
@@ -87,6 +121,48 @@
 /* Begin PBXFileReference section */
 		A525181CB975EE9C93165524 /* Pods-Music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music.debug.xcconfig"; path = "Target Support Files/Pods-Music/Pods-Music.debug.xcconfig"; sourceTree = "<group>"; };
 		BEB5A15800A3E6336A9E273C /* Pods-Music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music.release.xcconfig"; path = "Target Support Files/Pods-Music/Pods-Music.release.xcconfig"; sourceTree = "<group>"; };
+		CC185FDE29A87D6F005EDF3B /* Call and Response Guitar.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Call and Response Guitar.caf"; sourceTree = "<group>"; };
+		CC185FE129A87E4C005EDF3B /* Altered State Beat 01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Altered State Beat 01.caf"; sourceTree = "<group>"; };
+		CC185FE329A87E55005EDF3B /* Against Time Piano.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Against Time Piano.caf"; sourceTree = "<group>"; };
+		CC185FE529A87E65005EDF3B /* Against Time Keys.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Against Time Keys.caf"; sourceTree = "<group>"; };
+		CC185FE729A87E87005EDF3B /* Against Time Staccato Strings.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Against Time Staccato Strings.caf"; sourceTree = "<group>"; };
+		CC185FE929A87E95005EDF3B /* Against Time Sax Sample.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Against Time Sax Sample.caf"; sourceTree = "<group>"; };
+		CC185FEB29A88042005EDF3B /* Amber Beat 01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Amber Beat 01.caf"; sourceTree = "<group>"; };
+		CC185FF129AC8A09005EDF3B /* SequencerPlayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequencerPlayController.swift; sourceTree = "<group>"; };
+		CC185FF229AC8A09005EDF3B /* SequencerPlayController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SequencerPlayController.xib; sourceTree = "<group>"; };
+		CC185FF529AC8FD4005EDF3B /* 4tracks.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = 4tracks.mid; sourceTree = "<group>"; };
+		CC185FF829AC9068005EDF3B /* Guitar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Guitar.mp3; sourceTree = "<group>"; };
+		CC185FF929AC9068005EDF3B /* clap_D#1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "clap_D#1.wav"; sourceTree = "<group>"; };
+		CC185FFA29AC9068005EDF3B /* Bass Synth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bass Synth.mp3"; sourceTree = "<group>"; };
+		CC185FFB29AC9068005EDF3B /* hi_tom_D2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hi_tom_D2.wav; sourceTree = "<group>"; };
+		CC185FFC29AC9068005EDF3B /* Strings.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Strings.mp3; sourceTree = "<group>"; };
+		CC185FFD29AC9068005EDF3B /* alphabet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alphabet.mp3; sourceTree = "<group>"; };
+		CC185FFE29AC9068005EDF3B /* mid_tom_B1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mid_tom_B1.wav; sourceTree = "<group>"; };
+		CC185FFF29AC9068005EDF3B /* beat.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = beat.aiff; sourceTree = "<group>"; };
+		CC18600029AC9068005EDF3B /* Synth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Synth.mp3; sourceTree = "<group>"; };
+		CC18600129AC9068005EDF3B /* closed_hi_hat_F#1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "closed_hi_hat_F#1.wav"; sourceTree = "<group>"; };
+		CC18600229AC9068005EDF3B /* bass_drum_C1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bass_drum_C1.wav; sourceTree = "<group>"; };
+		CC18600329AC9068005EDF3B /* lo_tom_F1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lo_tom_F1.wav; sourceTree = "<group>"; };
+		CC18600429AC9068005EDF3B /* Piano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Piano.mp3; sourceTree = "<group>"; };
+		CC18600529AC9068005EDF3B /* open_hi_hat_A#1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "open_hi_hat_A#1.wav"; sourceTree = "<group>"; };
+		CC18600629AC9068005EDF3B /* Counting.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Counting.mp3; sourceTree = "<group>"; };
+		CC18600729AC9068005EDF3B /* snare_D1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = snare_D1.wav; sourceTree = "<group>"; };
+		CC18601829AC9E06005EDF3B /* SequcenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequcenView.swift; sourceTree = "<group>"; };
+		CC1E12A129A706ED00CCE544 /* AudioKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AudioKit; path = ../AudioKitSource/AudioKit; sourceTree = "<group>"; };
+		CC1E12A629A7090B00CCE544 /* Electric_Piano.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Electric_Piano.sf2; sourceTree = "<group>"; };
+		CC1E12A729A7090B00CCE544 /* Grand_Piano.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Grand_Piano.sf2; sourceTree = "<group>"; };
+		CC1E12AA29A7101A00CCE544 /* Florestan_Basic.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Florestan_Basic.sf2; sourceTree = "<group>"; };
+		CC1E12AC29A7132700CCE544 /* Test-1.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Test-1.mid"; sourceTree = "<group>"; };
+		CC1E12AF29A73C2400CCE544 /* Beat.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Beat.caf; sourceTree = "<group>"; };
+		CC1E12B029A73C2400CCE544 /* Guitar.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Guitar.caf; sourceTree = "<group>"; };
+		CC1E12B129A73C2400CCE544 /* Bass.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bass.caf; sourceTree = "<group>"; };
+		CC1E12B629A73C6400CCE544 /* Piano.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Piano.caf; sourceTree = "<group>"; };
+		CC1E12B829A7462F00CCE544 /* Aftershock Synth Lead.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aftershock Synth Lead.caf"; sourceTree = "<group>"; };
+		CC1E12BA29A7483000CCE544 /* Amalgamate Chord Layers.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Amalgamate Chord Layers.caf"; sourceTree = "<group>"; };
+		CC1E12BC29A74C9100CCE544 /* zhou.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = zhou.mid; sourceTree = "<group>"; };
+		CC1E12BE29A7521300CCE544 /* AudioKitUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AudioKitUI; path = ../AudioKitSource/AudioKitUI; sourceTree = "<group>"; };
+		CC1E12BF29A755EA00CCE544 /* AudioPlayMidiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayMidiController.swift; sourceTree = "<group>"; };
+		CC1E12C029A755EA00CCE544 /* AudioPlayMidiController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioPlayMidiController.xib; sourceTree = "<group>"; };
 		CC32ED102996156D00FA50FD /* AudioKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AudioKit; path = ../AudioKitSource/AudioKit; sourceTree = "<group>"; };
 		CC5B1AF82995F192005E8027 /* MusicResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicResultController.swift; sourceTree = "<group>"; };
 		CC5B1AF92995F192005E8027 /* MusicResultController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicResultController.xib; sourceTree = "<group>"; };
@@ -99,15 +175,6 @@
 		CC661C7B299DD75E00786AEB /* ShakeInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeInfoCell.swift; sourceTree = "<group>"; };
 		CC661C7C299DD75E00786AEB /* ShakeInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShakeInfoCell.xib; sourceTree = "<group>"; };
 		CC661C80299DDCB300786AEB /* ShakeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeModel.swift; sourceTree = "<group>"; };
-		CC661C83299E1E2B00786AEB /* shake-0.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shake-0.m4a"; sourceTree = "<group>"; };
-		CC661C85299E1E3900786AEB /* shake-1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shake-1.m4a"; sourceTree = "<group>"; };
-		CC661C87299E1E4400786AEB /* shake-2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shake-2.m4a"; sourceTree = "<group>"; };
-		CC661C89299E1E7D00786AEB /* shake-3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shake-3.m4a"; sourceTree = "<group>"; };
-		CC661C8B299E1E8B00786AEB /* shake-7.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shake-7.m4a"; sourceTree = "<group>"; };
-		CC661C8C299E1E8B00786AEB /* shake-6.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shake-6.m4a"; sourceTree = "<group>"; };
-		CC661C8D299E1E8B00786AEB /* shake-5.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shake-5.m4a"; sourceTree = "<group>"; };
-		CC661C8E299E1E8B00786AEB /* shake-4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shake-4.m4a"; sourceTree = "<group>"; };
-		CC661C93299E1EA400786AEB /* shake-8.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shake-8.m4a"; sourceTree = "<group>"; };
 		CC661C97299F65C800786AEB /* MIDIPlayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIPlayManager.swift; sourceTree = "<group>"; };
 		CC6B809E299615D400371B0E /* MIDIPlayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIPlayController.swift; sourceTree = "<group>"; };
 		CC6B809F299615D400371B0E /* MIDIPlayController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MIDIPlayController.xib; sourceTree = "<group>"; };
@@ -159,6 +226,7 @@
 		CCE9589A29A5EB6D007D2B62 /* CommonSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonSetting.swift; sourceTree = "<group>"; };
 		CCE9589F29A5EFEB007D2B62 /* RecordMIDIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordMIDIController.swift; sourceTree = "<group>"; };
 		CCE958A029A5EFEB007D2B62 /* RecordMIDIController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordMIDIController.xib; sourceTree = "<group>"; };
+		CCE958A729A60853007D2B62 /* TrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackView.swift; sourceTree = "<group>"; };
 		CCF9AF1C29939DDE00AA61F6 /* Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Music.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF9AF1F29939DDE00AA61F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCF9AF2129939DDE00AA61F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -173,7 +241,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC6B80A5299639C300371B0E /* AudioKit in Frameworks */,
+				CC1E12A329A7087100CCE544 /* AudioKit in Frameworks */,
+				CC18601C29AC9E24005EDF3B /* Keyboard in Frameworks */,
+				CC1E12C429A75AA000CCE544 /* AudioKitUI in Frameworks */,
 				05CADABDC1890DD2DB24C630 /* Pods_Music.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,6 +266,51 @@
 				E42B9B634D26F9890ABDC40C /* Pods_Music.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC185FE029A87E40005EDF3B /* 7s */ = {
+			isa = PBXGroup;
+			children = (
+				CC185FEB29A88042005EDF3B /* Amber Beat 01.caf */,
+				CC185FE929A87E95005EDF3B /* Against Time Sax Sample.caf */,
+				CC185FE729A87E87005EDF3B /* Against Time Staccato Strings.caf */,
+				CC185FE529A87E65005EDF3B /* Against Time Keys.caf */,
+				CC185FE329A87E55005EDF3B /* Against Time Piano.caf */,
+				CC185FE129A87E4C005EDF3B /* Altered State Beat 01.caf */,
+			);
+			path = 7s;
+			sourceTree = "<group>";
+		};
+		CC185FF029AC89E5005EDF3B /* Sequencer */ = {
+			isa = PBXGroup;
+			children = (
+				CC185FF129AC8A09005EDF3B /* SequencerPlayController.swift */,
+				CC185FF229AC8A09005EDF3B /* SequencerPlayController.xib */,
+			);
+			path = Sequencer;
+			sourceTree = "<group>";
+		};
+		CC185FF729AC9068005EDF3B /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				CC185FF829AC9068005EDF3B /* Guitar.mp3 */,
+				CC185FF929AC9068005EDF3B /* clap_D#1.wav */,
+				CC185FFA29AC9068005EDF3B /* Bass Synth.mp3 */,
+				CC185FFB29AC9068005EDF3B /* hi_tom_D2.wav */,
+				CC185FFC29AC9068005EDF3B /* Strings.mp3 */,
+				CC185FFD29AC9068005EDF3B /* alphabet.mp3 */,
+				CC185FFE29AC9068005EDF3B /* mid_tom_B1.wav */,
+				CC185FFF29AC9068005EDF3B /* beat.aiff */,
+				CC18600029AC9068005EDF3B /* Synth.mp3 */,
+				CC18600129AC9068005EDF3B /* closed_hi_hat_F#1.wav */,
+				CC18600229AC9068005EDF3B /* bass_drum_C1.wav */,
+				CC18600329AC9068005EDF3B /* lo_tom_F1.wav */,
+				CC18600429AC9068005EDF3B /* Piano.mp3 */,
+				CC18600529AC9068005EDF3B /* open_hi_hat_A#1.wav */,
+				CC18600629AC9068005EDF3B /* Counting.mp3 */,
+				CC18600729AC9068005EDF3B /* snare_D1.wav */,
+			);
+			path = Samples;
 			sourceTree = "<group>";
 		};
 		CC661C66299CC3BA00786AEB /* Root */ = {
@@ -228,6 +343,8 @@
 				CC6B809F299615D400371B0E /* MIDIPlayController.xib */,
 				CCC9F43C29A4C063006CC4F0 /* AMIDIPlayController.swift */,
 				CCC9F43D29A4C063006CC4F0 /* AMIDIPlayController.xib */,
+				CC1E12BF29A755EA00CCE544 /* AudioPlayMidiController.swift */,
+				CC1E12C029A755EA00CCE544 /* AudioPlayMidiController.xib */,
 			);
 			path = MIDI;
 			sourceTree = "<group>";
@@ -269,18 +386,20 @@
 		CC661C82299E1E1900786AEB /* AudioFile */ = {
 			isa = PBXGroup;
 			children = (
+				CC185FE029A87E40005EDF3B /* 7s */,
+				CC1E12BC29A74C9100CCE544 /* zhou.mid */,
+				CC1E12AF29A73C2400CCE544 /* Beat.caf */,
+				CC1E12B829A7462F00CCE544 /* Aftershock Synth Lead.caf */,
+				CC185FDE29A87D6F005EDF3B /* Call and Response Guitar.caf */,
+				CC1E12BA29A7483000CCE544 /* Amalgamate Chord Layers.caf */,
+				CC1E12B129A73C2400CCE544 /* Bass.caf */,
+				CC1E12B029A73C2400CCE544 /* Guitar.caf */,
+				CC1E12B629A73C6400CCE544 /* Piano.caf */,
+				CC1E12AC29A7132700CCE544 /* Test-1.mid */,
 				CCC9F42D29A317BD006CC4F0 /* ntbldmtn.mid */,
 				CCC9F42C29A317BD006CC4F0 /* sibeliusGMajor.mid */,
-				CC661C83299E1E2B00786AEB /* shake-0.m4a */,
-				CC661C85299E1E3900786AEB /* shake-1.m4a */,
+				CC185FF529AC8FD4005EDF3B /* 4tracks.mid */,
 				CCC9F43A29A4B952006CC4F0 /* Demo.mid */,
-				CC661C87299E1E4400786AEB /* shake-2.m4a */,
-				CC661C89299E1E7D00786AEB /* shake-3.m4a */,
-				CC661C8E299E1E8B00786AEB /* shake-4.m4a */,
-				CC661C8D299E1E8B00786AEB /* shake-5.m4a */,
-				CC661C8C299E1E8B00786AEB /* shake-6.m4a */,
-				CC661C8B299E1E8B00786AEB /* shake-7.m4a */,
-				CC661C93299E1EA400786AEB /* shake-8.m4a */,
 			);
 			path = AudioFile;
 			sourceTree = "<group>";
@@ -289,6 +408,9 @@
 			isa = PBXGroup;
 			children = (
 				CCC9F44529A4D3C3006CC4F0 /* GeneralUser GS MuseScore v1.442.sf2 */,
+				CC1E12AA29A7101A00CCE544 /* Florestan_Basic.sf2 */,
+				CC1E12A629A7090B00CCE544 /* Electric_Piano.sf2 */,
+				CC1E12A729A7090B00CCE544 /* Grand_Piano.sf2 */,
 				CC6B80A629963DFD00371B0E /* drumSimp.exs */,
 				CCC9F41E29A31219006CC4F0 /* Bassoon.sf2 */,
 				CCC9F41C29A31210006CC4F0 /* Accordion.sf2 */,
@@ -338,6 +460,7 @@
 		CCDBC1E52993A0320032A1BD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CC185FF029AC89E5005EDF3B /* Sequencer */,
 				CC661C69299CC3ED00786AEB /* Music */,
 				CC661C68299CC3DF00786AEB /* MIDI */,
 				CC661C67299CC3CD00786AEB /* Record */,
@@ -350,6 +473,8 @@
 			isa = PBXGroup;
 			children = (
 				CC32ED102996156D00FA50FD /* AudioKit */,
+				CC1E12A129A706ED00CCE544 /* AudioKit */,
+				CC1E12BE29A7521300CCE544 /* AudioKitUI */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -375,6 +500,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		CCE958A629A6083C007D2B62 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				CCE958A729A60853007D2B62 /* TrackView.swift */,
+				CC18601829AC9E06005EDF3B /* SequcenView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
 		CCF9AF1329939DDE00AA61F6 = {
 			isa = PBXGroup;
 			children = (
@@ -397,6 +531,8 @@
 		CCF9AF1E29939DDE00AA61F6 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				CC185FF729AC9068005EDF3B /* Samples */,
+				CCE958A629A6083C007D2B62 /* SwiftUI */,
 				CCE9589329A5EA71007D2B62 /* View */,
 				CCE9586E29A5B2FD007D2B62 /* Network */,
 				CC661C95299F4CC200786AEB /* SFFile */,
@@ -431,7 +567,9 @@
 			);
 			name = Music;
 			packageProductDependencies = (
-				CC6B80A4299639C300371B0E /* AudioKit */,
+				CC1E12A229A7087100CCE544 /* AudioKit */,
+				CC1E12C329A75AA000CCE544 /* AudioKitUI */,
+				CC18601B29AC9E24005EDF3B /* Keyboard */,
 			);
 			productName = Music;
 			productReference = CCF9AF1C29939DDE00AA61F6 /* Music.app */;
@@ -463,6 +601,7 @@
 			);
 			mainGroup = CCF9AF1329939DDE00AA61F6;
 			packageReferences = (
+				CC18601A29AC9E24005EDF3B /* XCRemoteSwiftPackageReference "Keyboard" */,
 			);
 			productRefGroup = CCF9AF1D29939DDE00AA61F6 /* Products */;
 			projectDirPath = "";
@@ -480,53 +619,81 @@
 			files = (
 				CCDBC1F62993A0320032A1BD /* stage-5.wav in Resources */,
 				CC661C71299CCACB00786AEB /* ShakeDemoController.xib in Resources */,
-				CC661C90299E1E8B00786AEB /* shake-6.m4a in Resources */,
-				CC661C91299E1E8B00786AEB /* shake-5.m4a in Resources */,
+				CC18600D29AC9068005EDF3B /* alphabet.mp3 in Resources */,
+				CC185FE229A87E4C005EDF3B /* Altered State Beat 01.caf in Resources */,
+				CC185FEA29A87E95005EDF3B /* Against Time Sax Sample.caf in Resources */,
+				CC18601529AC9068005EDF3B /* open_hi_hat_A#1.wav in Resources */,
+				CC18600E29AC9068005EDF3B /* mid_tom_B1.wav in Resources */,
 				CC661C7A299CD1E100786AEB /* ShakeTopCell.xib in Resources */,
-				CC661C94299E1EA400786AEB /* shake-8.m4a in Resources */,
-				CC661C8A299E1E7D00786AEB /* shake-3.m4a in Resources */,
 				CCC9F43B29A4B952006CC4F0 /* Demo.mid in Resources */,
-				CC661C8F299E1E8B00786AEB /* shake-7.m4a in Resources */,
 				CCC9F41D29A31210006CC4F0 /* Accordion.sf2 in Resources */,
+				CC1E12A929A7090B00CCE544 /* Grand_Piano.sf2 in Resources */,
+				CC18601129AC9068005EDF3B /* closed_hi_hat_F#1.wav in Resources */,
 				CCDBC1F02993A0320032A1BD /* sand-6.wav in Resources */,
 				CCE958A229A5EFEB007D2B62 /* RecordMIDIController.xib in Resources */,
 				CCDBC1F52993A0320032A1BD /* stage-1.wav in Resources */,
+				CC1E12B529A73C2400CCE544 /* Bass.caf in Resources */,
 				CCC9F44629A4D3C3006CC4F0 /* GeneralUser GS MuseScore v1.442.sf2 in Resources */,
-				CC661C86299E1E3900786AEB /* shake-1.m4a in Resources */,
 				CC6B80A729963DFD00371B0E /* drumSimp.exs in Resources */,
+				CC185FEC29A88042005EDF3B /* Amber Beat 01.caf in Resources */,
 				CC661C6D299CC4C100786AEB /* RootCell.xib in Resources */,
 				CCDBC2062993A90F0032A1BD /* MusicController.xib in Resources */,
+				CC1E12BD29A74C9100CCE544 /* zhou.mid in Resources */,
 				CCDBC1FB2993A0320032A1BD /* sand-8.wav in Resources */,
-				CC661C84299E1E2B00786AEB /* shake-0.m4a in Resources */,
+				CC18600929AC9068005EDF3B /* clap_D#1.wav in Resources */,
+				CC1E12B929A7462F00CCE544 /* Aftershock Synth Lead.caf in Resources */,
 				CCDBC1FF2993A0320032A1BD /* RecordController.xib in Resources */,
-				CC661C92299E1E8B00786AEB /* shake-4.m4a in Resources */,
 				CCDBC1F32993A0320032A1BD /* stage-3.wav in Resources */,
+				CC1E12B729A73C6400CCE544 /* Piano.caf in Resources */,
 				CCF9AF2C29939DDE00AA61F6 /* LaunchScreen.storyboard in Resources */,
 				CC661C7E299DD75E00786AEB /* ShakeInfoCell.xib in Resources */,
+				CC1E12BB29A7483000CCE544 /* Amalgamate Chord Layers.caf in Resources */,
+				CC1E12A829A7090B00CCE544 /* Electric_Piano.sf2 in Resources */,
 				CCDBC1EC2993A0320032A1BD /* sand-1.wav in Resources */,
 				CCF9AF2929939DDE00AA61F6 /* Assets.xcassets in Resources */,
+				CC18600B29AC9068005EDF3B /* hi_tom_D2.wav in Resources */,
+				CC18601729AC9068005EDF3B /* snare_D1.wav in Resources */,
 				CCDBC1ED2993A0320032A1BD /* sand-2.wav in Resources */,
+				CC1E12C229A755EA00CCE544 /* AudioPlayMidiController.xib in Resources */,
+				CC185FF629AC8FD4005EDF3B /* 4tracks.mid in Resources */,
 				CCDBC2012993A0320032A1BD /* RootController.xib in Resources */,
+				CC18601029AC9068005EDF3B /* Synth.mp3 in Resources */,
+				CC185FE429A87E55005EDF3B /* Against Time Piano.caf in Resources */,
+				CC18600A29AC9068005EDF3B /* Bass Synth.mp3 in Resources */,
+				CC1E12B329A73C2400CCE544 /* Beat.caf in Resources */,
 				CCDBC1F12993A0320032A1BD /* sand-4.wav in Resources */,
+				CC18600829AC9068005EDF3B /* Guitar.mp3 in Resources */,
 				CCDBC1F42993A0320032A1BD /* stage-2.wav in Resources */,
 				CCC9F42729A31251006CC4F0 /* Rock Piano.sf2 in Resources */,
 				CCDBC1F22993A0320032A1BD /* sand-5.wav in Resources */,
+				CC1E12B429A73C2400CCE544 /* Guitar.caf in Resources */,
+				CC18601629AC9068005EDF3B /* Counting.mp3 in Resources */,
 				CCDBC1EF2993A0320032A1BD /* sand-7.wav in Resources */,
 				CC6B80A1299615D400371B0E /* MIDIPlayController.xib in Resources */,
+				CC185FE629A87E65005EDF3B /* Against Time Keys.caf in Resources */,
 				CCC9F42329A31235006CC4F0 /* Guitar Harmonics.sf2 in Resources */,
 				CCDBC1F72993A0320032A1BD /* stage-4.wav in Resources */,
 				CCDBC1F82993A0320032A1BD /* stage-6.wav in Resources */,
 				CCC9F42F29A317BD006CC4F0 /* ntbldmtn.mid in Resources */,
-				CC661C88299E1E4400786AEB /* shake-2.m4a in Resources */,
+				CC18601329AC9068005EDF3B /* lo_tom_F1.wav in Resources */,
+				CC18600C29AC9068005EDF3B /* Strings.mp3 in Resources */,
+				CC1E12AD29A7132700CCE544 /* Test-1.mid in Resources */,
 				CCDBC1EE2993A0320032A1BD /* sand-3.wav in Resources */,
+				CC1E12AB29A7101A00CCE544 /* Florestan_Basic.sf2 in Resources */,
+				CC185FF429AC8A09005EDF3B /* SequencerPlayController.xib in Resources */,
 				CCC9F42129A31225006CC4F0 /* Clarinet.sf2 in Resources */,
 				CCDBC1FA2993A0320032A1BD /* stage-8.wav in Resources */,
 				CCC9F42529A31243006CC4F0 /* MT-32 Drum Kit.sf2 in Resources */,
+				CC18601229AC9068005EDF3B /* bass_drum_C1.wav in Resources */,
 				CC5B1AFB2995F192005E8027 /* MusicResultController.xib in Resources */,
+				CC18601429AC9068005EDF3B /* Piano.mp3 in Resources */,
+				CC185FE829A87E87005EDF3B /* Against Time Staccato Strings.caf in Resources */,
+				CC18600F29AC9068005EDF3B /* beat.aiff in Resources */,
 				CC6B80A3299638B900371B0E /* sand-1.mid in Resources */,
 				CCC9F42E29A317BD006CC4F0 /* sibeliusGMajor.mid in Resources */,
 				CCC9F43F29A4C063006CC4F0 /* AMIDIPlayController.xib in Resources */,
 				CCDBC1F92993A0320032A1BD /* stage-7.wav in Resources */,
+				CC185FDF29A87D6F005EDF3B /* Call and Response Guitar.caf in Resources */,
 				CCC9F41F29A31219006CC4F0 /* Bassoon.sf2 in Resources */,
 				CCC9F42B29A31280006CC4F0 /* Shannai.sf2 in Resources */,
 				CCC9F42929A31261006CC4F0 /* Violin.sf2 in Resources */,
@@ -586,12 +753,15 @@
 				CCF9AF2029939DDE00AA61F6 /* AppDelegate.swift in Sources */,
 				CC6B80A0299615D400371B0E /* MIDIPlayController.swift in Sources */,
 				CCE9589529A5EA88007D2B62 /* Toast.swift in Sources */,
+				CC18601929AC9E06005EDF3B /* SequcenView.swift in Sources */,
 				CCF9AF2229939DDE00AA61F6 /* SceneDelegate.swift in Sources */,
+				CC185FF329AC8A09005EDF3B /* SequencerPlayController.swift in Sources */,
 				CC661C79299CD1E100786AEB /* ShakeTopCell.swift in Sources */,
 				CC661C70299CCACB00786AEB /* ShakeDemoController.swift in Sources */,
 				CCDBC1FC2993A0320032A1BD /* MusicController.swift in Sources */,
 				CCDBC2002993A0320032A1BD /* RecordController.swift in Sources */,
 				CC661C98299F65C800786AEB /* MIDIPlayManager.swift in Sources */,
+				CC1E12C129A755EA00CCE544 /* AudioPlayMidiController.swift in Sources */,
 				CCC9F43E29A4C063006CC4F0 /* AMIDIPlayController.swift in Sources */,
 				CCE9589929A5EAF5007D2B62 /* Bridge.m in Sources */,
 				CC661C6C299CC4C100786AEB /* RootCell.swift in Sources */,
@@ -599,6 +769,7 @@
 				CC661C81299DDCB300786AEB /* ShakeModel.swift in Sources */,
 				CC5B1AFA2995F192005E8027 /* MusicResultController.swift in Sources */,
 				CCE958A129A5EFEB007D2B62 /* RecordMIDIController.swift in Sources */,
+				CCE958A829A60853007D2B62 /* TrackView.swift in Sources */,
 				CCE9587029A5B315007D2B62 /* NetworkManager.swift in Sources */,
 				CCE9587229A5BFE7007D2B62 /* Const.swift in Sources */,
 				CCDBC1FE2993A0320032A1BD /* RootController.swift in Sources */,
@@ -670,7 +841,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -724,7 +895,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -752,6 +923,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -788,6 +960,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -828,10 +1001,30 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		CC18601A29AC9E24005EDF3B /* XCRemoteSwiftPackageReference "Keyboard" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/Keyboard.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		CC6B80A4299639C300371B0E /* AudioKit */ = {
+		CC18601B29AC9E24005EDF3B /* Keyboard */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC18601A29AC9E24005EDF3B /* XCRemoteSwiftPackageReference "Keyboard" */;
+			productName = Keyboard;
+		};
+		CC1E12A229A7087100CCE544 /* AudioKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = AudioKit;
+		};
+		CC1E12C329A75AA000CCE544 /* AudioKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioKitUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

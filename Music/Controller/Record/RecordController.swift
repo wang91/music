@@ -127,8 +127,8 @@ class RecordController: UIViewController, AudioRecorderDelegate {
             JKToast.hideDefault()
             if let url = result as? URL {
                 print("midi 文件地址", url.absoluteString)
-                let controller = RecordMIDIController(nibName: "RecordMIDIController", bundle: nil)
-                controller.midiURL = url
+                let controller = MIDIPlayController(nibName: "MIDIPlayController", bundle: nil)
+                controller.midiUrl = url
                 self.navigationController?.pushViewController(controller, animated: true)
             }
         } fail: { error in

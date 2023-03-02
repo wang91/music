@@ -8,7 +8,7 @@
 import UIKit
 import AudioKit
 import AVFAudio
-
+import AudioKitUI
 import SwiftUI
 
 class RecordMIDIController: UIViewController {
@@ -24,6 +24,7 @@ class RecordMIDIController: UIViewController {
     @IBOutlet weak var slider: UISlider!
     
     var midiURL:URL!
+    
     var bankName:String = "Bassoon"
     
     var timer:Timer?
@@ -37,10 +38,14 @@ class RecordMIDIController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        addSubViews()
         initAudio()
     }
     func addSubViews() {
-//        let trackView = MIDITrackView(fileURL: <#T##Binding<URL?>#>, trackNumber: <#T##Int#>, trackWidth: <#T##CGFloat#>, trackHeight: <#T##CGFloat#>)
+        let trackView = UIHostingController(rootView: TrackView(fileURL: midiURL))
+        trackView.view.backgroundColor = .white
+        trackView.view.frame = CGRect(x: 0, y: 200, width: JKSScreenWidth, height: 300)
+        self.view.addSubview(trackView.view)
     }
     func initAudio() {
         engine = AVAudioEngine()
@@ -70,7 +75,7 @@ class RecordMIDIController: UIViewController {
             
         sequencer = AVAudioSequencer(audioEngine: engine)
         do {
-            try sequencer.load(from: self.midiURL,options: .smf_ChannelsToTracks)
+            try sequencer.load(from: self.midiURL!,options: .smf_ChannelsToTracks)
             print("loaded \(String(describing: midiURL))")
         } catch {
             fatalError("something screwed up while loading midi file \n \(error)")

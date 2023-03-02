@@ -6,10 +6,11 @@
 //
 
 import UIKit
+import SwiftUI
 
 class RootController: UIViewController ,UITableViewDelegate, UITableViewDataSource {
     
-    var dataArr:Array<String> = ["音乐编辑","录制音频","播放MIDI"]
+    var dataArr:Array<String> = ["音乐编辑","录制音频","播放MIDI","Sequencer AudioFile"]
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
@@ -46,19 +47,27 @@ class RootController: UIViewController ,UITableViewDelegate, UITableViewDataSour
         case 2:
             playMIDI()
             break
+        case 3:
+            sequencerPlayWithAudioFile() 
+            break
         default:
             break
         }
     }
     func recordAudio() {
-        self.navigationController?.pushViewController(RecordController(nibName: "RecordController", bundle: nil), animated: true)
+        self.navigationController?.pushViewController(AudioPlayMidiController(nibName: "AudioPlayMidiController", bundle: nil), animated: true)
     }
     
     func playMIDI() {
-        self.navigationController?.pushViewController(AMIDIPlayController(nibName: "AMIDIPlayController", bundle: nil), animated: true)
+        self.navigationController?.pushViewController(MIDIPlayController(nibName: "MIDIPlayController", bundle: nil), animated: true)
     }
     func playMusic() {
         self.navigationController?.pushViewController(ShakeDemoController(nibName: "ShakeDemoController", bundle: nil), animated: true)
 //        self.navigationController?.pushViewController(MusicController(nibName: "MusicController", bundle: nil), animated: true)
+    }
+    func sequencerPlayWithAudioFile() {//SequcenView
+//        self.navigationController?.pushViewController(SequencerPlayController(nibName: "SequencerPlayController", bundle: nil), animated: true)
+        let trackView = UIHostingController(rootView: SequcenView())
+        self.navigationController?.pushViewController(trackView, animated: true)
     }
 }

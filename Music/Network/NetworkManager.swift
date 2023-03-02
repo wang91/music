@@ -16,7 +16,7 @@ class NetworkManager: NSObject {
     
     static let netWork = NetworkManager()
     
-    var baseUrl = "http://10.249.149.153:5001/convert"
+    var baseUrl = "http://10.249.151.147:5001/convert"
     //MARK:- post请求
     func postNetwork(url:String,params:[String:Any]?,_ needToast:Bool = false,success:@escaping  SuccessBlock,fail:@escaping Fail){
         
@@ -45,7 +45,7 @@ class NetworkManager: NSObject {
             if let data = response.data {
                 let fm = FileManager.default
                 var toUrl = Const.HOSTED_MIDI_FOLDER
-                let downloadedFile = UUID().uuidString + ".midi"
+                let downloadedFile = UUID().uuidString + ".mid"
                 
                 // Create SoundLibrary folder if not exists
                 if !fm.fileExists(atPath: toUrl!.path){

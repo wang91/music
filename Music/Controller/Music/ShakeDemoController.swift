@@ -27,6 +27,9 @@ class ShakeDemoController: UIViewController, UITableViewDelegate, UITableViewDat
     
     var timer:Timer?
     var count:Int = 0
+    
+    var duration:Float = 6.5
+    var modelArr:[(name:String,color:UIColor)] = [("Amber Beat 01.caf",.white),("Against Time Sax Sample.caf",.blue),("Against Time Staccato Strings.caf",.orange),("Against Time Keys.caf",.green),("Against Time Piano.caf",.red)]
     @IBOutlet weak var timeL: UILabel!
     
     
@@ -102,86 +105,17 @@ class ShakeDemoController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     func addContentData() {
         contentArr.removeAll()
-        let shake1 = ShakeModel()
-        shake1.imageName = ""
-        shake1.color = .white
-        shake1.rowIndex = 0
-        for j in 0..<7 {
-            shake1.selet.append((j,true))
+        for i in 0..<modelArr.count {
+            let item = modelArr[i]
+            let shake1 = ShakeModel()
+            shake1.imageName = ""
+            shake1.color = item.color
+            shake1.rowIndex = i
+            for j in 0..<7 {
+                shake1.selet.append((j,false))
+            }
+            contentArr.append(shake1)
         }
-        contentArr.append(shake1)
-        
-        let shake2 = ShakeModel()
-        shake2.imageName = ""
-        shake2.color = .blue
-        shake2.rowIndex = 1
-        for j in 0..<7 {
-            shake2.selet.append((j,true))
-        }
-        contentArr.append(shake2)
-        
-        let shake3 = ShakeModel()
-        shake3.imageName = ""
-        shake3.color = UIColor(red: 0.0, green: 1.0, blue: 1.0, alpha: 1.0)
-        shake3.rowIndex = 2
-        for j in 0..<7 {
-            shake3.selet.append((j,true))
-        }
-        contentArr.append(shake3)
-        
-        let shake4 = ShakeModel()
-        shake4.imageName = ""
-        shake4.color = .yellow
-        shake4.rowIndex = 3
-        for j in 0..<7 {
-            shake4.selet.append((j,false))
-        }
-        contentArr.append(shake4)
-        
-        let shake5 = ShakeModel()
-        shake5.imageName = ""
-        shake5.color = .yellow
-        shake5.rowIndex = 4
-        for j in 0..<7 {
-            shake5.selet.append((j,false))
-        }
-        contentArr.append(shake5)
-        
-        let shake6 = ShakeModel()
-        shake6.imageName = ""
-        shake6.color = .yellow
-        shake6.rowIndex = 5
-        for j in 0..<7 {
-            shake6.selet.append((j,false))
-        }
-        contentArr.append(shake6)
-        
-        let shake7 = ShakeModel()
-        shake7.imageName = ""
-        shake7.color = .yellow
-        shake7.rowIndex = 6
-        for j in 0..<7 {
-            shake7.selet.append((j,false))
-        }
-        contentArr.append(shake7)
-        
-        let shake8 = ShakeModel()
-        shake8.imageName = ""
-        shake8.color = .yellow
-        shake8.rowIndex = 7
-        for j in 0..<7 {
-            shake8.selet.append((j,false))
-        }
-        contentArr.append(shake8)
-        
-        let shake9 = ShakeModel()
-        shake9.imageName = ""
-        shake9.color = .green
-        shake9.rowIndex = 8
-        for j in 0..<7 {
-            shake9.selet.append((j,false))
-        }
-        contentArr.append(shake9)
         
         for i in 0..<contentArr.count {
             let player = MultiSegmentAudioPlayer()
@@ -191,17 +125,16 @@ class ShakeDemoController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     @objc func updateSlider() {
         count = count + 1
-        if count >= 20 * 7 * 20 {
+        if count >= Int(duration) * 7 * 20 {
             count = 0
             isPlaying = false
             timeL.text = "0.0s"
             return
         }
         timeL.text = String(format: "%.1fs", Float(count) / 20.0)
-        let min:Float = 0.1
+        let min:Float = 40/duration/20.0
         let orix = 52.0 - 8.0
         sliderView.frame = CGRect(x: orix + CGFloat(Float(count) * min), y: topView.frame.origin.y + 40.0, width: 10, height: 550)
-        print(sliderView.frame)
     }
     //MARK: - Actions
     @IBAction func startOrStopRecord(_ sender: UIButton) {
@@ -235,21 +168,23 @@ class ShakeDemoController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     func getPlayerSegment(row:Int) ->[StreamableAudioSegment]{
         var segment = [StreamableAudioSegment]()
-        if row == 1 || row == 2 || row == 0 {
-            return segment
-        }
         for item in contentArr {
             if item.rowIndex == row {
-                guard let url1 = Bundle.main.url(forResource: "shake-" + String(item.rowIndex), withExtension: "m4a"),
+                let model = modelArr[item.rowIndex]
+                guard let url1 = Bundle.main.url(forResource: model.name, withExtension: nil),
                       let file1 = try? AVAudioFile(forReading: url1)
                 else {
-                    print("Didn't get test file1")
+                    JKprint("Didn't get test file1")
                     return segment
                 }
                 for fileIndex in item.selet {
                     if fileIndex.status {
-                        let segment1 = ExampleSegment(audioFile:file1,playbackStartTime: Double(fileIndex.index) * 20.0)
+                        let segment1 = ExampleSegment(audioFile:file1,playbackStartTime: Double(fileIndex.index) * Double(file1.duration))
                         segment.append(segment1)
+//                        if row == 0 {
+//                            let segment2 = ExampleSegment(audioFile:file1,playbackStartTime: Double(duration)/2.0)
+//                            segment.append(segment2)
+//                        }
                     }
                 }
             }
@@ -264,7 +199,7 @@ class ShakeDemoController: UIViewController, UITableViewDelegate, UITableViewDat
         if section == 0 {
             return 1
         }
-        return 9
+        return contentArr.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

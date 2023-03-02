@@ -30,8 +30,8 @@ class MIDIPlayController: UIViewController {
     
     var timer:Timer?
     
-    var bankArr:Array<String> = ["Bassoon","Accordion","Clarinet","Guitar Harmonics","MT-32 Drum Kit","Shannai","Violin","Rock Piano"]
-    var midiArr:Array<String> = ["Demo","sand-1","ntbldmtn","sibeliusGMajor"]
+    var bankArr:Array<String> = ["Bassoon","Accordion","Clarinet","Guitar Harmonics","MT-32 Drum Kit","Shannai","Violin","Rock Piano","Electric_Piano","Florestan_Basic"]
+    var midiArr:Array<String> = ["Test-1","Demo","sand-1","ntbldmtn","sibeliusGMajor"]
     var midiPlayer:AVMIDIPlayer!
     override func viewDidLoad() {
         super.viewDidLoad()

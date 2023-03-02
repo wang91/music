@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SequencerPlayController" customModule="Music" customModuleProvider="target">
+            <connections>
+                <outlet property="tempoL" destination="Ewv-BT-fOH" id="tc0-Ij-Y61"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nJq-8q-yQ7">
+                    <rect key="frame" x="10" y="79" width="373" height="40"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tempo:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ewv-BT-fOH">
+                            <rect key="frame" x="0.0" y="10" width="57" height="20"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="60" minValue="60" maxValue="300" translatesAutoresizingMaskIntoConstraints="NO" id="1Qu-U7-EXo">
+                            <rect key="frame" x="70" y="5" width="290" height="31"/>
+                            <connections>
+                                <action selector="TempoChange:" destination="-1" eventType="valueChanged" id="dZL-H1-Tnm"/>
+                            </connections>
+                        </slider>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="Ewv-BT-fOH" firstAttribute="top" secondItem="nJq-8q-yQ7" secondAttribute="top" constant="10" id="6mJ-Uf-uHf"/>
+                        <constraint firstItem="1Qu-U7-EXo" firstAttribute="centerY" secondItem="nJq-8q-yQ7" secondAttribute="centerY" id="GOb-ze-DMa"/>
+                        <constraint firstItem="Ewv-BT-fOH" firstAttribute="leading" secondItem="nJq-8q-yQ7" secondAttribute="leading" id="GSD-yR-pub"/>
+                        <constraint firstItem="Ewv-BT-fOH" firstAttribute="centerY" secondItem="1Qu-U7-EXo" secondAttribute="centerY" id="H88-l9-QTu"/>
+                        <constraint firstAttribute="height" constant="40" id="OT6-zP-Lf8"/>
+                        <constraint firstAttribute="trailing" secondItem="1Qu-U7-EXo" secondAttribute="trailing" constant="15" id="e5W-fT-UVa"/>
+                        <constraint firstItem="1Qu-U7-EXo" firstAttribute="leading" secondItem="Ewv-BT-fOH" secondAttribute="trailing" constant="15" id="l0x-Rz-L5l"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0xK-5I-9cP">
+                    <rect key="frame" x="156.66666666666666" y="199" width="80" height="44"/>
+                    <color key="backgroundColor" systemColor="systemYellowColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="dU8-R1-jeO"/>
+                        <constraint firstAttribute="width" constant="80" id="ydH-AH-6QQ"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="播放"/>
+                    <state key="selected" title="停止"/>
+                    <connections>
+                        <action selector="startSequcen:" destination="-1" eventType="touchUpInside" id="Meb-Qr-D4g"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNs-yc-zku">
+                    <rect key="frame" x="156.66666666666666" y="263" width="80" height="44"/>
+                    <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="P8A-ha-VQC"/>
+                        <constraint firstAttribute="width" constant="80" id="mhU-Ls-lTB"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="点击出声"/>
+                    <connections>
+                        <action selector="playAudio:" destination="-1" eventType="touchUpInside" id="sQK-wy-MeU"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="nJq-8q-yQ7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="0uB-xo-xev"/>
+                <constraint firstItem="0xK-5I-9cP" firstAttribute="top" secondItem="nJq-8q-yQ7" secondAttribute="bottom" constant="80" id="7CV-CM-1um"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="nJq-8q-yQ7" secondAttribute="trailing" constant="10" id="B9o-Ff-kHY"/>
+                <constraint firstItem="NNs-yc-zku" firstAttribute="top" secondItem="0xK-5I-9cP" secondAttribute="bottom" constant="20" id="Qin-6e-PDf"/>
+                <constraint firstItem="0xK-5I-9cP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="RE8-ik-AsC"/>
+                <constraint firstItem="nJq-8q-yQ7" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="s8H-ra-Z9H"/>
+                <constraint firstItem="NNs-yc-zku" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="wcF-jZ-Q9G"/>
+            </constraints>
+            <point key="canvasLocation" x="138" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
