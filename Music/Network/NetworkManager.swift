@@ -15,8 +15,8 @@ typealias Fail = (_ error: NSError) -> Void
 class NetworkManager: NSObject {
     
     static let netWork = NetworkManager()
-    
-    var baseUrl = "http://10.249.151.147:5001/convert"
+//    var baseUrl = "http://127.0.0.1:5000/convert"
+    var baseUrl = "http://10.249.148.252:5001/convert"
     //MARK:- post请求
     func postNetwork(url:String,params:[String:Any]?,_ needToast:Bool = false,success:@escaping  SuccessBlock,fail:@escaping Fail){
         
@@ -41,27 +41,14 @@ class NetworkManager: NSObject {
         AF.upload(multipartFormData: { mdata in
             mdata.append(file, withName: name, fileName: "audio.wav",mimeType: "wav")
         }, to: baseUrl).responseJSON { (response) in
-            print(response.data as Any)
+            JKprint(response.data as Any)
+
             if let data = response.data {
-                let fm = FileManager.default
-                var toUrl = Const.HOSTED_MIDI_FOLDER
-                let downloadedFile = UUID().uuidString + ".mid"
-                
-                // Create SoundLibrary folder if not exists
-                if !fm.fileExists(atPath: toUrl!.path){
-                    do {
-                        try fm.createDirectory(at: toUrl!, withIntermediateDirectories: true, attributes: nil)
-                        print("Folder created:\(String(describing: toUrl?.lastPathComponent))")
-                    } catch let err {
-                        print("ERROR: create 'SoundLibrary' in 'Application Support' folder, detail:\(err)")
-                    }
-                }else{
-                    print("Sound library folder exists.")
-                }
-                toUrl?.appendPathComponent(downloadedFile)
+                let url = self.creatTmpMIDIFileUrl()
                 do {
-                    try data.write(to: toUrl!)
-                    success(toUrl as Any)
+                    try data.write(to: url)
+                   let fileuRL = self.filterMIDIFile(target: url)
+                    success(fileuRL as Any)
                 } catch {
                     print("midi write failed.")
                     let errorTip = NSError.init(domain: "error", code: 500, userInfo: nil)
@@ -85,5 +72,66 @@ class NetworkManager: NSObject {
         header.add(name: "Content-Type", value: "multipart/form-data")
         
         return header
+    }
+    // 创建临时MIDI文件路径
+    func creatTmpMIDIFileUrl() -> URL {
+        let fm = FileManager.default
+        
+        let downloadedFile = UUID().uuidString + ".mid"
+        var toUrl = fm.temporaryDirectory.appendingPathComponent(downloadedFile)
+        JKprint("临时地址 == ",toUrl as Any)
+        return toUrl
+    }
+    // 创建最终MIDI文件路径
+    func creatMIDIFileUrl() -> URL {
+        let fm = FileManager.default
+        var toUrl = Const.HOSTED_MIDI_FOLDER
+    
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd HH-mm-ss"
+        let timeString = dateFormatter.string(from: Date())
+        // 用当前时间作为mid文件名称
+        let downloadedFile = timeString + ".mid"
+        
+        // Create SoundLibrary folder if not exists
+        if !fm.fileExists(atPath: toUrl!.path){
+            do {
+                try fm.createDirectory(at: toUrl!, withIntermediateDirectories: true, attributes: nil)
+                print("Folder created:\(String(describing: toUrl?.lastPathComponent))")
+            } catch let err {
+                print("ERROR: create 'SoundLibrary' in 'Application Support' folder, detail:\(err)")
+            }
+        }else{
+            print("Sound library folder exists.")
+        }
+        toUrl?.appendPathComponent(downloadedFile)
+        return toUrl!
+    }
+    func filterMIDIFile(target:URL) ->URL?{
+
+        guard let sequence = try? MIKMIDISequence(fileAt: target) else {
+            return nil
+        }
+        for track in sequence.tracks {
+            var array = track.events
+            array.removeAll()
+            for i in 0..<track.events.count {
+                let event = track.events[i]
+                if event.eventType.rawValue != 15 {
+                    array.append(event)
+                }
+            }
+            track.events = array
+        }
+        let url = self.creatMIDIFileUrl()
+        do {
+            try sequence.write(to: url)
+            JKprint("写入成功",url.absoluteString as Any)
+            return url
+        }catch let error {
+            JKprint("写入错误",url.absoluteString as Any,error.localizedDescription)
+            return nil
+        }
+        
     }
 }

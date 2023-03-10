@@ -8,102 +8,172 @@
 
 /* Begin PBXBuildFile section */
 		05CADABDC1890DD2DB24C630 /* Pods_Music.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42B9B634D26F9890ABDC40C /* Pods_Music.framework */; };
-		CC185FDF29A87D6F005EDF3B /* Call and Response Guitar.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC185FDE29A87D6F005EDF3B /* Call and Response Guitar.caf */; };
-		CC185FE229A87E4C005EDF3B /* Altered State Beat 01.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC185FE129A87E4C005EDF3B /* Altered State Beat 01.caf */; };
-		CC185FE429A87E55005EDF3B /* Against Time Piano.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC185FE329A87E55005EDF3B /* Against Time Piano.caf */; };
-		CC185FE629A87E65005EDF3B /* Against Time Keys.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC185FE529A87E65005EDF3B /* Against Time Keys.caf */; };
-		CC185FE829A87E87005EDF3B /* Against Time Staccato Strings.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC185FE729A87E87005EDF3B /* Against Time Staccato Strings.caf */; };
-		CC185FEA29A87E95005EDF3B /* Against Time Sax Sample.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC185FE929A87E95005EDF3B /* Against Time Sax Sample.caf */; };
-		CC185FEC29A88042005EDF3B /* Amber Beat 01.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC185FEB29A88042005EDF3B /* Amber Beat 01.caf */; };
-		CC185FF329AC8A09005EDF3B /* SequencerPlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC185FF129AC8A09005EDF3B /* SequencerPlayController.swift */; };
-		CC185FF429AC8A09005EDF3B /* SequencerPlayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC185FF229AC8A09005EDF3B /* SequencerPlayController.xib */; };
-		CC185FF629AC8FD4005EDF3B /* 4tracks.mid in Resources */ = {isa = PBXBuildFile; fileRef = CC185FF529AC8FD4005EDF3B /* 4tracks.mid */; };
-		CC18600829AC9068005EDF3B /* Guitar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC185FF829AC9068005EDF3B /* Guitar.mp3 */; };
-		CC18600929AC9068005EDF3B /* clap_D#1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC185FF929AC9068005EDF3B /* clap_D#1.wav */; };
-		CC18600A29AC9068005EDF3B /* Bass Synth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC185FFA29AC9068005EDF3B /* Bass Synth.mp3 */; };
-		CC18600B29AC9068005EDF3B /* hi_tom_D2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC185FFB29AC9068005EDF3B /* hi_tom_D2.wav */; };
-		CC18600C29AC9068005EDF3B /* Strings.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC185FFC29AC9068005EDF3B /* Strings.mp3 */; };
-		CC18600D29AC9068005EDF3B /* alphabet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC185FFD29AC9068005EDF3B /* alphabet.mp3 */; };
-		CC18600E29AC9068005EDF3B /* mid_tom_B1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC185FFE29AC9068005EDF3B /* mid_tom_B1.wav */; };
-		CC18600F29AC9068005EDF3B /* beat.aiff in Resources */ = {isa = PBXBuildFile; fileRef = CC185FFF29AC9068005EDF3B /* beat.aiff */; };
-		CC18601029AC9068005EDF3B /* Synth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC18600029AC9068005EDF3B /* Synth.mp3 */; };
-		CC18601129AC9068005EDF3B /* closed_hi_hat_F#1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC18600129AC9068005EDF3B /* closed_hi_hat_F#1.wav */; };
-		CC18601229AC9068005EDF3B /* bass_drum_C1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC18600229AC9068005EDF3B /* bass_drum_C1.wav */; };
-		CC18601329AC9068005EDF3B /* lo_tom_F1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC18600329AC9068005EDF3B /* lo_tom_F1.wav */; };
-		CC18601429AC9068005EDF3B /* Piano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC18600429AC9068005EDF3B /* Piano.mp3 */; };
-		CC18601529AC9068005EDF3B /* open_hi_hat_A#1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC18600529AC9068005EDF3B /* open_hi_hat_A#1.wav */; };
-		CC18601629AC9068005EDF3B /* Counting.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC18600629AC9068005EDF3B /* Counting.mp3 */; };
-		CC18601729AC9068005EDF3B /* snare_D1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC18600729AC9068005EDF3B /* snare_D1.wav */; };
-		CC18601929AC9E06005EDF3B /* SequcenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC18601829AC9E06005EDF3B /* SequcenView.swift */; };
-		CC18601C29AC9E24005EDF3B /* Keyboard in Frameworks */ = {isa = PBXBuildFile; productRef = CC18601B29AC9E24005EDF3B /* Keyboard */; };
-		CC1E12A329A7087100CCE544 /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = CC1E12A229A7087100CCE544 /* AudioKit */; };
-		CC1E12A829A7090B00CCE544 /* Electric_Piano.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CC1E12A629A7090B00CCE544 /* Electric_Piano.sf2 */; };
-		CC1E12A929A7090B00CCE544 /* Grand_Piano.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CC1E12A729A7090B00CCE544 /* Grand_Piano.sf2 */; };
-		CC1E12AB29A7101A00CCE544 /* Florestan_Basic.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CC1E12AA29A7101A00CCE544 /* Florestan_Basic.sf2 */; };
-		CC1E12AD29A7132700CCE544 /* Test-1.mid in Resources */ = {isa = PBXBuildFile; fileRef = CC1E12AC29A7132700CCE544 /* Test-1.mid */; };
-		CC1E12B329A73C2400CCE544 /* Beat.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC1E12AF29A73C2400CCE544 /* Beat.caf */; };
-		CC1E12B429A73C2400CCE544 /* Guitar.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC1E12B029A73C2400CCE544 /* Guitar.caf */; };
-		CC1E12B529A73C2400CCE544 /* Bass.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC1E12B129A73C2400CCE544 /* Bass.caf */; };
-		CC1E12B729A73C6400CCE544 /* Piano.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC1E12B629A73C6400CCE544 /* Piano.caf */; };
-		CC1E12B929A7462F00CCE544 /* Aftershock Synth Lead.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC1E12B829A7462F00CCE544 /* Aftershock Synth Lead.caf */; };
-		CC1E12BB29A7483000CCE544 /* Amalgamate Chord Layers.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC1E12BA29A7483000CCE544 /* Amalgamate Chord Layers.caf */; };
-		CC1E12BD29A74C9100CCE544 /* zhou.mid in Resources */ = {isa = PBXBuildFile; fileRef = CC1E12BC29A74C9100CCE544 /* zhou.mid */; };
-		CC1E12C129A755EA00CCE544 /* AudioPlayMidiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E12BF29A755EA00CCE544 /* AudioPlayMidiController.swift */; };
-		CC1E12C229A755EA00CCE544 /* AudioPlayMidiController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC1E12C029A755EA00CCE544 /* AudioPlayMidiController.xib */; };
-		CC1E12C429A75AA000CCE544 /* AudioKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = CC1E12C329A75AA000CCE544 /* AudioKitUI */; };
-		CC5B1AFA2995F192005E8027 /* MusicResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5B1AF82995F192005E8027 /* MusicResultController.swift */; };
-		CC5B1AFB2995F192005E8027 /* MusicResultController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5B1AF92995F192005E8027 /* MusicResultController.xib */; };
+		CC06DFCD29AF303D0051D7C8 /* export_clear.mid in Resources */ = {isa = PBXBuildFile; fileRef = CC06DFCC29AF303D0051D7C8 /* export_clear.mid */; };
+		CC185FEF29AC786A005EDF3B /* ntbldmtn.mid in Resources */ = {isa = PBXBuildFile; fileRef = CC185FEE29AC786A005EDF3B /* ntbldmtn.mid */; };
+		CC59AF1329B63BF20082E5DB /* Prismatica Beat 03.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC59AF1229B63BF20082E5DB /* Prismatica Beat 03.caf */; };
+		CC59AF1529B63BFA0082E5DB /* Quincy - Coast To Coast.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC59AF1429B63BFA0082E5DB /* Quincy - Coast To Coast.caf */; };
+		CC63576329B894C400EA3747 /* beat.aiff in Resources */ = {isa = PBXBuildFile; fileRef = CC63576229B894C400EA3747 /* beat.aiff */; };
+		CC63576529B89FF500EA3747 /* 你不知道03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC63576429B89FF500EA3747 /* 你不知道03.mp3 */; };
+		CC63576729B8A68C00EA3747 /* BeatDrum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC63576629B8A68C00EA3747 /* BeatDrum.mp3 */; };
+		CC63577A29B8AF0400EA3747 /* sand-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC63576929B8AF0400EA3747 /* sand-1.wav */; };
+		CC63577B29B8AF0400EA3747 /* sand-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC63576A29B8AF0400EA3747 /* sand-2.wav */; };
+		CC63577C29B8AF0400EA3747 /* sand-3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC63576B29B8AF0400EA3747 /* sand-3.wav */; };
+		CC63577D29B8AF0400EA3747 /* sand-7.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC63576C29B8AF0400EA3747 /* sand-7.wav */; };
+		CC63577E29B8AF0400EA3747 /* sand-6.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC63576D29B8AF0400EA3747 /* sand-6.wav */; };
+		CC63577F29B8AF0400EA3747 /* sand-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC63576E29B8AF0400EA3747 /* sand-4.wav */; };
+		CC63578029B8AF0400EA3747 /* sand-5.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC63576F29B8AF0400EA3747 /* sand-5.wav */; };
+		CC63578229B8AF0400EA3747 /* stage-3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC63577129B8AF0400EA3747 /* stage-3.wav */; };
+		CC63578329B8AF0400EA3747 /* stage-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC63577229B8AF0400EA3747 /* stage-2.wav */; };
+		CC63578429B8AF0400EA3747 /* stage-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC63577329B8AF0400EA3747 /* stage-1.wav */; };
+		CC63578529B8AF0400EA3747 /* stage-5.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC63577429B8AF0400EA3747 /* stage-5.wav */; };
+		CC63578629B8AF0400EA3747 /* stage-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC63577529B8AF0400EA3747 /* stage-4.wav */; };
+		CC63578729B8AF0400EA3747 /* stage-6.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC63577629B8AF0400EA3747 /* stage-6.wav */; };
+		CC63578829B8AF0400EA3747 /* stage-7.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC63577729B8AF0400EA3747 /* stage-7.wav */; };
+		CC63578929B8AF0400EA3747 /* stage-8.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC63577829B8AF0400EA3747 /* stage-8.wav */; };
+		CC63578A29B8AF0400EA3747 /* sand-8.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC63577929B8AF0400EA3747 /* sand-8.wav */; };
+		CC63578E29B8B6F500EA3747 /* m1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC63578C29B8B6F500EA3747 /* m1.mp3 */; };
+		CC63578F29B8B6F500EA3747 /* m2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC63578D29B8B6F500EA3747 /* m2.mp3 */; };
+		CC63579129B8B7F500EA3747 /* m3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC63579029B8B7F500EA3747 /* m3.mp3 */; };
+		CC63579329B8BB9300EA3747 /* m4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC63579229B8BB9300EA3747 /* m4.mp3 */; };
+		CC63579729B8BCB200EA3747 /* m5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC63579429B8BCB200EA3747 /* m5.mp3 */; };
+		CC63579829B8BCB200EA3747 /* m6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC63579529B8BCB200EA3747 /* m6.mp3 */; };
+		CC63579929B8BCB200EA3747 /* m7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC63579629B8BCB200EA3747 /* m7.mp3 */; };
+		CC6357E429B8D60D00EA3747 /* egt3_23.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357C029B8D60D00EA3747 /* egt3_23.mp3 */; };
+		CC6357E529B8D60D00EA3747 /* e_piano_1_01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357C129B8D60D00EA3747 /* e_piano_1_01.mp3 */; };
+		CC6357E629B8D60D00EA3747 /* egt3_22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357C229B8D60D00EA3747 /* egt3_22.mp3 */; };
+		CC6357E729B8D60D00EA3747 /* e_piano_1_02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357C329B8D60D00EA3747 /* e_piano_1_02.mp3 */; };
+		CC6357E829B8D60D00EA3747 /* e_piano_1_03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357C429B8D60D00EA3747 /* e_piano_1_03.mp3 */; };
+		CC6357E929B8D60D00EA3747 /* egt3_21.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357C529B8D60D00EA3747 /* egt3_21.mp3 */; };
+		CC6357EA29B8D60D00EA3747 /* piano_14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357C629B8D60D00EA3747 /* piano_14.mp3 */; };
+		CC6357EB29B8D60D00EA3747 /* violin_21.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357C729B8D60D00EA3747 /* violin_21.mp3 */; };
+		CC6357EC29B8D60D00EA3747 /* piano_15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357C829B8D60D00EA3747 /* piano_15.mp3 */; };
+		CC6357ED29B8D60D00EA3747 /* piano_17.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357C929B8D60D00EA3747 /* piano_17.mp3 */; };
+		CC6357EE29B8D60D00EA3747 /* violin_23.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357CA29B8D60D00EA3747 /* violin_23.mp3 */; };
+		CC6357EF29B8D60D00EA3747 /* violin_22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357CB29B8D60D00EA3747 /* violin_22.mp3 */; };
+		CC6357F029B8D60D00EA3747 /* piano_16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357CC29B8D60D00EA3747 /* piano_16.mp3 */; };
+		CC6357F129B8D60D00EA3747 /* piano_12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357CD29B8D60D00EA3747 /* piano_12.mp3 */; };
+		CC6357F229B8D60D00EA3747 /* piano_13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357CE29B8D60D00EA3747 /* piano_13.mp3 */; };
+		CC6357F329B8D60D00EA3747 /* violin_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357CF29B8D60D00EA3747 /* violin_3.mp3 */; };
+		CC6357F429B8D60D00EA3747 /* violin_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357D029B8D60D00EA3747 /* violin_1.mp3 */; };
+		CC6357F529B8D60D00EA3747 /* piano_11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357D129B8D60D00EA3747 /* piano_11.mp3 */; };
+		CC6357F629B8D60D00EA3747 /* piano_20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357D229B8D60D00EA3747 /* piano_20.mp3 */; };
+		CC6357F729B8D60D00EA3747 /* piano_18.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357D329B8D60D00EA3747 /* piano_18.mp3 */; };
+		CC6357F829B8D60D00EA3747 /* piano_19.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357D429B8D60D00EA3747 /* piano_19.mp3 */; };
+		CC6357F929B8D60D00EA3747 /* meta2_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357D529B8D60D00EA3747 /* meta2_3.mp3 */; };
+		CC6357FA29B8D60D00EA3747 /* Bass04.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357D629B8D60D00EA3747 /* Bass04.mp3 */; };
+		CC6357FB29B8D60D00EA3747 /* Bell01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357D729B8D60D00EA3747 /* Bell01.mp3 */; };
+		CC6357FC29B8D60D00EA3747 /* meta2_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357D829B8D60D00EA3747 /* meta2_2.mp3 */; };
+		CC6357FD29B8D60D00EA3747 /* meta2_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357D929B8D60D00EA3747 /* meta2_1.mp3 */; };
+		CC6357FE29B8D60D00EA3747 /* meta2_11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357DA29B8D60D00EA3747 /* meta2_11.mp3 */; };
+		CC6357FF29B8D60D00EA3747 /* Bass02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357DB29B8D60D00EA3747 /* Bass02.mp3 */; };
+		CC63580029B8D60D00EA3747 /* egt1_01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357DC29B8D60D00EA3747 /* egt1_01.mp3 */; };
+		CC63580129B8D60D00EA3747 /* Bass03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357DD29B8D60D00EA3747 /* Bass03.mp3 */; };
+		CC63580229B8D60D00EA3747 /* egt3_11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357DE29B8D60D00EA3747 /* egt3_11.mp3 */; };
+		CC63580329B8D60D00EA3747 /* meta2_12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357DF29B8D60D00EA3747 /* meta2_12.mp3 */; };
+		CC63580429B8D60D00EA3747 /* egt3_13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357E029B8D60D00EA3747 /* egt3_13.mp3 */; };
+		CC63580529B8D60D00EA3747 /* Bass01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357E129B8D60D00EA3747 /* Bass01.mp3 */; };
+		CC63580629B8D60D00EA3747 /* egt3_12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357E229B8D60D00EA3747 /* egt3_12.mp3 */; };
+		CC63580729B8D60D00EA3747 /* meta2_13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC6357E329B8D60D00EA3747 /* meta2_13.mp3 */; };
+		CC63580929B8DBFC00EA3747 /* Bell02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC63580829B8DBFC00EA3747 /* Bell02.mp3 */; };
 		CC661C6C299CC4C100786AEB /* RootCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC661C6A299CC4C100786AEB /* RootCell.swift */; };
 		CC661C6D299CC4C100786AEB /* RootCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC661C6B299CC4C100786AEB /* RootCell.xib */; };
-		CC661C70299CCACB00786AEB /* ShakeDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC661C6E299CCACB00786AEB /* ShakeDemoController.swift */; };
-		CC661C71299CCACB00786AEB /* ShakeDemoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC661C6F299CCACB00786AEB /* ShakeDemoController.xib */; };
-		CC661C79299CD1E100786AEB /* ShakeTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC661C77299CD1E100786AEB /* ShakeTopCell.swift */; };
-		CC661C7A299CD1E100786AEB /* ShakeTopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC661C78299CD1E100786AEB /* ShakeTopCell.xib */; };
-		CC661C7D299DD75E00786AEB /* ShakeInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC661C7B299DD75E00786AEB /* ShakeInfoCell.swift */; };
-		CC661C7E299DD75E00786AEB /* ShakeInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC661C7C299DD75E00786AEB /* ShakeInfoCell.xib */; };
-		CC661C81299DDCB300786AEB /* ShakeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC661C80299DDCB300786AEB /* ShakeModel.swift */; };
-		CC661C98299F65C800786AEB /* MIDIPlayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC661C97299F65C800786AEB /* MIDIPlayManager.swift */; };
-		CC6B80A0299615D400371B0E /* MIDIPlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B809E299615D400371B0E /* MIDIPlayController.swift */; };
-		CC6B80A1299615D400371B0E /* MIDIPlayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC6B809F299615D400371B0E /* MIDIPlayController.xib */; };
-		CC6B80A3299638B900371B0E /* sand-1.mid in Resources */ = {isa = PBXBuildFile; fileRef = CC6B80A2299638B900371B0E /* sand-1.mid */; };
-		CC6B80A729963DFD00371B0E /* drumSimp.exs in Resources */ = {isa = PBXBuildFile; fileRef = CC6B80A629963DFD00371B0E /* drumSimp.exs */; };
-		CC6B80A9299643D300371B0E /* Cyberpunk.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CC6B80A8299643D300371B0E /* Cyberpunk.sf2 */; };
-		CCC9F41D29A31210006CC4F0 /* Accordion.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F41C29A31210006CC4F0 /* Accordion.sf2 */; };
+		CC6B2D5729B0456000E37E23 /* MIDIShowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B2D5529B0456000E37E23 /* MIDIShowController.swift */; };
+		CC6B2D5829B0456000E37E23 /* MIDIShowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC6B2D5629B0456000E37E23 /* MIDIShowController.xib */; };
+		CC6B2D5B29B0748B00E37E23 /* Demo.mid in Resources */ = {isa = PBXBuildFile; fileRef = CC6B2D5A29B0748B00E37E23 /* Demo.mid */; };
+		CC6B2D5D29B0749400E37E23 /* sibeliusGMajor.mid in Resources */ = {isa = PBXBuildFile; fileRef = CC6B2D5C29B0749400E37E23 /* sibeliusGMajor.mid */; };
+		CC6B80A5299639C300371B0E /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = CC6B80A4299639C300371B0E /* AudioKit */; };
+		CC74416A29B9BA9E009FB5B8 /* AudioKitRecordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC74416829B9BA9E009FB5B8 /* AudioKitRecordController.swift */; };
+		CC74416B29B9BA9E009FB5B8 /* AudioKitRecordController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC74416929B9BA9E009FB5B8 /* AudioKitRecordController.xib */; };
+		CCA0E2C629ADD37B00FA5AF9 /* DealMIDIFileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA0E2C529ADD37B00FA5AF9 /* DealMIDIFileController.swift */; };
+		CCA0E2C829ADD4D800FA5AF9 /* export.mid in Resources */ = {isa = PBXBuildFile; fileRef = CCA0E2C729ADD4D800FA5AF9 /* export.mid */; };
+		CCA3A3AE29B478F7009CA5C9 /* MIDIPlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA3A3AC29B478F7009CA5C9 /* MIDIPlayController.swift */; };
+		CCA3A3AF29B478F7009CA5C9 /* MIDIPlayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCA3A3AD29B478F7009CA5C9 /* MIDIPlayController.xib */; };
+		CCA3A3C229B485CD009CA5C9 /* MIDIPlayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA3A3C029B485CD009CA5C9 /* MIDIPlayCell.swift */; };
+		CCA3A3C329B485CD009CA5C9 /* MIDIPlayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCA3A3C129B485CD009CA5C9 /* MIDIPlayCell.xib */; };
+		CCA3A3EC29B4912A009CA5C9 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = CCA3A3EB29B4912A009CA5C9 /* Sounds */; };
+		CCA3A3F129B492F0009CA5C9 /* SoundpipeAudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = CCA3A3F029B492F0009CA5C9 /* SoundpipeAudioKit */; };
+		CCA3A3F329B492FE009CA5C9 /* KissFFT in Frameworks */ = {isa = PBXBuildFile; productRef = CCA3A3F229B492FE009CA5C9 /* KissFFT */; };
+		CCA3A3F629B49329009CA5C9 /* AudioKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = CCA3A3F529B49329009CA5C9 /* AudioKitUI */; };
+		CCA3A3F929B49368009CA5C9 /* AudioKitEX in Frameworks */ = {isa = PBXBuildFile; productRef = CCA3A3F829B49368009CA5C9 /* AudioKitEX */; };
+		CCA8A70129A767310086D1D2 /* Standard.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCA8A6F029A767310086D1D2 /* Standard.sf2 */; };
+		CCA8A70229A767310086D1D2 /* Organ.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCA8A6F129A767310086D1D2 /* Organ.sf2 */; };
+		CCA8A70329A767310086D1D2 /* Whistle.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCA8A6F229A767310086D1D2 /* Whistle.sf2 */; };
+		CCA8A70429A767310086D1D2 /* Piano.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCA8A6F329A767310086D1D2 /* Piano.sf2 */; };
+		CCA8A70529A767310086D1D2 /* Acoustic Bass.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCA8A6F429A767310086D1D2 /* Acoustic Bass.sf2 */; };
+		CCA8A70629A767310086D1D2 /* Brass.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCA8A6F529A767310086D1D2 /* Brass.sf2 */; };
+		CCA8A70729A767310086D1D2 /* Violin.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCA8A6F629A767310086D1D2 /* Violin.sf2 */; };
+		CCA8A70829A767310086D1D2 /* Accordion.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCA8A6F729A767310086D1D2 /* Accordion.sf2 */; };
+		CCA8A70929A767310086D1D2 /* Ocarina.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCA8A6F829A767310086D1D2 /* Ocarina.sf2 */; };
+		CCA8A70A29A767310086D1D2 /* Celesta.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCA8A6F929A767310086D1D2 /* Celesta.sf2 */; };
+		CCA8A70B29A767310086D1D2 /* Music Box.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCA8A6FA29A767310086D1D2 /* Music Box.sf2 */; };
+		CCA8A70C29A767310086D1D2 /* Tubular Bells.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCA8A6FB29A767310086D1D2 /* Tubular Bells.sf2 */; };
+		CCA8A70D29A767310086D1D2 /* Nylon Guitar.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCA8A6FC29A767310086D1D2 /* Nylon Guitar.sf2 */; };
+		CCA8A70E29A767310086D1D2 /* Choir Aahs.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCA8A6FD29A767310086D1D2 /* Choir Aahs.sf2 */; };
+		CCA8A70F29A767310086D1D2 /* Harp.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCA8A6FE29A767310086D1D2 /* Harp.sf2 */; };
+		CCA8A71029A767310086D1D2 /* Tremolo Strings.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCA8A6FF29A767310086D1D2 /* Tremolo Strings.sf2 */; };
+		CCA8A71129A767310086D1D2 /* Clavinet.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCA8A70029A767310086D1D2 /* Clavinet.sf2 */; };
+		CCAF6A6B29B609DF00755FDF /* Bell Bottom Bass.caf in Resources */ = {isa = PBXBuildFile; fileRef = CCAF6A6929B609DF00755FDF /* Bell Bottom Bass.caf */; };
+		CCAF6A6C29B609DF00755FDF /* Bell Bottom Guitar.caf in Resources */ = {isa = PBXBuildFile; fileRef = CCAF6A6A29B609DF00755FDF /* Bell Bottom Guitar.caf */; };
+		CCAF6A6E29B60A8600755FDF /* Beat.caf in Resources */ = {isa = PBXBuildFile; fileRef = CCAF6A6D29B60A8600755FDF /* Beat.caf */; };
+		CCAF6A7029B60DF000755FDF /* Kyle - Chorus.caf in Resources */ = {isa = PBXBuildFile; fileRef = CCAF6A6F29B60DF000755FDF /* Kyle - Chorus.caf */; };
+		CCAF6A7229B61AD400755FDF /* basic_pitch.mid in Resources */ = {isa = PBXBuildFile; fileRef = CCAF6A7129B61AD400755FDF /* basic_pitch.mid */; };
+		CCAF6A7429B6206200755FDF /* Electric Piano.caf in Resources */ = {isa = PBXBuildFile; fileRef = CCAF6A7329B6206200755FDF /* Electric Piano.caf */; };
+		CCC66C8529B859EF00343997 /* Tenor_Sax.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCC66C8429B859EF00343997 /* Tenor_Sax.sf2 */; };
+		CCC66C8829B85A9700343997 /* Guzheng.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCC66C8629B85A9700343997 /* Guzheng.sf2 */; };
+		CCC66C8929B85A9700343997 /* Pipa.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCC66C8729B85A9700343997 /* Pipa.sf2 */; };
+		CCC66C8B29B85B6300343997 /* BangDi.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCC66C8A29B85B6300343997 /* BangDi.sf2 */; };
+		CCC66C8D29B85DA700343997 /* Flute.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCC66C8C29B85DA700343997 /* Flute.sf2 */; };
+		CCC66C9729B86AA600343997 /* QingHuaCi1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCC66C9629B86AA600343997 /* QingHuaCi1.mp3 */; };
+		CCC66C9D29B86C9100343997 /* 青花瓷-段落1-女声.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCC66C9829B86C9000343997 /* 青花瓷-段落1-女声.mp3 */; };
+		CCC66C9E29B86C9100343997 /* 青花瓷-段落1-小提琴.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCC66C9929B86C9000343997 /* 青花瓷-段落1-小提琴.mp3 */; };
+		CCC66C9F29B86C9100343997 /* 青花瓷-段落1-吉他.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCC66C9A29B86C9000343997 /* 青花瓷-段落1-吉他.mp3 */; };
+		CCC66CA029B86C9100343997 /* 青花瓷-段落1-马林巴琴.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCC66C9B29B86C9000343997 /* 青花瓷-段落1-马林巴琴.mp3 */; };
+		CCC66CA129B86C9100343997 /* 青花瓷-段落1-长笛.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCC66C9C29B86C9100343997 /* 青花瓷-段落1-长笛.mp3 */; };
+		CCC66CA729B8744C00343997 /* 青花瓷-段落2-钢琴.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCC66CA229B8744C00343997 /* 青花瓷-段落2-钢琴.mp3 */; };
+		CCC66CA829B8744C00343997 /* 青花瓷-段落2-吉他.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCC66CA329B8744C00343997 /* 青花瓷-段落2-吉他.mp3 */; };
+		CCC66CA929B8744C00343997 /* 青花瓷-段落2-小提琴.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCC66CA429B8744C00343997 /* 青花瓷-段落2-小提琴.mp3 */; };
+		CCC66CAA29B8744C00343997 /* 青花瓷-段落2-长笛.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCC66CA529B8744C00343997 /* 青花瓷-段落2-长笛.mp3 */; };
+		CCC66CAB29B8744C00343997 /* 青花瓷-段落2-马林巴琴.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCC66CA629B8744C00343997 /* 青花瓷-段落2-马林巴琴.mp3 */; };
 		CCC9F41F29A31219006CC4F0 /* Bassoon.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F41E29A31219006CC4F0 /* Bassoon.sf2 */; };
 		CCC9F42129A31225006CC4F0 /* Clarinet.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F42029A31225006CC4F0 /* Clarinet.sf2 */; };
 		CCC9F42329A31235006CC4F0 /* Guitar Harmonics.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F42229A31235006CC4F0 /* Guitar Harmonics.sf2 */; };
 		CCC9F42529A31243006CC4F0 /* MT-32 Drum Kit.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F42429A31243006CC4F0 /* MT-32 Drum Kit.sf2 */; };
 		CCC9F42729A31251006CC4F0 /* Rock Piano.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F42629A31251006CC4F0 /* Rock Piano.sf2 */; };
-		CCC9F42929A31261006CC4F0 /* Violin.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F42829A31261006CC4F0 /* Violin.sf2 */; };
 		CCC9F42B29A31280006CC4F0 /* Shannai.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F42A29A31280006CC4F0 /* Shannai.sf2 */; };
-		CCC9F42E29A317BD006CC4F0 /* sibeliusGMajor.mid in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F42C29A317BD006CC4F0 /* sibeliusGMajor.mid */; };
-		CCC9F42F29A317BD006CC4F0 /* ntbldmtn.mid in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F42D29A317BD006CC4F0 /* ntbldmtn.mid */; };
-		CCC9F43B29A4B952006CC4F0 /* Demo.mid in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F43A29A4B952006CC4F0 /* Demo.mid */; };
-		CCC9F43E29A4C063006CC4F0 /* AMIDIPlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC9F43C29A4C063006CC4F0 /* AMIDIPlayController.swift */; };
-		CCC9F43F29A4C063006CC4F0 /* AMIDIPlayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F43D29A4C063006CC4F0 /* AMIDIPlayController.xib */; };
 		CCC9F44629A4D3C3006CC4F0 /* GeneralUser GS MuseScore v1.442.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCC9F44529A4D3C3006CC4F0 /* GeneralUser GS MuseScore v1.442.sf2 */; };
-		CCDBC1EC2993A0320032A1BD /* sand-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1D52993A0320032A1BD /* sand-1.wav */; };
-		CCDBC1ED2993A0320032A1BD /* sand-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1D62993A0320032A1BD /* sand-2.wav */; };
-		CCDBC1EE2993A0320032A1BD /* sand-3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1D72993A0320032A1BD /* sand-3.wav */; };
-		CCDBC1EF2993A0320032A1BD /* sand-7.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1D82993A0320032A1BD /* sand-7.wav */; };
-		CCDBC1F02993A0320032A1BD /* sand-6.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1D92993A0320032A1BD /* sand-6.wav */; };
-		CCDBC1F12993A0320032A1BD /* sand-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1DA2993A0320032A1BD /* sand-4.wav */; };
-		CCDBC1F22993A0320032A1BD /* sand-5.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1DB2993A0320032A1BD /* sand-5.wav */; };
-		CCDBC1F32993A0320032A1BD /* stage-3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1DC2993A0320032A1BD /* stage-3.wav */; };
-		CCDBC1F42993A0320032A1BD /* stage-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1DD2993A0320032A1BD /* stage-2.wav */; };
-		CCDBC1F52993A0320032A1BD /* stage-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1DE2993A0320032A1BD /* stage-1.wav */; };
-		CCDBC1F62993A0320032A1BD /* stage-5.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1DF2993A0320032A1BD /* stage-5.wav */; };
-		CCDBC1F72993A0320032A1BD /* stage-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1E02993A0320032A1BD /* stage-4.wav */; };
-		CCDBC1F82993A0320032A1BD /* stage-6.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1E12993A0320032A1BD /* stage-6.wav */; };
-		CCDBC1F92993A0320032A1BD /* stage-7.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1E22993A0320032A1BD /* stage-7.wav */; };
-		CCDBC1FA2993A0320032A1BD /* stage-8.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1E32993A0320032A1BD /* stage-8.wav */; };
-		CCDBC1FB2993A0320032A1BD /* sand-8.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1E42993A0320032A1BD /* sand-8.wav */; };
-		CCDBC1FC2993A0320032A1BD /* MusicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDBC1E62993A0320032A1BD /* MusicController.swift */; };
+		CCD9C1E329B1D56800E5E8A8 /* ShakeDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD9C1E129B1D56800E5E8A8 /* ShakeDemoController.swift */; };
+		CCD9C1E429B1D56800E5E8A8 /* ShakeDemoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCD9C1E229B1D56800E5E8A8 /* ShakeDemoController.xib */; };
+		CCD9C1EC29B1D57E00E5E8A8 /* ShakeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD9C1E629B1D57E00E5E8A8 /* ShakeModel.swift */; };
+		CCD9C1ED29B1D57E00E5E8A8 /* ShakeInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCD9C1E829B1D57E00E5E8A8 /* ShakeInfoCell.xib */; };
+		CCD9C1EE29B1D57E00E5E8A8 /* ShakeInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD9C1E929B1D57E00E5E8A8 /* ShakeInfoCell.swift */; };
+		CCD9C1EF29B1D57E00E5E8A8 /* ShakeTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD9C1EA29B1D57E00E5E8A8 /* ShakeTopCell.swift */; };
+		CCD9C1F029B1D57E00E5E8A8 /* ShakeTopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCD9C1EB29B1D57E00E5E8A8 /* ShakeTopCell.xib */; };
+		CCD9C1F829B1D59600E5E8A8 /* Against Time Sax Sample.caf in Resources */ = {isa = PBXBuildFile; fileRef = CCD9C1F229B1D59600E5E8A8 /* Against Time Sax Sample.caf */; };
+		CCD9C1F929B1D59600E5E8A8 /* Against Time Piano.caf in Resources */ = {isa = PBXBuildFile; fileRef = CCD9C1F329B1D59600E5E8A8 /* Against Time Piano.caf */; };
+		CCD9C1FA29B1D59600E5E8A8 /* Against Time Staccato Strings.caf in Resources */ = {isa = PBXBuildFile; fileRef = CCD9C1F429B1D59600E5E8A8 /* Against Time Staccato Strings.caf */; };
+		CCD9C1FB29B1D59600E5E8A8 /* Against Time Keys.caf in Resources */ = {isa = PBXBuildFile; fileRef = CCD9C1F529B1D59600E5E8A8 /* Against Time Keys.caf */; };
+		CCD9C1FC29B1D59600E5E8A8 /* Altered State Beat 01.caf in Resources */ = {isa = PBXBuildFile; fileRef = CCD9C1F629B1D59600E5E8A8 /* Altered State Beat 01.caf */; };
+		CCD9C1FD29B1D59600E5E8A8 /* Amber Beat 01.caf in Resources */ = {isa = PBXBuildFile; fileRef = CCD9C1F729B1D59600E5E8A8 /* Amber Beat 01.caf */; };
+		CCD9C1FF29B1D60A00E5E8A8 /* ExampleSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD9C1FE29B1D60A00E5E8A8 /* ExampleSegment.swift */; };
 		CCDBC1FE2993A0320032A1BD /* RootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDBC1E82993A0320032A1BD /* RootController.swift */; };
 		CCDBC1FF2993A0320032A1BD /* RecordController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1E92993A0320032A1BD /* RecordController.xib */; };
 		CCDBC2002993A0320032A1BD /* RecordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDBC1EA2993A0320032A1BD /* RecordController.swift */; };
 		CCDBC2012993A0320032A1BD /* RootController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1EB2993A0320032A1BD /* RootController.xib */; };
-		CCDBC2062993A90F0032A1BD /* MusicController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDBC1E72993A0320032A1BD /* MusicController.xib */; };
+		CCDE57AA29B70C1700FF3610 /* Kyle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCDE57A929B70C1700FF3610 /* Kyle.mp3 */; };
+		CCDE57AC29B70C3000FF3610 /* CoolBass.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCDE57AB29B70C3000FF3610 /* CoolBass.mp3 */; };
+		CCDE57AE29B70C5100FF3610 /* Prismatica.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCDE57AD29B70C5100FF3610 /* Prismatica.mp3 */; };
+		CCDE57B029B70C7300FF3610 /* Quincy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCDE57AF29B70C7300FF3610 /* Quincy.mp3 */; };
+		CCDE57B229B70C9400FF3610 /* Rose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCDE57B129B70C9400FF3610 /* Rose.mp3 */; };
+		CCDE57B529B7117A00FF3610 /* MusicPlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDE57B329B7117A00FF3610 /* MusicPlayController.swift */; };
+		CCDE57B629B7117A00FF3610 /* MusicPlayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDE57B429B7117A00FF3610 /* MusicPlayController.xib */; };
+		CCDE57B829B7157D00FF3610 /* MusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDE57B729B7157D00FF3610 /* MusicModel.swift */; };
+		CCDE57BA29B71C1800FF3610 /* Guitar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCDE57B929B71C1800FF3610 /* Guitar.mp3 */; };
+		CCDE57BD29B72D8F00FF3610 /* AudioSampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDE57BC29B72D8F00FF3610 /* AudioSampler.swift */; };
+		CCDE57BF29B72DF400FF3610 /* Keyboard in Frameworks */ = {isa = PBXBuildFile; productRef = CCDE57BE29B72DF400FF3610 /* Keyboard */; };
+		CCDE57C129B744C300FF3610 /* 4tracks.mid in Resources */ = {isa = PBXBuildFile; fileRef = CCDE57C029B744C300FF3610 /* 4tracks.mid */; };
+		CCDE57C329B7488A00FF3610 /* Single.mid in Resources */ = {isa = PBXBuildFile; fileRef = CCDE57C229B7488A00FF3610 /* Single.mid */; };
+		CCDE57C529B7782000FF3610 /* QingHuaCi.mid in Resources */ = {isa = PBXBuildFile; fileRef = CCDE57C429B7782000FF3610 /* QingHuaCi.mid */; };
+		CCDE57CF29B78EF400FF3610 /* tool.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCDE57CE29B78EF400FF3610 /* tool.mp3 */; };
 		CCE9587029A5B315007D2B62 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE9586F29A5B315007D2B62 /* NetworkManager.swift */; };
 		CCE9587229A5BFE7007D2B62 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE9587129A5BFE7007D2B62 /* Const.swift */; };
 		CCE9589529A5EA88007D2B62 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE9589429A5EA88007D2B62 /* Toast.swift */; };
@@ -111,7 +181,9 @@
 		CCE9589B29A5EB6D007D2B62 /* CommonSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE9589A29A5EB6D007D2B62 /* CommonSetting.swift */; };
 		CCE958A129A5EFEB007D2B62 /* RecordMIDIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE9589F29A5EFEB007D2B62 /* RecordMIDIController.swift */; };
 		CCE958A229A5EFEB007D2B62 /* RecordMIDIController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCE958A029A5EFEB007D2B62 /* RecordMIDIController.xib */; };
-		CCE958A829A60853007D2B62 /* TrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE958A729A60853007D2B62 /* TrackView.swift */; };
+		CCE958AC29A61006007D2B62 /* TrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE958AB29A61006007D2B62 /* TrackView.swift */; };
+		CCE958B129A62F4E007D2B62 /* Electric_Piano.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCE958AF29A62F4E007D2B62 /* Electric_Piano.sf2 */; };
+		CCE958B229A62F4E007D2B62 /* Grand_Piano.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = CCE958B029A62F4E007D2B62 /* Grand_Piano.sf2 */; };
 		CCF9AF2029939DDE00AA61F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9AF1F29939DDE00AA61F6 /* AppDelegate.swift */; };
 		CCF9AF2229939DDE00AA61F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9AF2129939DDE00AA61F6 /* SceneDelegate.swift */; };
 		CCF9AF2929939DDE00AA61F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF9AF2829939DDE00AA61F6 /* Assets.xcassets */; };
@@ -121,102 +193,172 @@
 /* Begin PBXFileReference section */
 		A525181CB975EE9C93165524 /* Pods-Music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music.debug.xcconfig"; path = "Target Support Files/Pods-Music/Pods-Music.debug.xcconfig"; sourceTree = "<group>"; };
 		BEB5A15800A3E6336A9E273C /* Pods-Music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music.release.xcconfig"; path = "Target Support Files/Pods-Music/Pods-Music.release.xcconfig"; sourceTree = "<group>"; };
-		CC185FDE29A87D6F005EDF3B /* Call and Response Guitar.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Call and Response Guitar.caf"; sourceTree = "<group>"; };
-		CC185FE129A87E4C005EDF3B /* Altered State Beat 01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Altered State Beat 01.caf"; sourceTree = "<group>"; };
-		CC185FE329A87E55005EDF3B /* Against Time Piano.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Against Time Piano.caf"; sourceTree = "<group>"; };
-		CC185FE529A87E65005EDF3B /* Against Time Keys.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Against Time Keys.caf"; sourceTree = "<group>"; };
-		CC185FE729A87E87005EDF3B /* Against Time Staccato Strings.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Against Time Staccato Strings.caf"; sourceTree = "<group>"; };
-		CC185FE929A87E95005EDF3B /* Against Time Sax Sample.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Against Time Sax Sample.caf"; sourceTree = "<group>"; };
-		CC185FEB29A88042005EDF3B /* Amber Beat 01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Amber Beat 01.caf"; sourceTree = "<group>"; };
-		CC185FF129AC8A09005EDF3B /* SequencerPlayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequencerPlayController.swift; sourceTree = "<group>"; };
-		CC185FF229AC8A09005EDF3B /* SequencerPlayController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SequencerPlayController.xib; sourceTree = "<group>"; };
-		CC185FF529AC8FD4005EDF3B /* 4tracks.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = 4tracks.mid; sourceTree = "<group>"; };
-		CC185FF829AC9068005EDF3B /* Guitar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Guitar.mp3; sourceTree = "<group>"; };
-		CC185FF929AC9068005EDF3B /* clap_D#1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "clap_D#1.wav"; sourceTree = "<group>"; };
-		CC185FFA29AC9068005EDF3B /* Bass Synth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bass Synth.mp3"; sourceTree = "<group>"; };
-		CC185FFB29AC9068005EDF3B /* hi_tom_D2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hi_tom_D2.wav; sourceTree = "<group>"; };
-		CC185FFC29AC9068005EDF3B /* Strings.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Strings.mp3; sourceTree = "<group>"; };
-		CC185FFD29AC9068005EDF3B /* alphabet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alphabet.mp3; sourceTree = "<group>"; };
-		CC185FFE29AC9068005EDF3B /* mid_tom_B1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mid_tom_B1.wav; sourceTree = "<group>"; };
-		CC185FFF29AC9068005EDF3B /* beat.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = beat.aiff; sourceTree = "<group>"; };
-		CC18600029AC9068005EDF3B /* Synth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Synth.mp3; sourceTree = "<group>"; };
-		CC18600129AC9068005EDF3B /* closed_hi_hat_F#1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "closed_hi_hat_F#1.wav"; sourceTree = "<group>"; };
-		CC18600229AC9068005EDF3B /* bass_drum_C1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bass_drum_C1.wav; sourceTree = "<group>"; };
-		CC18600329AC9068005EDF3B /* lo_tom_F1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lo_tom_F1.wav; sourceTree = "<group>"; };
-		CC18600429AC9068005EDF3B /* Piano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Piano.mp3; sourceTree = "<group>"; };
-		CC18600529AC9068005EDF3B /* open_hi_hat_A#1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "open_hi_hat_A#1.wav"; sourceTree = "<group>"; };
-		CC18600629AC9068005EDF3B /* Counting.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Counting.mp3; sourceTree = "<group>"; };
-		CC18600729AC9068005EDF3B /* snare_D1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = snare_D1.wav; sourceTree = "<group>"; };
-		CC18601829AC9E06005EDF3B /* SequcenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequcenView.swift; sourceTree = "<group>"; };
-		CC1E12A129A706ED00CCE544 /* AudioKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AudioKit; path = ../AudioKitSource/AudioKit; sourceTree = "<group>"; };
-		CC1E12A629A7090B00CCE544 /* Electric_Piano.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Electric_Piano.sf2; sourceTree = "<group>"; };
-		CC1E12A729A7090B00CCE544 /* Grand_Piano.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Grand_Piano.sf2; sourceTree = "<group>"; };
-		CC1E12AA29A7101A00CCE544 /* Florestan_Basic.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Florestan_Basic.sf2; sourceTree = "<group>"; };
-		CC1E12AC29A7132700CCE544 /* Test-1.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Test-1.mid"; sourceTree = "<group>"; };
-		CC1E12AF29A73C2400CCE544 /* Beat.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Beat.caf; sourceTree = "<group>"; };
-		CC1E12B029A73C2400CCE544 /* Guitar.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Guitar.caf; sourceTree = "<group>"; };
-		CC1E12B129A73C2400CCE544 /* Bass.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bass.caf; sourceTree = "<group>"; };
-		CC1E12B629A73C6400CCE544 /* Piano.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Piano.caf; sourceTree = "<group>"; };
-		CC1E12B829A7462F00CCE544 /* Aftershock Synth Lead.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aftershock Synth Lead.caf"; sourceTree = "<group>"; };
-		CC1E12BA29A7483000CCE544 /* Amalgamate Chord Layers.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Amalgamate Chord Layers.caf"; sourceTree = "<group>"; };
-		CC1E12BC29A74C9100CCE544 /* zhou.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = zhou.mid; sourceTree = "<group>"; };
-		CC1E12BE29A7521300CCE544 /* AudioKitUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AudioKitUI; path = ../AudioKitSource/AudioKitUI; sourceTree = "<group>"; };
-		CC1E12BF29A755EA00CCE544 /* AudioPlayMidiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayMidiController.swift; sourceTree = "<group>"; };
-		CC1E12C029A755EA00CCE544 /* AudioPlayMidiController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioPlayMidiController.xib; sourceTree = "<group>"; };
-		CC32ED102996156D00FA50FD /* AudioKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AudioKit; path = ../AudioKitSource/AudioKit; sourceTree = "<group>"; };
-		CC5B1AF82995F192005E8027 /* MusicResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicResultController.swift; sourceTree = "<group>"; };
-		CC5B1AF92995F192005E8027 /* MusicResultController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicResultController.xib; sourceTree = "<group>"; };
+		CC06DFCC29AF303D0051D7C8 /* export_clear.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = export_clear.mid; sourceTree = "<group>"; };
+		CC185FEE29AC786A005EDF3B /* ntbldmtn.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = ntbldmtn.mid; sourceTree = "<group>"; };
+		CC1E12C829A760E500CCE544 /* AudioKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AudioKit; path = ../AudioKitSource/AudioKit; sourceTree = "<group>"; };
+		CC59AF1229B63BF20082E5DB /* Prismatica Beat 03.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prismatica Beat 03.caf"; sourceTree = "<group>"; };
+		CC59AF1429B63BFA0082E5DB /* Quincy - Coast To Coast.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quincy - Coast To Coast.caf"; sourceTree = "<group>"; };
+		CC63576229B894C400EA3747 /* beat.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = beat.aiff; sourceTree = "<group>"; };
+		CC63576429B89FF500EA3747 /* 你不知道03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "你不知道03.mp3"; sourceTree = "<group>"; };
+		CC63576629B8A68C00EA3747 /* BeatDrum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BeatDrum.mp3; sourceTree = "<group>"; };
+		CC63576929B8AF0400EA3747 /* sand-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-1.wav"; sourceTree = "<group>"; };
+		CC63576A29B8AF0400EA3747 /* sand-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-2.wav"; sourceTree = "<group>"; };
+		CC63576B29B8AF0400EA3747 /* sand-3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-3.wav"; sourceTree = "<group>"; };
+		CC63576C29B8AF0400EA3747 /* sand-7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-7.wav"; sourceTree = "<group>"; };
+		CC63576D29B8AF0400EA3747 /* sand-6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-6.wav"; sourceTree = "<group>"; };
+		CC63576E29B8AF0400EA3747 /* sand-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-4.wav"; sourceTree = "<group>"; };
+		CC63576F29B8AF0400EA3747 /* sand-5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-5.wav"; sourceTree = "<group>"; };
+		CC63577129B8AF0400EA3747 /* stage-3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "stage-3.wav"; sourceTree = "<group>"; };
+		CC63577229B8AF0400EA3747 /* stage-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "stage-2.wav"; sourceTree = "<group>"; };
+		CC63577329B8AF0400EA3747 /* stage-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "stage-1.wav"; sourceTree = "<group>"; };
+		CC63577429B8AF0400EA3747 /* stage-5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "stage-5.wav"; sourceTree = "<group>"; };
+		CC63577529B8AF0400EA3747 /* stage-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "stage-4.wav"; sourceTree = "<group>"; };
+		CC63577629B8AF0400EA3747 /* stage-6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "stage-6.wav"; sourceTree = "<group>"; };
+		CC63577729B8AF0400EA3747 /* stage-7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "stage-7.wav"; sourceTree = "<group>"; };
+		CC63577829B8AF0400EA3747 /* stage-8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "stage-8.wav"; sourceTree = "<group>"; };
+		CC63577929B8AF0400EA3747 /* sand-8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-8.wav"; sourceTree = "<group>"; };
+		CC63578C29B8B6F500EA3747 /* m1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = m1.mp3; sourceTree = "<group>"; };
+		CC63578D29B8B6F500EA3747 /* m2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = m2.mp3; sourceTree = "<group>"; };
+		CC63579029B8B7F500EA3747 /* m3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = m3.mp3; sourceTree = "<group>"; };
+		CC63579229B8BB9300EA3747 /* m4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = m4.mp3; sourceTree = "<group>"; };
+		CC63579429B8BCB200EA3747 /* m5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = m5.mp3; sourceTree = "<group>"; };
+		CC63579529B8BCB200EA3747 /* m6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = m6.mp3; sourceTree = "<group>"; };
+		CC63579629B8BCB200EA3747 /* m7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = m7.mp3; sourceTree = "<group>"; };
+		CC6357C029B8D60D00EA3747 /* egt3_23.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = egt3_23.mp3; sourceTree = "<group>"; };
+		CC6357C129B8D60D00EA3747 /* e_piano_1_01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = e_piano_1_01.mp3; sourceTree = "<group>"; };
+		CC6357C229B8D60D00EA3747 /* egt3_22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = egt3_22.mp3; sourceTree = "<group>"; };
+		CC6357C329B8D60D00EA3747 /* e_piano_1_02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = e_piano_1_02.mp3; sourceTree = "<group>"; };
+		CC6357C429B8D60D00EA3747 /* e_piano_1_03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = e_piano_1_03.mp3; sourceTree = "<group>"; };
+		CC6357C529B8D60D00EA3747 /* egt3_21.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = egt3_21.mp3; sourceTree = "<group>"; };
+		CC6357C629B8D60D00EA3747 /* piano_14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano_14.mp3; sourceTree = "<group>"; };
+		CC6357C729B8D60D00EA3747 /* violin_21.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = violin_21.mp3; sourceTree = "<group>"; };
+		CC6357C829B8D60D00EA3747 /* piano_15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano_15.mp3; sourceTree = "<group>"; };
+		CC6357C929B8D60D00EA3747 /* piano_17.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano_17.mp3; sourceTree = "<group>"; };
+		CC6357CA29B8D60D00EA3747 /* violin_23.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = violin_23.mp3; sourceTree = "<group>"; };
+		CC6357CB29B8D60D00EA3747 /* violin_22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = violin_22.mp3; sourceTree = "<group>"; };
+		CC6357CC29B8D60D00EA3747 /* piano_16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano_16.mp3; sourceTree = "<group>"; };
+		CC6357CD29B8D60D00EA3747 /* piano_12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano_12.mp3; sourceTree = "<group>"; };
+		CC6357CE29B8D60D00EA3747 /* piano_13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano_13.mp3; sourceTree = "<group>"; };
+		CC6357CF29B8D60D00EA3747 /* violin_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = violin_3.mp3; sourceTree = "<group>"; };
+		CC6357D029B8D60D00EA3747 /* violin_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = violin_1.mp3; sourceTree = "<group>"; };
+		CC6357D129B8D60D00EA3747 /* piano_11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano_11.mp3; sourceTree = "<group>"; };
+		CC6357D229B8D60D00EA3747 /* piano_20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano_20.mp3; sourceTree = "<group>"; };
+		CC6357D329B8D60D00EA3747 /* piano_18.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano_18.mp3; sourceTree = "<group>"; };
+		CC6357D429B8D60D00EA3747 /* piano_19.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano_19.mp3; sourceTree = "<group>"; };
+		CC6357D529B8D60D00EA3747 /* meta2_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meta2_3.mp3; sourceTree = "<group>"; };
+		CC6357D629B8D60D00EA3747 /* Bass04.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bass04.mp3; sourceTree = "<group>"; };
+		CC6357D729B8D60D00EA3747 /* Bell01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bell01.mp3; sourceTree = "<group>"; };
+		CC6357D829B8D60D00EA3747 /* meta2_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meta2_2.mp3; sourceTree = "<group>"; };
+		CC6357D929B8D60D00EA3747 /* meta2_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meta2_1.mp3; sourceTree = "<group>"; };
+		CC6357DA29B8D60D00EA3747 /* meta2_11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meta2_11.mp3; sourceTree = "<group>"; };
+		CC6357DB29B8D60D00EA3747 /* Bass02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bass02.mp3; sourceTree = "<group>"; };
+		CC6357DC29B8D60D00EA3747 /* egt1_01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = egt1_01.mp3; sourceTree = "<group>"; };
+		CC6357DD29B8D60D00EA3747 /* Bass03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bass03.mp3; sourceTree = "<group>"; };
+		CC6357DE29B8D60D00EA3747 /* egt3_11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = egt3_11.mp3; sourceTree = "<group>"; };
+		CC6357DF29B8D60D00EA3747 /* meta2_12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meta2_12.mp3; sourceTree = "<group>"; };
+		CC6357E029B8D60D00EA3747 /* egt3_13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = egt3_13.mp3; sourceTree = "<group>"; };
+		CC6357E129B8D60D00EA3747 /* Bass01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bass01.mp3; sourceTree = "<group>"; };
+		CC6357E229B8D60D00EA3747 /* egt3_12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = egt3_12.mp3; sourceTree = "<group>"; };
+		CC6357E329B8D60D00EA3747 /* meta2_13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meta2_13.mp3; sourceTree = "<group>"; };
+		CC63580829B8DBFC00EA3747 /* Bell02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bell02.mp3; sourceTree = "<group>"; };
 		CC661C6A299CC4C100786AEB /* RootCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCell.swift; sourceTree = "<group>"; };
 		CC661C6B299CC4C100786AEB /* RootCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootCell.xib; sourceTree = "<group>"; };
-		CC661C6E299CCACB00786AEB /* ShakeDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeDemoController.swift; sourceTree = "<group>"; };
-		CC661C6F299CCACB00786AEB /* ShakeDemoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShakeDemoController.xib; sourceTree = "<group>"; };
-		CC661C77299CD1E100786AEB /* ShakeTopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShakeTopCell.swift; sourceTree = "<group>"; };
-		CC661C78299CD1E100786AEB /* ShakeTopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShakeTopCell.xib; sourceTree = "<group>"; };
-		CC661C7B299DD75E00786AEB /* ShakeInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeInfoCell.swift; sourceTree = "<group>"; };
-		CC661C7C299DD75E00786AEB /* ShakeInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShakeInfoCell.xib; sourceTree = "<group>"; };
-		CC661C80299DDCB300786AEB /* ShakeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeModel.swift; sourceTree = "<group>"; };
-		CC661C97299F65C800786AEB /* MIDIPlayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIPlayManager.swift; sourceTree = "<group>"; };
-		CC6B809E299615D400371B0E /* MIDIPlayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIPlayController.swift; sourceTree = "<group>"; };
-		CC6B809F299615D400371B0E /* MIDIPlayController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MIDIPlayController.xib; sourceTree = "<group>"; };
-		CC6B80A2299638B900371B0E /* sand-1.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "sand-1.mid"; sourceTree = "<group>"; };
-		CC6B80A629963DFD00371B0E /* drumSimp.exs */ = {isa = PBXFileReference; lastKnownFileType = file; path = drumSimp.exs; sourceTree = "<group>"; };
-		CC6B80A8299643D300371B0E /* Cyberpunk.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cyberpunk.sf2; sourceTree = "<group>"; };
-		CCC9F41C29A31210006CC4F0 /* Accordion.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Accordion.sf2; sourceTree = "<group>"; };
+		CC6B2D5529B0456000E37E23 /* MIDIShowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIShowController.swift; sourceTree = "<group>"; };
+		CC6B2D5629B0456000E37E23 /* MIDIShowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MIDIShowController.xib; sourceTree = "<group>"; };
+		CC6B2D5A29B0748B00E37E23 /* Demo.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Demo.mid; sourceTree = "<group>"; };
+		CC6B2D5C29B0749400E37E23 /* sibeliusGMajor.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = sibeliusGMajor.mid; sourceTree = "<group>"; };
+		CC74416829B9BA9E009FB5B8 /* AudioKitRecordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioKitRecordController.swift; sourceTree = "<group>"; };
+		CC74416929B9BA9E009FB5B8 /* AudioKitRecordController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioKitRecordController.xib; sourceTree = "<group>"; };
+		CCA0E2C529ADD37B00FA5AF9 /* DealMIDIFileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealMIDIFileController.swift; sourceTree = "<group>"; };
+		CCA0E2C729ADD4D800FA5AF9 /* export.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = export.mid; sourceTree = "<group>"; };
+		CCA3A3AC29B478F7009CA5C9 /* MIDIPlayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIPlayController.swift; sourceTree = "<group>"; };
+		CCA3A3AD29B478F7009CA5C9 /* MIDIPlayController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MIDIPlayController.xib; sourceTree = "<group>"; };
+		CCA3A3C029B485CD009CA5C9 /* MIDIPlayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIPlayCell.swift; sourceTree = "<group>"; };
+		CCA3A3C129B485CD009CA5C9 /* MIDIPlayCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MIDIPlayCell.xib; sourceTree = "<group>"; };
+		CCA3A3EB29B4912A009CA5C9 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		CCA3A3ED29B4924E009CA5C9 /* SoundpipeAudioKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SoundpipeAudioKit; path = ../AudioKitSource/SoundpipeAudioKit; sourceTree = "<group>"; };
+		CCA3A3EF29B492D6009CA5C9 /* KissFFT */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = KissFFT; path = ../AudioKitSource/KissFFT; sourceTree = "<group>"; };
+		CCA3A3F429B4931F009CA5C9 /* AudioKitUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AudioKitUI; path = ../AudioKitSource/AudioKitUI; sourceTree = "<group>"; };
+		CCA3A3F729B4935F009CA5C9 /* AudioKitEX */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AudioKitEX; path = ../AudioKitSource/AudioKitEX; sourceTree = "<group>"; };
+		CCA8A6F029A767310086D1D2 /* Standard.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Standard.sf2; sourceTree = "<group>"; };
+		CCA8A6F129A767310086D1D2 /* Organ.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Organ.sf2; sourceTree = "<group>"; };
+		CCA8A6F229A767310086D1D2 /* Whistle.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Whistle.sf2; sourceTree = "<group>"; };
+		CCA8A6F329A767310086D1D2 /* Piano.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Piano.sf2; sourceTree = "<group>"; };
+		CCA8A6F429A767310086D1D2 /* Acoustic Bass.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Acoustic Bass.sf2"; sourceTree = "<group>"; };
+		CCA8A6F529A767310086D1D2 /* Brass.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brass.sf2; sourceTree = "<group>"; };
+		CCA8A6F629A767310086D1D2 /* Violin.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Violin.sf2; sourceTree = "<group>"; };
+		CCA8A6F729A767310086D1D2 /* Accordion.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Accordion.sf2; sourceTree = "<group>"; };
+		CCA8A6F829A767310086D1D2 /* Ocarina.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ocarina.sf2; sourceTree = "<group>"; };
+		CCA8A6F929A767310086D1D2 /* Celesta.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Celesta.sf2; sourceTree = "<group>"; };
+		CCA8A6FA29A767310086D1D2 /* Music Box.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Music Box.sf2"; sourceTree = "<group>"; };
+		CCA8A6FB29A767310086D1D2 /* Tubular Bells.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tubular Bells.sf2"; sourceTree = "<group>"; };
+		CCA8A6FC29A767310086D1D2 /* Nylon Guitar.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nylon Guitar.sf2"; sourceTree = "<group>"; };
+		CCA8A6FD29A767310086D1D2 /* Choir Aahs.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Choir Aahs.sf2"; sourceTree = "<group>"; };
+		CCA8A6FE29A767310086D1D2 /* Harp.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Harp.sf2; sourceTree = "<group>"; };
+		CCA8A6FF29A767310086D1D2 /* Tremolo Strings.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tremolo Strings.sf2"; sourceTree = "<group>"; };
+		CCA8A70029A767310086D1D2 /* Clavinet.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Clavinet.sf2; sourceTree = "<group>"; };
+		CCAF6A6929B609DF00755FDF /* Bell Bottom Bass.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bell Bottom Bass.caf"; sourceTree = "<group>"; };
+		CCAF6A6A29B609DF00755FDF /* Bell Bottom Guitar.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bell Bottom Guitar.caf"; sourceTree = "<group>"; };
+		CCAF6A6D29B60A8600755FDF /* Beat.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Beat.caf; sourceTree = "<group>"; };
+		CCAF6A6F29B60DF000755FDF /* Kyle - Chorus.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kyle - Chorus.caf"; sourceTree = "<group>"; };
+		CCAF6A7129B61AD400755FDF /* basic_pitch.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = basic_pitch.mid; sourceTree = "<group>"; };
+		CCAF6A7329B6206200755FDF /* Electric Piano.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Electric Piano.caf"; sourceTree = "<group>"; };
+		CCC66C8429B859EF00343997 /* Tenor_Sax.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tenor_Sax.sf2; sourceTree = "<group>"; };
+		CCC66C8629B85A9700343997 /* Guzheng.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Guzheng.sf2; sourceTree = "<group>"; };
+		CCC66C8729B85A9700343997 /* Pipa.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pipa.sf2; sourceTree = "<group>"; };
+		CCC66C8A29B85B6300343997 /* BangDi.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = BangDi.sf2; sourceTree = "<group>"; };
+		CCC66C8C29B85DA700343997 /* Flute.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Flute.sf2; sourceTree = "<group>"; };
+		CCC66C9629B86AA600343997 /* QingHuaCi1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = QingHuaCi1.mp3; sourceTree = "<group>"; };
+		CCC66C9829B86C9000343997 /* 青花瓷-段落1-女声.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "青花瓷-段落1-女声.mp3"; sourceTree = "<group>"; };
+		CCC66C9929B86C9000343997 /* 青花瓷-段落1-小提琴.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "青花瓷-段落1-小提琴.mp3"; sourceTree = "<group>"; };
+		CCC66C9A29B86C9000343997 /* 青花瓷-段落1-吉他.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "青花瓷-段落1-吉他.mp3"; sourceTree = "<group>"; };
+		CCC66C9B29B86C9000343997 /* 青花瓷-段落1-马林巴琴.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "青花瓷-段落1-马林巴琴.mp3"; sourceTree = "<group>"; };
+		CCC66C9C29B86C9100343997 /* 青花瓷-段落1-长笛.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "青花瓷-段落1-长笛.mp3"; sourceTree = "<group>"; };
+		CCC66CA229B8744C00343997 /* 青花瓷-段落2-钢琴.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "青花瓷-段落2-钢琴.mp3"; sourceTree = "<group>"; };
+		CCC66CA329B8744C00343997 /* 青花瓷-段落2-吉他.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "青花瓷-段落2-吉他.mp3"; sourceTree = "<group>"; };
+		CCC66CA429B8744C00343997 /* 青花瓷-段落2-小提琴.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "青花瓷-段落2-小提琴.mp3"; sourceTree = "<group>"; };
+		CCC66CA529B8744C00343997 /* 青花瓷-段落2-长笛.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "青花瓷-段落2-长笛.mp3"; sourceTree = "<group>"; };
+		CCC66CA629B8744C00343997 /* 青花瓷-段落2-马林巴琴.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "青花瓷-段落2-马林巴琴.mp3"; sourceTree = "<group>"; };
 		CCC9F41E29A31219006CC4F0 /* Bassoon.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bassoon.sf2; sourceTree = "<group>"; };
 		CCC9F42029A31225006CC4F0 /* Clarinet.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Clarinet.sf2; sourceTree = "<group>"; };
 		CCC9F42229A31235006CC4F0 /* Guitar Harmonics.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Guitar Harmonics.sf2"; sourceTree = "<group>"; };
 		CCC9F42429A31243006CC4F0 /* MT-32 Drum Kit.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MT-32 Drum Kit.sf2"; sourceTree = "<group>"; };
 		CCC9F42629A31251006CC4F0 /* Rock Piano.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rock Piano.sf2"; sourceTree = "<group>"; };
-		CCC9F42829A31261006CC4F0 /* Violin.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Violin.sf2; sourceTree = "<group>"; };
 		CCC9F42A29A31280006CC4F0 /* Shannai.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Shannai.sf2; sourceTree = "<group>"; };
-		CCC9F42C29A317BD006CC4F0 /* sibeliusGMajor.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = sibeliusGMajor.mid; sourceTree = "<group>"; };
-		CCC9F42D29A317BD006CC4F0 /* ntbldmtn.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = ntbldmtn.mid; sourceTree = "<group>"; };
-		CCC9F43A29A4B952006CC4F0 /* Demo.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Demo.mid; sourceTree = "<group>"; };
-		CCC9F43C29A4C063006CC4F0 /* AMIDIPlayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMIDIPlayController.swift; sourceTree = "<group>"; };
-		CCC9F43D29A4C063006CC4F0 /* AMIDIPlayController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AMIDIPlayController.xib; sourceTree = "<group>"; };
 		CCC9F44529A4D3C3006CC4F0 /* GeneralUser GS MuseScore v1.442.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GeneralUser GS MuseScore v1.442.sf2"; sourceTree = "<group>"; };
-		CCDBC1D52993A0320032A1BD /* sand-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-1.wav"; sourceTree = "<group>"; };
-		CCDBC1D62993A0320032A1BD /* sand-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-2.wav"; sourceTree = "<group>"; };
-		CCDBC1D72993A0320032A1BD /* sand-3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-3.wav"; sourceTree = "<group>"; };
-		CCDBC1D82993A0320032A1BD /* sand-7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-7.wav"; sourceTree = "<group>"; };
-		CCDBC1D92993A0320032A1BD /* sand-6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-6.wav"; sourceTree = "<group>"; };
-		CCDBC1DA2993A0320032A1BD /* sand-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-4.wav"; sourceTree = "<group>"; };
-		CCDBC1DB2993A0320032A1BD /* sand-5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-5.wav"; sourceTree = "<group>"; };
-		CCDBC1DC2993A0320032A1BD /* stage-3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "stage-3.wav"; sourceTree = "<group>"; };
-		CCDBC1DD2993A0320032A1BD /* stage-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "stage-2.wav"; sourceTree = "<group>"; };
-		CCDBC1DE2993A0320032A1BD /* stage-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "stage-1.wav"; sourceTree = "<group>"; };
-		CCDBC1DF2993A0320032A1BD /* stage-5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "stage-5.wav"; sourceTree = "<group>"; };
-		CCDBC1E02993A0320032A1BD /* stage-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "stage-4.wav"; sourceTree = "<group>"; };
-		CCDBC1E12993A0320032A1BD /* stage-6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "stage-6.wav"; sourceTree = "<group>"; };
-		CCDBC1E22993A0320032A1BD /* stage-7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "stage-7.wav"; sourceTree = "<group>"; };
-		CCDBC1E32993A0320032A1BD /* stage-8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "stage-8.wav"; sourceTree = "<group>"; };
-		CCDBC1E42993A0320032A1BD /* sand-8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sand-8.wav"; sourceTree = "<group>"; };
-		CCDBC1E62993A0320032A1BD /* MusicController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicController.swift; sourceTree = "<group>"; };
-		CCDBC1E72993A0320032A1BD /* MusicController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicController.xib; sourceTree = "<group>"; };
+		CCD9C1E129B1D56800E5E8A8 /* ShakeDemoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShakeDemoController.swift; sourceTree = "<group>"; };
+		CCD9C1E229B1D56800E5E8A8 /* ShakeDemoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShakeDemoController.xib; sourceTree = "<group>"; };
+		CCD9C1E629B1D57E00E5E8A8 /* ShakeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShakeModel.swift; sourceTree = "<group>"; };
+		CCD9C1E829B1D57E00E5E8A8 /* ShakeInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShakeInfoCell.xib; sourceTree = "<group>"; };
+		CCD9C1E929B1D57E00E5E8A8 /* ShakeInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShakeInfoCell.swift; sourceTree = "<group>"; };
+		CCD9C1EA29B1D57E00E5E8A8 /* ShakeTopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShakeTopCell.swift; sourceTree = "<group>"; };
+		CCD9C1EB29B1D57E00E5E8A8 /* ShakeTopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShakeTopCell.xib; sourceTree = "<group>"; };
+		CCD9C1F229B1D59600E5E8A8 /* Against Time Sax Sample.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Against Time Sax Sample.caf"; sourceTree = "<group>"; };
+		CCD9C1F329B1D59600E5E8A8 /* Against Time Piano.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Against Time Piano.caf"; sourceTree = "<group>"; };
+		CCD9C1F429B1D59600E5E8A8 /* Against Time Staccato Strings.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Against Time Staccato Strings.caf"; sourceTree = "<group>"; };
+		CCD9C1F529B1D59600E5E8A8 /* Against Time Keys.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Against Time Keys.caf"; sourceTree = "<group>"; };
+		CCD9C1F629B1D59600E5E8A8 /* Altered State Beat 01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Altered State Beat 01.caf"; sourceTree = "<group>"; };
+		CCD9C1F729B1D59600E5E8A8 /* Amber Beat 01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Amber Beat 01.caf"; sourceTree = "<group>"; };
+		CCD9C1FE29B1D60A00E5E8A8 /* ExampleSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSegment.swift; sourceTree = "<group>"; };
 		CCDBC1E82993A0320032A1BD /* RootController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootController.swift; sourceTree = "<group>"; };
 		CCDBC1E92993A0320032A1BD /* RecordController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordController.xib; sourceTree = "<group>"; };
 		CCDBC1EA2993A0320032A1BD /* RecordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordController.swift; sourceTree = "<group>"; };
 		CCDBC1EB2993A0320032A1BD /* RootController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootController.xib; sourceTree = "<group>"; };
+		CCDE57A929B70C1700FF3610 /* Kyle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Kyle.mp3; sourceTree = "<group>"; };
+		CCDE57AB29B70C3000FF3610 /* CoolBass.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CoolBass.mp3; sourceTree = "<group>"; };
+		CCDE57AD29B70C5100FF3610 /* Prismatica.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Prismatica.mp3; sourceTree = "<group>"; };
+		CCDE57AF29B70C7300FF3610 /* Quincy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Quincy.mp3; sourceTree = "<group>"; };
+		CCDE57B129B70C9400FF3610 /* Rose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rose.mp3; sourceTree = "<group>"; };
+		CCDE57B329B7117A00FF3610 /* MusicPlayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayController.swift; sourceTree = "<group>"; };
+		CCDE57B429B7117A00FF3610 /* MusicPlayController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicPlayController.xib; sourceTree = "<group>"; };
+		CCDE57B729B7157D00FF3610 /* MusicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicModel.swift; sourceTree = "<group>"; };
+		CCDE57B929B71C1800FF3610 /* Guitar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Guitar.mp3; sourceTree = "<group>"; };
+		CCDE57BB29B72D4A00FF3610 /* Keyboard */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Keyboard; path = ../AudioKitSource/Keyboard; sourceTree = "<group>"; };
+		CCDE57BC29B72D8F00FF3610 /* AudioSampler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSampler.swift; sourceTree = "<group>"; };
+		CCDE57C029B744C300FF3610 /* 4tracks.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = 4tracks.mid; sourceTree = "<group>"; };
+		CCDE57C229B7488A00FF3610 /* Single.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Single.mid; sourceTree = "<group>"; };
+		CCDE57C429B7782000FF3610 /* QingHuaCi.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = QingHuaCi.mid; sourceTree = "<group>"; };
+		CCDE57CE29B78EF400FF3610 /* tool.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tool.mp3; sourceTree = "<group>"; };
 		CCE9586F29A5B315007D2B62 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		CCE9587129A5BFE7007D2B62 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		CCE9589429A5EA88007D2B62 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
@@ -226,7 +368,9 @@
 		CCE9589A29A5EB6D007D2B62 /* CommonSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonSetting.swift; sourceTree = "<group>"; };
 		CCE9589F29A5EFEB007D2B62 /* RecordMIDIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordMIDIController.swift; sourceTree = "<group>"; };
 		CCE958A029A5EFEB007D2B62 /* RecordMIDIController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordMIDIController.xib; sourceTree = "<group>"; };
-		CCE958A729A60853007D2B62 /* TrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackView.swift; sourceTree = "<group>"; };
+		CCE958AB29A61006007D2B62 /* TrackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackView.swift; sourceTree = "<group>"; };
+		CCE958AF29A62F4E007D2B62 /* Electric_Piano.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Electric_Piano.sf2; sourceTree = "<group>"; };
+		CCE958B029A62F4E007D2B62 /* Grand_Piano.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Grand_Piano.sf2; sourceTree = "<group>"; };
 		CCF9AF1C29939DDE00AA61F6 /* Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Music.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF9AF1F29939DDE00AA61F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCF9AF2129939DDE00AA61F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -241,9 +385,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC1E12A329A7087100CCE544 /* AudioKit in Frameworks */,
-				CC18601C29AC9E24005EDF3B /* Keyboard in Frameworks */,
-				CC1E12C429A75AA000CCE544 /* AudioKitUI in Frameworks */,
+				CC6B80A5299639C300371B0E /* AudioKit in Frameworks */,
+				CCA3A3F629B49329009CA5C9 /* AudioKitUI in Frameworks */,
+				CCA3A3F329B492FE009CA5C9 /* KissFFT in Frameworks */,
+				CCA3A3F929B49368009CA5C9 /* AudioKitEX in Frameworks */,
+				CCA3A3F129B492F0009CA5C9 /* SoundpipeAudioKit in Frameworks */,
+				CCDE57BF29B72DF400FF3610 /* Keyboard in Frameworks */,
 				05CADABDC1890DD2DB24C630 /* Pods_Music.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,49 +415,85 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CC185FE029A87E40005EDF3B /* 7s */ = {
+		CC63576829B8AF0400EA3747 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
-				CC185FEB29A88042005EDF3B /* Amber Beat 01.caf */,
-				CC185FE929A87E95005EDF3B /* Against Time Sax Sample.caf */,
-				CC185FE729A87E87005EDF3B /* Against Time Staccato Strings.caf */,
-				CC185FE529A87E65005EDF3B /* Against Time Keys.caf */,
-				CC185FE329A87E55005EDF3B /* Against Time Piano.caf */,
-				CC185FE129A87E4C005EDF3B /* Altered State Beat 01.caf */,
+				CC63576929B8AF0400EA3747 /* sand-1.wav */,
+				CC63576A29B8AF0400EA3747 /* sand-2.wav */,
+				CC63576B29B8AF0400EA3747 /* sand-3.wav */,
+				CC63576C29B8AF0400EA3747 /* sand-7.wav */,
+				CC63576D29B8AF0400EA3747 /* sand-6.wav */,
+				CC63576E29B8AF0400EA3747 /* sand-4.wav */,
+				CC63576F29B8AF0400EA3747 /* sand-5.wav */,
+				CC63577129B8AF0400EA3747 /* stage-3.wav */,
+				CC63577229B8AF0400EA3747 /* stage-2.wav */,
+				CC63577329B8AF0400EA3747 /* stage-1.wav */,
+				CC63577429B8AF0400EA3747 /* stage-5.wav */,
+				CC63577529B8AF0400EA3747 /* stage-4.wav */,
+				CC63577629B8AF0400EA3747 /* stage-6.wav */,
+				CC63577729B8AF0400EA3747 /* stage-7.wav */,
+				CC63577829B8AF0400EA3747 /* stage-8.wav */,
+				CC63577929B8AF0400EA3747 /* sand-8.wav */,
 			);
-			path = 7s;
+			path = Sample;
 			sourceTree = "<group>";
 		};
-		CC185FF029AC89E5005EDF3B /* Sequencer */ = {
+		CC63578B29B8B6F500EA3747 /* shaker */ = {
 			isa = PBXGroup;
 			children = (
-				CC185FF129AC8A09005EDF3B /* SequencerPlayController.swift */,
-				CC185FF229AC8A09005EDF3B /* SequencerPlayController.xib */,
+				CC63578C29B8B6F500EA3747 /* m1.mp3 */,
+				CC63578D29B8B6F500EA3747 /* m2.mp3 */,
+				CC63579029B8B7F500EA3747 /* m3.mp3 */,
+				CC63579229B8BB9300EA3747 /* m4.mp3 */,
+				CC63579429B8BCB200EA3747 /* m5.mp3 */,
+				CC63579529B8BCB200EA3747 /* m6.mp3 */,
+				CC63579629B8BCB200EA3747 /* m7.mp3 */,
 			);
-			path = Sequencer;
+			path = shaker;
 			sourceTree = "<group>";
 		};
-		CC185FF729AC9068005EDF3B /* Samples */ = {
+		CC6357BF29B8D60D00EA3747 /* 新建 */ = {
 			isa = PBXGroup;
 			children = (
-				CC185FF829AC9068005EDF3B /* Guitar.mp3 */,
-				CC185FF929AC9068005EDF3B /* clap_D#1.wav */,
-				CC185FFA29AC9068005EDF3B /* Bass Synth.mp3 */,
-				CC185FFB29AC9068005EDF3B /* hi_tom_D2.wav */,
-				CC185FFC29AC9068005EDF3B /* Strings.mp3 */,
-				CC185FFD29AC9068005EDF3B /* alphabet.mp3 */,
-				CC185FFE29AC9068005EDF3B /* mid_tom_B1.wav */,
-				CC185FFF29AC9068005EDF3B /* beat.aiff */,
-				CC18600029AC9068005EDF3B /* Synth.mp3 */,
-				CC18600129AC9068005EDF3B /* closed_hi_hat_F#1.wav */,
-				CC18600229AC9068005EDF3B /* bass_drum_C1.wav */,
-				CC18600329AC9068005EDF3B /* lo_tom_F1.wav */,
-				CC18600429AC9068005EDF3B /* Piano.mp3 */,
-				CC18600529AC9068005EDF3B /* open_hi_hat_A#1.wav */,
-				CC18600629AC9068005EDF3B /* Counting.mp3 */,
-				CC18600729AC9068005EDF3B /* snare_D1.wav */,
+				CC6357E129B8D60D00EA3747 /* Bass01.mp3 */,
+				CC6357DB29B8D60D00EA3747 /* Bass02.mp3 */,
+				CC6357DD29B8D60D00EA3747 /* Bass03.mp3 */,
+				CC6357D629B8D60D00EA3747 /* Bass04.mp3 */,
+				CC6357D729B8D60D00EA3747 /* Bell01.mp3 */,
+				CC63580829B8DBFC00EA3747 /* Bell02.mp3 */,
+				CC6357C129B8D60D00EA3747 /* e_piano_1_01.mp3 */,
+				CC6357C329B8D60D00EA3747 /* e_piano_1_02.mp3 */,
+				CC6357C429B8D60D00EA3747 /* e_piano_1_03.mp3 */,
+				CC6357DC29B8D60D00EA3747 /* egt1_01.mp3 */,
+				CC6357DE29B8D60D00EA3747 /* egt3_11.mp3 */,
+				CC6357E229B8D60D00EA3747 /* egt3_12.mp3 */,
+				CC6357E029B8D60D00EA3747 /* egt3_13.mp3 */,
+				CC6357C529B8D60D00EA3747 /* egt3_21.mp3 */,
+				CC6357C229B8D60D00EA3747 /* egt3_22.mp3 */,
+				CC6357C029B8D60D00EA3747 /* egt3_23.mp3 */,
+				CC6357D929B8D60D00EA3747 /* meta2_1.mp3 */,
+				CC6357D829B8D60D00EA3747 /* meta2_2.mp3 */,
+				CC6357D529B8D60D00EA3747 /* meta2_3.mp3 */,
+				CC6357DA29B8D60D00EA3747 /* meta2_11.mp3 */,
+				CC6357DF29B8D60D00EA3747 /* meta2_12.mp3 */,
+				CC6357E329B8D60D00EA3747 /* meta2_13.mp3 */,
+				CC6357D129B8D60D00EA3747 /* piano_11.mp3 */,
+				CC6357CD29B8D60D00EA3747 /* piano_12.mp3 */,
+				CC6357CE29B8D60D00EA3747 /* piano_13.mp3 */,
+				CC6357C629B8D60D00EA3747 /* piano_14.mp3 */,
+				CC6357C829B8D60D00EA3747 /* piano_15.mp3 */,
+				CC6357CC29B8D60D00EA3747 /* piano_16.mp3 */,
+				CC6357C929B8D60D00EA3747 /* piano_17.mp3 */,
+				CC6357D329B8D60D00EA3747 /* piano_18.mp3 */,
+				CC6357D429B8D60D00EA3747 /* piano_19.mp3 */,
+				CC6357D229B8D60D00EA3747 /* piano_20.mp3 */,
+				CC6357D029B8D60D00EA3747 /* violin_1.mp3 */,
+				CC6357CF29B8D60D00EA3747 /* violin_3.mp3 */,
+				CC6357C729B8D60D00EA3747 /* violin_21.mp3 */,
+				CC6357CB29B8D60D00EA3747 /* violin_22.mp3 */,
+				CC6357CA29B8D60D00EA3747 /* violin_23.mp3 */,
 			);
-			path = Samples;
+			path = "新建";
 			sourceTree = "<group>";
 		};
 		CC661C66299CC3BA00786AEB /* Root */ = {
@@ -331,138 +514,170 @@
 				CCDBC1E92993A0320032A1BD /* RecordController.xib */,
 				CCE9589F29A5EFEB007D2B62 /* RecordMIDIController.swift */,
 				CCE958A029A5EFEB007D2B62 /* RecordMIDIController.xib */,
+				CC74416829B9BA9E009FB5B8 /* AudioKitRecordController.swift */,
+				CC74416929B9BA9E009FB5B8 /* AudioKitRecordController.xib */,
 			);
 			path = Record;
-			sourceTree = "<group>";
-		};
-		CC661C68299CC3DF00786AEB /* MIDI */ = {
-			isa = PBXGroup;
-			children = (
-				CC661C96299F65B600786AEB /* Model */,
-				CC6B809E299615D400371B0E /* MIDIPlayController.swift */,
-				CC6B809F299615D400371B0E /* MIDIPlayController.xib */,
-				CCC9F43C29A4C063006CC4F0 /* AMIDIPlayController.swift */,
-				CCC9F43D29A4C063006CC4F0 /* AMIDIPlayController.xib */,
-				CC1E12BF29A755EA00CCE544 /* AudioPlayMidiController.swift */,
-				CC1E12C029A755EA00CCE544 /* AudioPlayMidiController.xib */,
-			);
-			path = MIDI;
-			sourceTree = "<group>";
-		};
-		CC661C69299CC3ED00786AEB /* Music */ = {
-			isa = PBXGroup;
-			children = (
-				CC661C7F299DDC6200786AEB /* Model */,
-				CC661C76299CD1E100786AEB /* Cell */,
-				CCDBC1E62993A0320032A1BD /* MusicController.swift */,
-				CCDBC1E72993A0320032A1BD /* MusicController.xib */,
-				CC5B1AF82995F192005E8027 /* MusicResultController.swift */,
-				CC5B1AF92995F192005E8027 /* MusicResultController.xib */,
-				CC661C6E299CCACB00786AEB /* ShakeDemoController.swift */,
-				CC661C6F299CCACB00786AEB /* ShakeDemoController.xib */,
-			);
-			path = Music;
-			sourceTree = "<group>";
-		};
-		CC661C76299CD1E100786AEB /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				CC661C77299CD1E100786AEB /* ShakeTopCell.swift */,
-				CC661C78299CD1E100786AEB /* ShakeTopCell.xib */,
-				CC661C7B299DD75E00786AEB /* ShakeInfoCell.swift */,
-				CC661C7C299DD75E00786AEB /* ShakeInfoCell.xib */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		CC661C7F299DDC6200786AEB /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				CC661C80299DDCB300786AEB /* ShakeModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CC661C82299E1E1900786AEB /* AudioFile */ = {
-			isa = PBXGroup;
-			children = (
-				CC185FE029A87E40005EDF3B /* 7s */,
-				CC1E12BC29A74C9100CCE544 /* zhou.mid */,
-				CC1E12AF29A73C2400CCE544 /* Beat.caf */,
-				CC1E12B829A7462F00CCE544 /* Aftershock Synth Lead.caf */,
-				CC185FDE29A87D6F005EDF3B /* Call and Response Guitar.caf */,
-				CC1E12BA29A7483000CCE544 /* Amalgamate Chord Layers.caf */,
-				CC1E12B129A73C2400CCE544 /* Bass.caf */,
-				CC1E12B029A73C2400CCE544 /* Guitar.caf */,
-				CC1E12B629A73C6400CCE544 /* Piano.caf */,
-				CC1E12AC29A7132700CCE544 /* Test-1.mid */,
-				CCC9F42D29A317BD006CC4F0 /* ntbldmtn.mid */,
-				CCC9F42C29A317BD006CC4F0 /* sibeliusGMajor.mid */,
-				CC185FF529AC8FD4005EDF3B /* 4tracks.mid */,
-				CCC9F43A29A4B952006CC4F0 /* Demo.mid */,
-			);
-			path = AudioFile;
 			sourceTree = "<group>";
 		};
 		CC661C95299F4CC200786AEB /* SFFile */ = {
 			isa = PBXGroup;
 			children = (
 				CCC9F44529A4D3C3006CC4F0 /* GeneralUser GS MuseScore v1.442.sf2 */,
-				CC1E12AA29A7101A00CCE544 /* Florestan_Basic.sf2 */,
-				CC1E12A629A7090B00CCE544 /* Electric_Piano.sf2 */,
-				CC1E12A729A7090B00CCE544 /* Grand_Piano.sf2 */,
-				CC6B80A629963DFD00371B0E /* drumSimp.exs */,
+				CCE958AF29A62F4E007D2B62 /* Electric_Piano.sf2 */,
+				CCE958B029A62F4E007D2B62 /* Grand_Piano.sf2 */,
 				CCC9F41E29A31219006CC4F0 /* Bassoon.sf2 */,
-				CCC9F41C29A31210006CC4F0 /* Accordion.sf2 */,
+				CCC66C8A29B85B6300343997 /* BangDi.sf2 */,
+				CCC66C8C29B85DA700343997 /* Flute.sf2 */,
 				CCC9F42029A31225006CC4F0 /* Clarinet.sf2 */,
+				CCC66C8629B85A9700343997 /* Guzheng.sf2 */,
+				CCC66C8729B85A9700343997 /* Pipa.sf2 */,
 				CCC9F42229A31235006CC4F0 /* Guitar Harmonics.sf2 */,
+				CCC66C8429B859EF00343997 /* Tenor_Sax.sf2 */,
 				CCC9F42429A31243006CC4F0 /* MT-32 Drum Kit.sf2 */,
 				CCC9F42A29A31280006CC4F0 /* Shannai.sf2 */,
-				CCC9F42829A31261006CC4F0 /* Violin.sf2 */,
 				CCC9F42629A31251006CC4F0 /* Rock Piano.sf2 */,
-				CC6B80A8299643D300371B0E /* Cyberpunk.sf2 */,
 			);
 			path = SFFile;
 			sourceTree = "<group>";
 		};
-		CC661C96299F65B600786AEB /* Model */ = {
+		CC6B2D5929B0744F00E37E23 /* midiFile */ = {
 			isa = PBXGroup;
 			children = (
-				CC661C97299F65C800786AEB /* MIDIPlayManager.swift */,
+				CCDE57C429B7782000FF3610 /* QingHuaCi.mid */,
+				CCDE57C029B744C300FF3610 /* 4tracks.mid */,
+				CCDE57C229B7488A00FF3610 /* Single.mid */,
+				CCAF6A7129B61AD400755FDF /* basic_pitch.mid */,
+				CC06DFCC29AF303D0051D7C8 /* export_clear.mid */,
+				CC185FEE29AC786A005EDF3B /* ntbldmtn.mid */,
+				CC6B2D5C29B0749400E37E23 /* sibeliusGMajor.mid */,
+				CC6B2D5A29B0748B00E37E23 /* Demo.mid */,
+				CCA0E2C729ADD4D800FA5AF9 /* export.mid */,
+			);
+			path = midiFile;
+			sourceTree = "<group>";
+		};
+		CCA0E2C429ADD33100FA5AF9 /* MIDI */ = {
+			isa = PBXGroup;
+			children = (
+				CCA3A3BF29B485B0009CA5C9 /* Cell */,
+				CCA0E2C529ADD37B00FA5AF9 /* DealMIDIFileController.swift */,
+				CC6B2D5529B0456000E37E23 /* MIDIShowController.swift */,
+				CC6B2D5629B0456000E37E23 /* MIDIShowController.xib */,
+				CCA3A3AC29B478F7009CA5C9 /* MIDIPlayController.swift */,
+				CCA3A3AD29B478F7009CA5C9 /* MIDIPlayController.xib */,
+			);
+			path = MIDI;
+			sourceTree = "<group>";
+		};
+		CCA3A3BF29B485B0009CA5C9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CCA3A3C029B485CD009CA5C9 /* MIDIPlayCell.swift */,
+				CCA3A3C129B485CD009CA5C9 /* MIDIPlayCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CCA8A6EF29A767310086D1D2 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				CCA8A6F029A767310086D1D2 /* Standard.sf2 */,
+				CCA8A6F129A767310086D1D2 /* Organ.sf2 */,
+				CCA8A6F229A767310086D1D2 /* Whistle.sf2 */,
+				CCA8A6F329A767310086D1D2 /* Piano.sf2 */,
+				CCA8A6F429A767310086D1D2 /* Acoustic Bass.sf2 */,
+				CCA8A6F529A767310086D1D2 /* Brass.sf2 */,
+				CCA8A6F629A767310086D1D2 /* Violin.sf2 */,
+				CCA8A6F729A767310086D1D2 /* Accordion.sf2 */,
+				CCA8A6F829A767310086D1D2 /* Ocarina.sf2 */,
+				CCA8A6F929A767310086D1D2 /* Celesta.sf2 */,
+				CCA8A6FA29A767310086D1D2 /* Music Box.sf2 */,
+				CCA8A6FB29A767310086D1D2 /* Tubular Bells.sf2 */,
+				CCA8A6FC29A767310086D1D2 /* Nylon Guitar.sf2 */,
+				CCA8A6FD29A767310086D1D2 /* Choir Aahs.sf2 */,
+				CCA8A6FE29A767310086D1D2 /* Harp.sf2 */,
+				CCA8A6FF29A767310086D1D2 /* Tremolo Strings.sf2 */,
+				CCA8A70029A767310086D1D2 /* Clavinet.sf2 */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
+		CCD9C1E029B1D54A00E5E8A8 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				CC6357BF29B8D60D00EA3747 /* 新建 */,
+				CC63578B29B8B6F500EA3747 /* shaker */,
+				CCDE579E29B6E67700FF3610 /* kuyuedui */,
+				CCD9C1F129B1D59600E5E8A8 /* 7s */,
+				CCD9C1E729B1D57E00E5E8A8 /* Cell */,
+				CCD9C1E529B1D57E00E5E8A8 /* Model */,
+				CC63576829B8AF0400EA3747 /* Sample */,
+				CCD9C1E129B1D56800E5E8A8 /* ShakeDemoController.swift */,
+				CCD9C1E229B1D56800E5E8A8 /* ShakeDemoController.xib */,
+				CCDE57B329B7117A00FF3610 /* MusicPlayController.swift */,
+				CCDE57B429B7117A00FF3610 /* MusicPlayController.xib */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		CCD9C1E529B1D57E00E5E8A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CCD9C1E629B1D57E00E5E8A8 /* ShakeModel.swift */,
+				CCD9C1FE29B1D60A00E5E8A8 /* ExampleSegment.swift */,
+				CCDE57B729B7157D00FF3610 /* MusicModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		CCDBC1D42993A0320032A1BD /* Sample */ = {
+		CCD9C1E729B1D57E00E5E8A8 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				CC6B80A2299638B900371B0E /* sand-1.mid */,
-				CCDBC1D52993A0320032A1BD /* sand-1.wav */,
-				CCDBC1D62993A0320032A1BD /* sand-2.wav */,
-				CCDBC1D72993A0320032A1BD /* sand-3.wav */,
-				CCDBC1D82993A0320032A1BD /* sand-7.wav */,
-				CCDBC1D92993A0320032A1BD /* sand-6.wav */,
-				CCDBC1DA2993A0320032A1BD /* sand-4.wav */,
-				CCDBC1DB2993A0320032A1BD /* sand-5.wav */,
-				CCDBC1DC2993A0320032A1BD /* stage-3.wav */,
-				CCDBC1DD2993A0320032A1BD /* stage-2.wav */,
-				CCDBC1DE2993A0320032A1BD /* stage-1.wav */,
-				CCDBC1DF2993A0320032A1BD /* stage-5.wav */,
-				CCDBC1E02993A0320032A1BD /* stage-4.wav */,
-				CCDBC1E12993A0320032A1BD /* stage-6.wav */,
-				CCDBC1E22993A0320032A1BD /* stage-7.wav */,
-				CCDBC1E32993A0320032A1BD /* stage-8.wav */,
-				CCDBC1E42993A0320032A1BD /* sand-8.wav */,
+				CCD9C1E929B1D57E00E5E8A8 /* ShakeInfoCell.swift */,
+				CCD9C1E829B1D57E00E5E8A8 /* ShakeInfoCell.xib */,
+				CCD9C1EA29B1D57E00E5E8A8 /* ShakeTopCell.swift */,
+				CCD9C1EB29B1D57E00E5E8A8 /* ShakeTopCell.xib */,
 			);
-			path = Sample;
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CCD9C1F129B1D59600E5E8A8 /* 7s */ = {
+			isa = PBXGroup;
+			children = (
+				CCC66CA229B8744C00343997 /* 青花瓷-段落2-钢琴.mp3 */,
+				CCC66CA329B8744C00343997 /* 青花瓷-段落2-吉他.mp3 */,
+				CCC66CA629B8744C00343997 /* 青花瓷-段落2-马林巴琴.mp3 */,
+				CCC66CA429B8744C00343997 /* 青花瓷-段落2-小提琴.mp3 */,
+				CCC66CA529B8744C00343997 /* 青花瓷-段落2-长笛.mp3 */,
+				CCC66C9A29B86C9000343997 /* 青花瓷-段落1-吉他.mp3 */,
+				CCC66C9B29B86C9000343997 /* 青花瓷-段落1-马林巴琴.mp3 */,
+				CCC66C9829B86C9000343997 /* 青花瓷-段落1-女声.mp3 */,
+				CCC66C9929B86C9000343997 /* 青花瓷-段落1-小提琴.mp3 */,
+				CCC66C9C29B86C9100343997 /* 青花瓷-段落1-长笛.mp3 */,
+				CCC66C9629B86AA600343997 /* QingHuaCi1.mp3 */,
+				CC59AF1429B63BFA0082E5DB /* Quincy - Coast To Coast.caf */,
+				CC59AF1229B63BF20082E5DB /* Prismatica Beat 03.caf */,
+				CCAF6A6F29B60DF000755FDF /* Kyle - Chorus.caf */,
+				CCAF6A7329B6206200755FDF /* Electric Piano.caf */,
+				CCAF6A6D29B60A8600755FDF /* Beat.caf */,
+				CCAF6A6929B609DF00755FDF /* Bell Bottom Bass.caf */,
+				CCAF6A6A29B609DF00755FDF /* Bell Bottom Guitar.caf */,
+				CCD9C1F229B1D59600E5E8A8 /* Against Time Sax Sample.caf */,
+				CCD9C1F329B1D59600E5E8A8 /* Against Time Piano.caf */,
+				CCD9C1F429B1D59600E5E8A8 /* Against Time Staccato Strings.caf */,
+				CCD9C1F529B1D59600E5E8A8 /* Against Time Keys.caf */,
+				CCD9C1F629B1D59600E5E8A8 /* Altered State Beat 01.caf */,
+				CCD9C1F729B1D59600E5E8A8 /* Amber Beat 01.caf */,
+			);
+			path = 7s;
 			sourceTree = "<group>";
 		};
 		CCDBC1E52993A0320032A1BD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CC185FF029AC89E5005EDF3B /* Sequencer */,
-				CC661C69299CC3ED00786AEB /* Music */,
-				CC661C68299CC3DF00786AEB /* MIDI */,
+				CCD9C1E029B1D54A00E5E8A8 /* Music */,
+				CCA0E2C429ADD33100FA5AF9 /* MIDI */,
 				CC661C67299CC3CD00786AEB /* Record */,
 				CC661C66299CC3BA00786AEB /* Root */,
 			);
@@ -472,11 +687,31 @@
 		CCDBC2022993A1430032A1BD /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				CC32ED102996156D00FA50FD /* AudioKit */,
-				CC1E12A129A706ED00CCE544 /* AudioKit */,
-				CC1E12BE29A7521300CCE544 /* AudioKitUI */,
+				CC1E12C829A760E500CCE544 /* AudioKit */,
+				CCA3A3ED29B4924E009CA5C9 /* SoundpipeAudioKit */,
+				CCA3A3EF29B492D6009CA5C9 /* KissFFT */,
+				CCA3A3F429B4931F009CA5C9 /* AudioKitUI */,
+				CCA3A3F729B4935F009CA5C9 /* AudioKitEX */,
+				CCDE57BB29B72D4A00FF3610 /* Keyboard */,
 			);
 			name = Packages;
+			sourceTree = "<group>";
+		};
+		CCDE579E29B6E67700FF3610 /* kuyuedui */ = {
+			isa = PBXGroup;
+			children = (
+				CCDE57CE29B78EF400FF3610 /* tool.mp3 */,
+				CCDE57B929B71C1800FF3610 /* Guitar.mp3 */,
+				CC63576629B8A68C00EA3747 /* BeatDrum.mp3 */,
+				CCDE57B129B70C9400FF3610 /* Rose.mp3 */,
+				CC63576429B89FF500EA3747 /* 你不知道03.mp3 */,
+				CCDE57AD29B70C5100FF3610 /* Prismatica.mp3 */,
+				CCDE57AB29B70C3000FF3610 /* CoolBass.mp3 */,
+				CCDE57A929B70C1700FF3610 /* Kyle.mp3 */,
+				CC63576229B894C400EA3747 /* beat.aiff */,
+				CCDE57AF29B70C7300FF3610 /* Quincy.mp3 */,
+			);
+			path = kuyuedui;
 			sourceTree = "<group>";
 		};
 		CCE9586E29A5B2FD007D2B62 /* Network */ = {
@@ -500,11 +735,11 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		CCE958A629A6083C007D2B62 /* SwiftUI */ = {
+		CCE958AA29A61006007D2B62 /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				CCE958A729A60853007D2B62 /* TrackView.swift */,
-				CC18601829AC9E06005EDF3B /* SequcenView.swift */,
+				CCE958AB29A61006007D2B62 /* TrackView.swift */,
+				CCDE57BC29B72D8F00FF3610 /* AudioSampler.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -512,6 +747,7 @@
 		CCF9AF1329939DDE00AA61F6 = {
 			isa = PBXGroup;
 			children = (
+				CCA3A3EB29B4912A009CA5C9 /* Sounds */,
 				CCDBC2022993A1430032A1BD /* Packages */,
 				CCF9AF1E29939DDE00AA61F6 /* Music */,
 				CCF9AF1D29939DDE00AA61F6 /* Products */,
@@ -531,19 +767,18 @@
 		CCF9AF1E29939DDE00AA61F6 /* Music */ = {
 			isa = PBXGroup;
 			children = (
-				CC185FF729AC9068005EDF3B /* Samples */,
-				CCE958A629A6083C007D2B62 /* SwiftUI */,
-				CCE9589329A5EA71007D2B62 /* View */,
-				CCE9586E29A5B2FD007D2B62 /* Network */,
-				CC661C95299F4CC200786AEB /* SFFile */,
-				CC661C82299E1E1900786AEB /* AudioFile */,
+				CC6B2D5929B0744F00E37E23 /* midiFile */,
+				CCA8A6EF29A767310086D1D2 /* sound */,
+				CCF9AF2D29939DDE00AA61F6 /* Info.plist */,
 				CCF9AF1F29939DDE00AA61F6 /* AppDelegate.swift */,
 				CCF9AF2129939DDE00AA61F6 /* SceneDelegate.swift */,
 				CCF9AF2829939DDE00AA61F6 /* Assets.xcassets */,
 				CCDBC1E52993A0320032A1BD /* Controller */,
-				CCDBC1D42993A0320032A1BD /* Sample */,
 				CCF9AF2A29939DDE00AA61F6 /* LaunchScreen.storyboard */,
-				CCF9AF2D29939DDE00AA61F6 /* Info.plist */,
+				CCE9586E29A5B2FD007D2B62 /* Network */,
+				CC661C95299F4CC200786AEB /* SFFile */,
+				CCE958AA29A61006007D2B62 /* SwiftUI */,
+				CCE9589329A5EA71007D2B62 /* View */,
 			);
 			path = Music;
 			sourceTree = "<group>";
@@ -567,9 +802,12 @@
 			);
 			name = Music;
 			packageProductDependencies = (
-				CC1E12A229A7087100CCE544 /* AudioKit */,
-				CC1E12C329A75AA000CCE544 /* AudioKitUI */,
-				CC18601B29AC9E24005EDF3B /* Keyboard */,
+				CC6B80A4299639C300371B0E /* AudioKit */,
+				CCA3A3F029B492F0009CA5C9 /* SoundpipeAudioKit */,
+				CCA3A3F229B492FE009CA5C9 /* KissFFT */,
+				CCA3A3F529B49329009CA5C9 /* AudioKitUI */,
+				CCA3A3F829B49368009CA5C9 /* AudioKitEX */,
+				CCDE57BE29B72DF400FF3610 /* Keyboard */,
 			);
 			productName = Music;
 			productReference = CCF9AF1C29939DDE00AA61F6 /* Music.app */;
@@ -601,7 +839,6 @@
 			);
 			mainGroup = CCF9AF1329939DDE00AA61F6;
 			packageReferences = (
-				CC18601A29AC9E24005EDF3B /* XCRemoteSwiftPackageReference "Keyboard" */,
 			);
 			productRefGroup = CCF9AF1D29939DDE00AA61F6 /* Products */;
 			projectDirPath = "";
@@ -617,87 +854,155 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCDBC1F62993A0320032A1BD /* stage-5.wav in Resources */,
-				CC661C71299CCACB00786AEB /* ShakeDemoController.xib in Resources */,
-				CC18600D29AC9068005EDF3B /* alphabet.mp3 in Resources */,
-				CC185FE229A87E4C005EDF3B /* Altered State Beat 01.caf in Resources */,
-				CC185FEA29A87E95005EDF3B /* Against Time Sax Sample.caf in Resources */,
-				CC18601529AC9068005EDF3B /* open_hi_hat_A#1.wav in Resources */,
-				CC18600E29AC9068005EDF3B /* mid_tom_B1.wav in Resources */,
-				CC661C7A299CD1E100786AEB /* ShakeTopCell.xib in Resources */,
-				CCC9F43B29A4B952006CC4F0 /* Demo.mid in Resources */,
-				CCC9F41D29A31210006CC4F0 /* Accordion.sf2 in Resources */,
-				CC1E12A929A7090B00CCE544 /* Grand_Piano.sf2 in Resources */,
-				CC18601129AC9068005EDF3B /* closed_hi_hat_F#1.wav in Resources */,
-				CCDBC1F02993A0320032A1BD /* sand-6.wav in Resources */,
+				CC185FEF29AC786A005EDF3B /* ntbldmtn.mid in Resources */,
+				CC63580129B8D60D00EA3747 /* Bass03.mp3 in Resources */,
+				CCA8A70A29A767310086D1D2 /* Celesta.sf2 in Resources */,
+				CC63580029B8D60D00EA3747 /* egt1_01.mp3 in Resources */,
+				CC63576529B89FF500EA3747 /* 你不知道03.mp3 in Resources */,
+				CC63580229B8D60D00EA3747 /* egt3_11.mp3 in Resources */,
+				CCA8A70329A767310086D1D2 /* Whistle.sf2 in Resources */,
+				CC63578629B8AF0400EA3747 /* stage-4.wav in Resources */,
+				CCA8A70B29A767310086D1D2 /* Music Box.sf2 in Resources */,
+				CCDE57B029B70C7300FF3610 /* Quincy.mp3 in Resources */,
+				CCA3A3AF29B478F7009CA5C9 /* MIDIPlayController.xib in Resources */,
+				CCDE57AA29B70C1700FF3610 /* Kyle.mp3 in Resources */,
+				CC6357FD29B8D60D00EA3747 /* meta2_1.mp3 in Resources */,
 				CCE958A229A5EFEB007D2B62 /* RecordMIDIController.xib in Resources */,
-				CCDBC1F52993A0320032A1BD /* stage-1.wav in Resources */,
-				CC1E12B529A73C2400CCE544 /* Bass.caf in Resources */,
+				CC63578029B8AF0400EA3747 /* sand-5.wav in Resources */,
+				CC63577B29B8AF0400EA3747 /* sand-2.wav in Resources */,
+				CCC66CA929B8744C00343997 /* 青花瓷-段落2-小提琴.mp3 in Resources */,
+				CCA8A70D29A767310086D1D2 /* Nylon Guitar.sf2 in Resources */,
+				CCD9C1ED29B1D57E00E5E8A8 /* ShakeInfoCell.xib in Resources */,
+				CC6357F029B8D60D00EA3747 /* piano_16.mp3 in Resources */,
+				CCA8A70E29A767310086D1D2 /* Choir Aahs.sf2 in Resources */,
+				CC6357E429B8D60D00EA3747 /* egt3_23.mp3 in Resources */,
+				CC6357EB29B8D60D00EA3747 /* violin_21.mp3 in Resources */,
+				CC63578729B8AF0400EA3747 /* stage-6.wav in Resources */,
+				CC6357E529B8D60D00EA3747 /* e_piano_1_01.mp3 in Resources */,
+				CCAF6A6B29B609DF00755FDF /* Bell Bottom Bass.caf in Resources */,
+				CC6357FB29B8D60D00EA3747 /* Bell01.mp3 in Resources */,
+				CCDE57C329B7488A00FF3610 /* Single.mid in Resources */,
+				CC6357EC29B8D60D00EA3747 /* piano_15.mp3 in Resources */,
+				CCC66CAB29B8744C00343997 /* 青花瓷-段落2-马林巴琴.mp3 in Resources */,
+				CC6357F929B8D60D00EA3747 /* meta2_3.mp3 in Resources */,
+				CCDE57B629B7117A00FF3610 /* MusicPlayController.xib in Resources */,
+				CCD9C1F929B1D59600E5E8A8 /* Against Time Piano.caf in Resources */,
+				CC6B2D5B29B0748B00E37E23 /* Demo.mid in Resources */,
+				CC63577D29B8AF0400EA3747 /* sand-7.wav in Resources */,
 				CCC9F44629A4D3C3006CC4F0 /* GeneralUser GS MuseScore v1.442.sf2 in Resources */,
-				CC6B80A729963DFD00371B0E /* drumSimp.exs in Resources */,
-				CC185FEC29A88042005EDF3B /* Amber Beat 01.caf in Resources */,
+				CC6B2D5D29B0749400E37E23 /* sibeliusGMajor.mid in Resources */,
+				CCC66C9F29B86C9100343997 /* 青花瓷-段落1-吉他.mp3 in Resources */,
+				CCA8A71029A767310086D1D2 /* Tremolo Strings.sf2 in Resources */,
+				CCE958B229A62F4E007D2B62 /* Grand_Piano.sf2 in Resources */,
+				CCC66CA729B8744C00343997 /* 青花瓷-段落2-钢琴.mp3 in Resources */,
+				CC63580929B8DBFC00EA3747 /* Bell02.mp3 in Resources */,
 				CC661C6D299CC4C100786AEB /* RootCell.xib in Resources */,
-				CCDBC2062993A90F0032A1BD /* MusicController.xib in Resources */,
-				CC1E12BD29A74C9100CCE544 /* zhou.mid in Resources */,
-				CCDBC1FB2993A0320032A1BD /* sand-8.wav in Resources */,
-				CC18600929AC9068005EDF3B /* clap_D#1.wav in Resources */,
-				CC1E12B929A7462F00CCE544 /* Aftershock Synth Lead.caf in Resources */,
+				CCAF6A7429B6206200755FDF /* Electric Piano.caf in Resources */,
+				CC63578429B8AF0400EA3747 /* stage-1.wav in Resources */,
+				CC6357ED29B8D60D00EA3747 /* piano_17.mp3 in Resources */,
+				CCA8A70C29A767310086D1D2 /* Tubular Bells.sf2 in Resources */,
+				CCA8A70129A767310086D1D2 /* Standard.sf2 in Resources */,
+				CC63580529B8D60D00EA3747 /* Bass01.mp3 in Resources */,
 				CCDBC1FF2993A0320032A1BD /* RecordController.xib in Resources */,
-				CCDBC1F32993A0320032A1BD /* stage-3.wav in Resources */,
-				CC1E12B729A73C6400CCE544 /* Piano.caf in Resources */,
 				CCF9AF2C29939DDE00AA61F6 /* LaunchScreen.storyboard in Resources */,
-				CC661C7E299DD75E00786AEB /* ShakeInfoCell.xib in Resources */,
-				CC1E12BB29A7483000CCE544 /* Amalgamate Chord Layers.caf in Resources */,
-				CC1E12A829A7090B00CCE544 /* Electric_Piano.sf2 in Resources */,
-				CCDBC1EC2993A0320032A1BD /* sand-1.wav in Resources */,
+				CC6357EA29B8D60D00EA3747 /* piano_14.mp3 in Resources */,
+				CCDE57C129B744C300FF3610 /* 4tracks.mid in Resources */,
+				CC63580629B8D60D00EA3747 /* egt3_12.mp3 in Resources */,
+				CCC66CA829B8744C00343997 /* 青花瓷-段落2-吉他.mp3 in Resources */,
+				CC6357F229B8D60D00EA3747 /* piano_13.mp3 in Resources */,
+				CCC66C8B29B85B6300343997 /* BangDi.sf2 in Resources */,
+				CC63578E29B8B6F500EA3747 /* m1.mp3 in Resources */,
+				CCC66C8929B85A9700343997 /* Pipa.sf2 in Resources */,
+				CCA8A70429A767310086D1D2 /* Piano.sf2 in Resources */,
+				CCC66C8D29B85DA700343997 /* Flute.sf2 in Resources */,
+				CCC66C8829B85A9700343997 /* Guzheng.sf2 in Resources */,
+				CCD9C1FB29B1D59600E5E8A8 /* Against Time Keys.caf in Resources */,
+				CCD9C1FA29B1D59600E5E8A8 /* Against Time Staccato Strings.caf in Resources */,
+				CCE958B129A62F4E007D2B62 /* Electric_Piano.sf2 in Resources */,
+				CCAF6A7029B60DF000755FDF /* Kyle - Chorus.caf in Resources */,
+				CC63577E29B8AF0400EA3747 /* sand-6.wav in Resources */,
+				CC6357F129B8D60D00EA3747 /* piano_12.mp3 in Resources */,
+				CC63577F29B8AF0400EA3747 /* sand-4.wav in Resources */,
 				CCF9AF2929939DDE00AA61F6 /* Assets.xcassets in Resources */,
-				CC18600B29AC9068005EDF3B /* hi_tom_D2.wav in Resources */,
-				CC18601729AC9068005EDF3B /* snare_D1.wav in Resources */,
-				CCDBC1ED2993A0320032A1BD /* sand-2.wav in Resources */,
-				CC1E12C229A755EA00CCE544 /* AudioPlayMidiController.xib in Resources */,
-				CC185FF629AC8FD4005EDF3B /* 4tracks.mid in Resources */,
+				CC6357F529B8D60D00EA3747 /* piano_11.mp3 in Resources */,
+				CCA8A71129A767310086D1D2 /* Clavinet.sf2 in Resources */,
+				CCDE57B229B70C9400FF3610 /* Rose.mp3 in Resources */,
+				CC6357FA29B8D60D00EA3747 /* Bass04.mp3 in Resources */,
+				CC63578A29B8AF0400EA3747 /* sand-8.wav in Resources */,
 				CCDBC2012993A0320032A1BD /* RootController.xib in Resources */,
-				CC18601029AC9068005EDF3B /* Synth.mp3 in Resources */,
-				CC185FE429A87E55005EDF3B /* Against Time Piano.caf in Resources */,
-				CC18600A29AC9068005EDF3B /* Bass Synth.mp3 in Resources */,
-				CC1E12B329A73C2400CCE544 /* Beat.caf in Resources */,
-				CCDBC1F12993A0320032A1BD /* sand-4.wav in Resources */,
-				CC18600829AC9068005EDF3B /* Guitar.mp3 in Resources */,
-				CCDBC1F42993A0320032A1BD /* stage-2.wav in Resources */,
+				CCA8A70529A767310086D1D2 /* Acoustic Bass.sf2 in Resources */,
+				CCD9C1FD29B1D59600E5E8A8 /* Amber Beat 01.caf in Resources */,
+				CCDE57BA29B71C1800FF3610 /* Guitar.mp3 in Resources */,
+				CCA3A3C329B485CD009CA5C9 /* MIDIPlayCell.xib in Resources */,
+				CCC66C8529B859EF00343997 /* Tenor_Sax.sf2 in Resources */,
+				CCA8A70F29A767310086D1D2 /* Harp.sf2 in Resources */,
+				CCC66C9E29B86C9100343997 /* 青花瓷-段落1-小提琴.mp3 in Resources */,
+				CC6B2D5829B0456000E37E23 /* MIDIShowController.xib in Resources */,
+				CC6357E929B8D60D00EA3747 /* egt3_21.mp3 in Resources */,
 				CCC9F42729A31251006CC4F0 /* Rock Piano.sf2 in Resources */,
-				CCDBC1F22993A0320032A1BD /* sand-5.wav in Resources */,
-				CC1E12B429A73C2400CCE544 /* Guitar.caf in Resources */,
-				CC18601629AC9068005EDF3B /* Counting.mp3 in Resources */,
-				CCDBC1EF2993A0320032A1BD /* sand-7.wav in Resources */,
-				CC6B80A1299615D400371B0E /* MIDIPlayController.xib in Resources */,
-				CC185FE629A87E65005EDF3B /* Against Time Keys.caf in Resources */,
+				CC6357E829B8D60D00EA3747 /* e_piano_1_03.mp3 in Resources */,
+				CCDE57AC29B70C3000FF3610 /* CoolBass.mp3 in Resources */,
+				CCC66CAA29B8744C00343997 /* 青花瓷-段落2-长笛.mp3 in Resources */,
+				CCC66C9729B86AA600343997 /* QingHuaCi1.mp3 in Resources */,
+				CC6357EE29B8D60D00EA3747 /* violin_23.mp3 in Resources */,
+				CCC66C9D29B86C9100343997 /* 青花瓷-段落1-女声.mp3 in Resources */,
+				CC6357F829B8D60D00EA3747 /* piano_19.mp3 in Resources */,
+				CC6357F629B8D60D00EA3747 /* piano_20.mp3 in Resources */,
+				CCA3A3EC29B4912A009CA5C9 /* Sounds in Resources */,
+				CCA8A70729A767310086D1D2 /* Violin.sf2 in Resources */,
+				CCDE57CF29B78EF400FF3610 /* tool.mp3 in Resources */,
+				CC63578529B8AF0400EA3747 /* stage-5.wav in Resources */,
+				CC63578929B8AF0400EA3747 /* stage-8.wav in Resources */,
+				CCD9C1FC29B1D59600E5E8A8 /* Altered State Beat 01.caf in Resources */,
+				CCD9C1E429B1D56800E5E8A8 /* ShakeDemoController.xib in Resources */,
 				CCC9F42329A31235006CC4F0 /* Guitar Harmonics.sf2 in Resources */,
-				CCDBC1F72993A0320032A1BD /* stage-4.wav in Resources */,
-				CCDBC1F82993A0320032A1BD /* stage-6.wav in Resources */,
-				CCC9F42F29A317BD006CC4F0 /* ntbldmtn.mid in Resources */,
-				CC18601329AC9068005EDF3B /* lo_tom_F1.wav in Resources */,
-				CC18600C29AC9068005EDF3B /* Strings.mp3 in Resources */,
-				CC1E12AD29A7132700CCE544 /* Test-1.mid in Resources */,
-				CCDBC1EE2993A0320032A1BD /* sand-3.wav in Resources */,
-				CC1E12AB29A7101A00CCE544 /* Florestan_Basic.sf2 in Resources */,
-				CC185FF429AC8A09005EDF3B /* SequencerPlayController.xib in Resources */,
+				CC6357FE29B8D60D00EA3747 /* meta2_11.mp3 in Resources */,
+				CC63578F29B8B6F500EA3747 /* m2.mp3 in Resources */,
+				CC6357F729B8D60D00EA3747 /* piano_18.mp3 in Resources */,
+				CC63578829B8AF0400EA3747 /* stage-7.wav in Resources */,
+				CC6357E629B8D60D00EA3747 /* egt3_22.mp3 in Resources */,
+				CC06DFCD29AF303D0051D7C8 /* export_clear.mid in Resources */,
+				CC6357E729B8D60D00EA3747 /* e_piano_1_02.mp3 in Resources */,
+				CC63579729B8BCB200EA3747 /* m5.mp3 in Resources */,
 				CCC9F42129A31225006CC4F0 /* Clarinet.sf2 in Resources */,
-				CCDBC1FA2993A0320032A1BD /* stage-8.wav in Resources */,
+				CC63579129B8B7F500EA3747 /* m3.mp3 in Resources */,
+				CCA8A70829A767310086D1D2 /* Accordion.sf2 in Resources */,
+				CC63576329B894C400EA3747 /* beat.aiff in Resources */,
+				CC63580429B8D60D00EA3747 /* egt3_13.mp3 in Resources */,
+				CCAF6A6C29B609DF00755FDF /* Bell Bottom Guitar.caf in Resources */,
+				CC6357EF29B8D60D00EA3747 /* violin_22.mp3 in Resources */,
+				CC63578329B8AF0400EA3747 /* stage-2.wav in Resources */,
+				CC63576729B8A68C00EA3747 /* BeatDrum.mp3 in Resources */,
+				CC63579929B8BCB200EA3747 /* m7.mp3 in Resources */,
 				CCC9F42529A31243006CC4F0 /* MT-32 Drum Kit.sf2 in Resources */,
-				CC18601229AC9068005EDF3B /* bass_drum_C1.wav in Resources */,
-				CC5B1AFB2995F192005E8027 /* MusicResultController.xib in Resources */,
-				CC18601429AC9068005EDF3B /* Piano.mp3 in Resources */,
-				CC185FE829A87E87005EDF3B /* Against Time Staccato Strings.caf in Resources */,
-				CC18600F29AC9068005EDF3B /* beat.aiff in Resources */,
-				CC6B80A3299638B900371B0E /* sand-1.mid in Resources */,
-				CCC9F42E29A317BD006CC4F0 /* sibeliusGMajor.mid in Resources */,
-				CCC9F43F29A4C063006CC4F0 /* AMIDIPlayController.xib in Resources */,
-				CCDBC1F92993A0320032A1BD /* stage-7.wav in Resources */,
-				CC185FDF29A87D6F005EDF3B /* Call and Response Guitar.caf in Resources */,
+				CCD9C1F829B1D59600E5E8A8 /* Against Time Sax Sample.caf in Resources */,
+				CC6357FF29B8D60D00EA3747 /* Bass02.mp3 in Resources */,
+				CCA8A70929A767310086D1D2 /* Ocarina.sf2 in Resources */,
+				CC6357F429B8D60D00EA3747 /* violin_1.mp3 in Resources */,
+				CC6357FC29B8D60D00EA3747 /* meta2_2.mp3 in Resources */,
+				CCA8A70629A767310086D1D2 /* Brass.sf2 in Resources */,
+				CCAF6A7229B61AD400755FDF /* basic_pitch.mid in Resources */,
 				CCC9F41F29A31219006CC4F0 /* Bassoon.sf2 in Resources */,
+				CCD9C1F029B1D57E00E5E8A8 /* ShakeTopCell.xib in Resources */,
+				CC59AF1529B63BFA0082E5DB /* Quincy - Coast To Coast.caf in Resources */,
+				CC6357F329B8D60D00EA3747 /* violin_3.mp3 in Resources */,
+				CCA8A70229A767310086D1D2 /* Organ.sf2 in Resources */,
 				CCC9F42B29A31280006CC4F0 /* Shannai.sf2 in Resources */,
-				CCC9F42929A31261006CC4F0 /* Violin.sf2 in Resources */,
-				CC6B80A9299643D300371B0E /* Cyberpunk.sf2 in Resources */,
+				CC63579329B8BB9300EA3747 /* m4.mp3 in Resources */,
+				CC59AF1329B63BF20082E5DB /* Prismatica Beat 03.caf in Resources */,
+				CCA0E2C829ADD4D800FA5AF9 /* export.mid in Resources */,
+				CCDE57AE29B70C5100FF3610 /* Prismatica.mp3 in Resources */,
+				CC63580329B8D60D00EA3747 /* meta2_12.mp3 in Resources */,
+				CC74416B29B9BA9E009FB5B8 /* AudioKitRecordController.xib in Resources */,
+				CCDE57C529B7782000FF3610 /* QingHuaCi.mid in Resources */,
+				CCC66CA129B86C9100343997 /* 青花瓷-段落1-长笛.mp3 in Resources */,
+				CC63577C29B8AF0400EA3747 /* sand-3.wav in Resources */,
+				CC63580729B8D60D00EA3747 /* meta2_13.mp3 in Resources */,
+				CC63579829B8BCB200EA3747 /* m6.mp3 in Resources */,
+				CCC66CA029B86C9100343997 /* 青花瓷-段落1-马林巴琴.mp3 in Resources */,
+				CCAF6A6E29B60A8600755FDF /* Beat.caf in Resources */,
+				CC63577A29B8AF0400EA3747 /* sand-1.wav in Resources */,
+				CC63578229B8AF0400EA3747 /* stage-3.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -750,30 +1055,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCD9C1FF29B1D60A00E5E8A8 /* ExampleSegment.swift in Sources */,
+				CCDE57B529B7117A00FF3610 /* MusicPlayController.swift in Sources */,
 				CCF9AF2029939DDE00AA61F6 /* AppDelegate.swift in Sources */,
-				CC6B80A0299615D400371B0E /* MIDIPlayController.swift in Sources */,
+				CC6B2D5729B0456000E37E23 /* MIDIShowController.swift in Sources */,
+				CCA3A3C229B485CD009CA5C9 /* MIDIPlayCell.swift in Sources */,
 				CCE9589529A5EA88007D2B62 /* Toast.swift in Sources */,
-				CC18601929AC9E06005EDF3B /* SequcenView.swift in Sources */,
+				CCA3A3AE29B478F7009CA5C9 /* MIDIPlayController.swift in Sources */,
 				CCF9AF2229939DDE00AA61F6 /* SceneDelegate.swift in Sources */,
-				CC185FF329AC8A09005EDF3B /* SequencerPlayController.swift in Sources */,
-				CC661C79299CD1E100786AEB /* ShakeTopCell.swift in Sources */,
-				CC661C70299CCACB00786AEB /* ShakeDemoController.swift in Sources */,
-				CCDBC1FC2993A0320032A1BD /* MusicController.swift in Sources */,
 				CCDBC2002993A0320032A1BD /* RecordController.swift in Sources */,
-				CC661C98299F65C800786AEB /* MIDIPlayManager.swift in Sources */,
-				CC1E12C129A755EA00CCE544 /* AudioPlayMidiController.swift in Sources */,
-				CCC9F43E29A4C063006CC4F0 /* AMIDIPlayController.swift in Sources */,
+				CCDE57B829B7157D00FF3610 /* MusicModel.swift in Sources */,
 				CCE9589929A5EAF5007D2B62 /* Bridge.m in Sources */,
+				CCD9C1EF29B1D57E00E5E8A8 /* ShakeTopCell.swift in Sources */,
 				CC661C6C299CC4C100786AEB /* RootCell.swift in Sources */,
 				CCE9589B29A5EB6D007D2B62 /* CommonSetting.swift in Sources */,
-				CC661C81299DDCB300786AEB /* ShakeModel.swift in Sources */,
-				CC5B1AFA2995F192005E8027 /* MusicResultController.swift in Sources */,
+				CCD9C1EC29B1D57E00E5E8A8 /* ShakeModel.swift in Sources */,
 				CCE958A129A5EFEB007D2B62 /* RecordMIDIController.swift in Sources */,
-				CCE958A829A60853007D2B62 /* TrackView.swift in Sources */,
+				CCA0E2C629ADD37B00FA5AF9 /* DealMIDIFileController.swift in Sources */,
 				CCE9587029A5B315007D2B62 /* NetworkManager.swift in Sources */,
 				CCE9587229A5BFE7007D2B62 /* Const.swift in Sources */,
+				CCDE57BD29B72D8F00FF3610 /* AudioSampler.swift in Sources */,
+				CCD9C1EE29B1D57E00E5E8A8 /* ShakeInfoCell.swift in Sources */,
+				CCD9C1E329B1D56800E5E8A8 /* ShakeDemoController.swift in Sources */,
+				CC74416A29B9BA9E009FB5B8 /* AudioKitRecordController.swift in Sources */,
+				CCE958AC29A61006007D2B62 /* TrackView.swift in Sources */,
 				CCDBC1FE2993A0320032A1BD /* RootController.swift in Sources */,
-				CC661C7D299DD75E00786AEB /* ShakeInfoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -913,7 +1219,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = Q55T7745P3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Music/Info.plist;
@@ -922,11 +1228,15 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.taolee.music.Music;
@@ -938,7 +1248,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "Music/View/Music-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -950,7 +1260,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = Q55T7745P3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Music/Info.plist;
@@ -959,11 +1269,15 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.taolee.music.Music;
@@ -974,7 +1288,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Music/View/Music-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -1001,30 +1315,30 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		CC18601A29AC9E24005EDF3B /* XCRemoteSwiftPackageReference "Keyboard" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AudioKit/Keyboard.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
-		CC18601B29AC9E24005EDF3B /* Keyboard */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CC18601A29AC9E24005EDF3B /* XCRemoteSwiftPackageReference "Keyboard" */;
-			productName = Keyboard;
-		};
-		CC1E12A229A7087100CCE544 /* AudioKit */ = {
+		CC6B80A4299639C300371B0E /* AudioKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = AudioKit;
 		};
-		CC1E12C329A75AA000CCE544 /* AudioKitUI */ = {
+		CCA3A3F029B492F0009CA5C9 /* SoundpipeAudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SoundpipeAudioKit;
+		};
+		CCA3A3F229B492FE009CA5C9 /* KissFFT */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KissFFT;
+		};
+		CCA3A3F529B49329009CA5C9 /* AudioKitUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = AudioKitUI;
+		};
+		CCA3A3F829B49368009CA5C9 /* AudioKitEX */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioKitEX;
+		};
+		CCDE57BE29B72DF400FF3610 /* Keyboard */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Keyboard;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

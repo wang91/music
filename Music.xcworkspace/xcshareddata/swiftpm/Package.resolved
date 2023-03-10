@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Controls",
+        "repositoryURL": "https://github.com/AudioKit/Controls.git",
+        "state": {
+          "branch": null,
+          "revision": "5e1da73c34cfe60d5bdbd580dc395bd2da925191",
+          "version": "1.1.1"
+        }
+      },
+      {
+        "package": "Tonic",
+        "repositoryURL": "https://github.com/AudioKit/Tonic.git",
+        "state": {
+          "branch": null,
+          "revision": "bd73003b0e6caa90fb1d71b57329b0d609b097ee",
+          "version": "1.0.10"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

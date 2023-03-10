@@ -9,12 +9,14 @@ import UIKit
 import AudioRecorder
 import SwiftCommonTools2
 import AVFAudio
+import SwiftUI
 
 class RecordController: UIViewController, AudioRecorderDelegate {
 
     @IBOutlet weak var duration: UILabel!
     private var audioRecorder: AudioRecorder?
 
+    @IBOutlet weak var btnRecord: UIButton!
     private var recordFile:AVAudioFile?
     private var recordPlayer:AVAudioPlayer?
     var recordTimer: Timer?
@@ -45,12 +47,12 @@ class RecordController: UIViewController, AudioRecorderDelegate {
         }
         if audioRecorder?.isRecording == true {
             audioRecorder?.stop()
-            sender.setTitle("开始录制", for: .normal)
+            sender.setTitle("Record", for: .normal)
             return
         }
         do {
             try audioRecorder?.record(voiceName: UUID().uuidString)
-            sender.setTitle("停止录制", for: .normal)
+            sender.setTitle("Stop Record", for: .normal)
         } catch(let error) {
             Log.e("录制出错 \(error)")
         }
@@ -79,6 +81,10 @@ class RecordController: UIViewController, AudioRecorderDelegate {
     }
 //MARK: - 播放录音
     @IBAction func playOrStopRecord(_ sender: UIButton) {
+        if audioRecorder?.isRecording == true {
+            JKToast.showToast(title: "正在录制音频")
+            return
+        }
         if recordFile == nil || recordPlayer == nil {
             print("Didn't get test file1")
             JKToast.showToast(title: "请先录制音频")
@@ -117,6 +123,10 @@ class RecordController: UIViewController, AudioRecorderDelegate {
         }
     }
     @IBAction func convertAudioToMIDI(_ sender: UIButton) {
+        if audioRecorder?.isRecording == true {
+            JKToast.showToast(title: "正在录制音频")
+            return
+        }
         guard let url1 = recordFile?.url else {
             JKprint("Didn't get test file1")
             JKToast.showToast(title: "请先录制音频")
@@ -125,11 +135,32 @@ class RecordController: UIViewController, AudioRecorderDelegate {
         JKToast.showDefault()
         NetworkManager.netWork.uploadAudio(url: "", file: url1, name: "file") { result in
             JKToast.hideDefault()
+            try! AVAudioSession.sharedInstance().setCategory(AVAudioSession.sharedInstance().category, options: .defaultToSpeaker)
+ 
             if let url = result as? URL {
                 print("midi 文件地址", url.absoluteString)
-                let controller = MIDIPlayController(nibName: "MIDIPlayController", bundle: nil)
-                controller.midiUrl = url
-                self.navigationController?.pushViewController(controller, animated: true)
+                let trackView = UIHostingController(rootView: TrackView(fileURL: url))
+                trackView.view.backgroundColor = .white
+                trackView.rootView.dismiss = {
+        
+                    let controller = ShakeDemoController(nibName: "ShakeDemoController", bundle: nil)
+                    self.navigationController?.pushViewController(controller, animated: true)
+
+                }
+                trackView.rootView.recordSucces = { (_ file, _ bankName) in
+                    JKprint("midi name",url.deletingPathExtension().lastPathComponent)
+                    // 存储到指定位置
+                    let fileUrl = Const.copyMIDIWavToFolder(fileUrl: file.url,midiFileName: url.deletingPathExtension().lastPathComponent,instrName: bankName)
+            
+                    // 文件名保存到缓存
+                    JKprint(fileUrl)
+                    var array = UserDefaults.getAllRecordMidFile()
+                    array.append(fileUrl)
+                    UserDefaults.saveAllRecordMidFile(array)
+                    
+                    
+                }
+                self.navigationController?.pushViewController(trackView, animated: true)
             }
         } fail: { error in
             JKToast.hideDefault()

@@ -6,12 +6,19 @@
 //
 
 import UIKit
-
+protocol ShakeTopCellDelegate:NSObjectProtocol {
+    func addNewMusic()
+}
 class ShakeTopCell: UITableViewCell {
 
+    weak var delegate:ShakeTopCellDelegate?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         
     }
     
+    @IBAction func addNewMusicTrack(_ sender: UIButton) {
+        delegate?.addNewMusic()
+    }
 }

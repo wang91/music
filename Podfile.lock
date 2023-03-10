@@ -3,26 +3,38 @@ PODS:
   - AudioRecorder (0.0.1):
     - SwiftCommonTools2
   - MBProgressHUD (1.2.0)
+  - MIDIPianoRollView (0.0.1):
+    - MusicTheorySwift
+  - MIKMIDI (1.7.1)
+  - MusicTheorySwift (1.3.1)
   - SwiftCommonTools2 (0.0.6)
 
 DEPENDENCIES:
   - Alamofire
   - AudioRecorder
   - MBProgressHUD (~> 1.2.0)
+  - MIDIPianoRollView
+  - MIKMIDI
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - AudioRecorder
     - MBProgressHUD
+    - MIDIPianoRollView
+    - MIKMIDI
+    - MusicTheorySwift
     - SwiftCommonTools2
 
 SPEC CHECKSUMS:
   Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
   AudioRecorder: 044ba40232c60c6209bc2488eb3157464dbbc56b
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MIDIPianoRollView: f606e6b28422ba4aafa31f0d28d493a498e98828
+  MIKMIDI: f53dca2f372e71183ecdd2b35c984c1c2cd11cbc
+  MusicTheorySwift: 61c22a89d0afb37693299cb822edd43e45318869
   SwiftCommonTools2: 61c9b54ea6e42f52cd4d93c75e969125fc4f8183
 
-PODFILE CHECKSUM: c7690b9f22483387bb24c0c3766585a330415b9c
+PODFILE CHECKSUM: 6f84598f5d2c2f5840a4f254444afafb51d04cf3
 
 COCOAPODS: 1.11.3

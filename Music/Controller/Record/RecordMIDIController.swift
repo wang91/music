@@ -1,14 +1,14 @@
 //
 //  RecordMIDIController.swift
 //  Music
-//
+//  使用系统方法播放midi文件及加载SF2文件
 //  Created by YouKe Wang on 2023/2/22.
 //
 
 import UIKit
 import AudioKit
 import AVFAudio
-import AudioKitUI
+
 import SwiftUI
 
 class RecordMIDIController: UIViewController {
@@ -24,12 +24,11 @@ class RecordMIDIController: UIViewController {
     @IBOutlet weak var slider: UISlider!
     
     var midiURL:URL!
-    
     var bankName:String = "Bassoon"
     
     var timer:Timer?
     
-    var bankArr:Array<String> = ["Bassoon","Accordion","Clarinet","Guitar Harmonics","MT-32 Drum Kit","Shannai","Violin","Rock Piano","Cyberpunk"]
+    var bankArr:Array<String> = ["Bassoon","Accordion","Clarinet","Guitar Harmonics","MT-32 Drum Kit","Shannai","Violin","Rock Piano","Cyberpunk","Electric_Piano","Grand_Piano"]
     
     var engine = AVAudioEngine()
     var sampler = AVAudioUnitSampler()
@@ -37,7 +36,6 @@ class RecordMIDIController: UIViewController {
     var duration:Double = 0.0
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         addSubViews()
         initAudio()
     }
@@ -51,6 +49,7 @@ class RecordMIDIController: UIViewController {
         engine = AVAudioEngine()
         sampler = AVAudioUnitSampler()
         sequencer = AVAudioSequencer()
+        sequencer.rate = 0.8
         engine.attach(sampler)
         // 节点 node 的 bus 0 是输出，
         // bus 1 是输入
@@ -75,7 +74,7 @@ class RecordMIDIController: UIViewController {
             
         sequencer = AVAudioSequencer(audioEngine: engine)
         do {
-            try sequencer.load(from: self.midiURL!,options: .smf_ChannelsToTracks)
+            try sequencer.load(from: self.midiURL,options: .smf_ChannelsToTracks)
             print("loaded \(String(describing: midiURL))")
         } catch {
             fatalError("something screwed up while loading midi file \n \(error)")
@@ -86,7 +85,7 @@ class RecordMIDIController: UIViewController {
         }
         duration = sequencer.tracks.first?.lengthInSeconds ?? 10.0
 
-        
+        self.totalL.text = String(format: "%.1fs", duration)
     }
     @IBAction func playmidi(_ sender: UIButton) {
         sender.isSelected = !sender.isSelected
@@ -107,9 +106,11 @@ class RecordMIDIController: UIViewController {
     func stopPlay() {
         sequencer.stop()
         timer?.invalidate()
+        self.currentL.text = "0.0s"
+        self.playBtn.isSelected = false
     }
     @objc func updateSlider() {
-        JKprint(sequencer.currentPositionInSeconds,duration)
+//        JKprint(sequencer.currentPositionInSeconds,duration)
         self.slider.setValue(Float(sequencer.currentPositionInSeconds/duration), animated: true)
         self.currentL.text = String(format: "%.1fs", sequencer.currentPositionInSeconds)
         if sequencer.currentPositionInSeconds >= duration {

@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RecordController" customModule="Music" customModuleProvider="target">
             <connections>
+                <outlet property="btnRecord" destination="kVe-kp-6Pd" id="qCk-NY-NQg"/>
                 <outlet property="duration" destination="X6c-cR-1bU" id="9Fh-da-BGY"/>
                 <outlet property="playBtn" destination="lRK-Z8-Ddv" id="qLl-C3-X6e"/>
                 <outlet property="sliderView" destination="6e6-fQ-GGi" id="KPI-7x-IaR"/>
@@ -24,23 +25,22 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kVe-kp-6Pd">
-                    <rect key="frame" x="136.66666666666666" y="401" width="119.99999999999997" height="50"/>
-                    <color key="backgroundColor" systemColor="systemPinkColor"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kVe-kp-6Pd">
+                    <rect key="frame" x="149.66666666666666" y="748" width="94" height="60"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="120" id="fRZ-5w-mGn"/>
-                        <constraint firstAttribute="height" constant="50" id="s4c-CK-Kpd"/>
+                        <constraint firstAttribute="height" constant="60" id="s4c-CK-Kpd"/>
                     </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <state key="normal" title="开始录制">
+                    <state key="normal" title="Record" image="record_normal">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
+                    <state key="selected" image="record_highlight"/>
                     <connections>
                         <action selector="record:" destination="-1" eventType="touchUpInside" id="4rO-hw-qTB"/>
                     </connections>
                 </button>
                 <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="IS5-Fo-1Ir">
-                    <rect key="frame" x="115.66666666666667" y="359.33333333333331" width="161.66666666666663" height="33.666666666666686"/>
+                    <rect key="frame" x="115.66666666666667" y="409.33333333333331" width="161.66666666666663" height="33.666666666666686"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已录制：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uVm-Hi-F4N">
                             <rect key="frame" x="0.0" y="0.0" width="69.333333333333329" height="33.666666666666664"/>
@@ -57,32 +57,29 @@
                     </subviews>
                 </stackView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="39l-yU-vDM">
-                    <rect key="frame" x="20" y="773" width="353" height="45"/>
+                    <rect key="frame" x="20" y="683" width="353" height="45"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lRK-Z8-Ddv">
-                            <rect key="frame" x="20" y="0.0" width="70" height="45"/>
-                            <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="70" id="Wr4-cK-GUh"/>
-                            </constraints>
+                            <rect key="frame" x="0.0" y="0.0" width="48" height="45"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                            <state key="normal" title="播放">
+                            <state key="normal" image="play_stop">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
-                            <state key="selected" title="停止">
-                                <color key="titleColor" systemColor="systemPinkColor"/>
+                            <state key="selected" title="停止" image="play">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
                             <connections>
                                 <action selector="playOrStopRecord:" destination="-1" eventType="touchUpInside" id="DLX-vf-ARH"/>
                             </connections>
                         </button>
                         <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="6e6-fQ-GGi">
-                            <rect key="frame" x="158" y="0.0" width="127" height="46"/>
+                            <rect key="frame" x="116" y="0.0" width="169" height="46"/>
                             <color key="minimumTrackTintColor" systemColor="systemOrangeColor"/>
                             <color key="maximumTrackTintColor" systemColor="systemPinkColor"/>
                         </slider>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0s" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wuz-wE-nd6">
-                            <rect key="frame" x="100" y="0.0" width="50" height="45"/>
+                            <rect key="frame" x="58" y="0.0" width="50" height="45"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="50" id="jAp-oD-Buq"/>
                             </constraints>
@@ -107,7 +104,7 @@
                         <constraint firstAttribute="bottom" secondItem="lRK-Z8-Ddv" secondAttribute="bottom" id="6Ts-RU-Tm0"/>
                         <constraint firstItem="l3T-MI-ipA" firstAttribute="top" secondItem="39l-yU-vDM" secondAttribute="top" id="6ta-lw-VUD"/>
                         <constraint firstItem="6e6-fQ-GGi" firstAttribute="top" secondItem="39l-yU-vDM" secondAttribute="top" id="9Q7-0u-y5r"/>
-                        <constraint firstItem="lRK-Z8-Ddv" firstAttribute="leading" secondItem="39l-yU-vDM" secondAttribute="leading" constant="20" id="AyP-sD-30w"/>
+                        <constraint firstItem="lRK-Z8-Ddv" firstAttribute="leading" secondItem="39l-yU-vDM" secondAttribute="leading" id="AyP-sD-30w"/>
                         <constraint firstItem="Wuz-wE-nd6" firstAttribute="top" secondItem="39l-yU-vDM" secondAttribute="top" id="BTA-n7-O9X"/>
                         <constraint firstAttribute="bottom" secondItem="Wuz-wE-nd6" secondAttribute="bottom" id="D04-f7-M8q"/>
                         <constraint firstAttribute="bottom" secondItem="6e6-fQ-GGi" secondAttribute="bottom" id="Lyf-Po-wyR"/>
@@ -119,14 +116,14 @@
                     </constraints>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kAc-ZO-aGt">
-                    <rect key="frame" x="136.66666666666666" y="481" width="119.99999999999997" height="50"/>
-                    <color key="backgroundColor" systemColor="systemPinkColor"/>
+                    <rect key="frame" x="293" y="69" width="80" height="50"/>
+                    <color key="backgroundColor" systemColor="systemOrangeColor"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="dHO-3d-w1d"/>
-                        <constraint firstAttribute="width" constant="120" id="der-Ti-LhJ"/>
+                        <constraint firstAttribute="width" constant="80" id="hj4-zh-XyP"/>
                     </constraints>
                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                    <state key="normal" title="音频转换">
+                    <state key="normal" title="转换">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
                     <connections>
@@ -137,20 +134,24 @@
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
+                <constraint firstItem="kVe-kp-6Pd" firstAttribute="top" secondItem="39l-yU-vDM" secondAttribute="bottom" constant="20" id="1sy-uy-Wwk"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="39l-yU-vDM" secondAttribute="trailing" constant="20" id="2Th-bp-Czs"/>
-                <constraint firstItem="kAc-ZO-aGt" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="6cx-r0-Tz3"/>
-                <constraint firstItem="IS5-Fo-1Ir" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-50" id="L1k-yc-iXl"/>
+                <constraint firstAttribute="trailing" secondItem="kAc-ZO-aGt" secondAttribute="trailing" constant="20" id="9oL-pd-LSo"/>
+                <constraint firstItem="IS5-Fo-1Ir" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="L1k-yc-iXl"/>
+                <constraint firstItem="kAc-ZO-aGt" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="RtX-ra-DC8"/>
                 <constraint firstItem="IS5-Fo-1Ir" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="WY0-L7-DXn"/>
-                <constraint firstItem="kVe-kp-6Pd" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="dAg-3l-ZjJ"/>
-                <constraint firstItem="39l-yU-vDM" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="law-Ky-WEA"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="kVe-kp-6Pd" secondAttribute="bottom" constant="10" id="kaa-Gq-iFn"/>
                 <constraint firstItem="39l-yU-vDM" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="n6Q-Cm-zVa"/>
-                <constraint firstItem="kAc-ZO-aGt" firstAttribute="top" secondItem="kVe-kp-6Pd" secondAttribute="bottom" constant="30" id="vVp-IH-AjN"/>
                 <constraint firstItem="kVe-kp-6Pd" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ycC-0z-Fxf"/>
             </constraints>
             <point key="canvasLocation" x="94.366197183098592" y="19.083969465648853"/>
         </view>
     </objects>
     <resources>
+        <image name="play" width="48" height="48"/>
+        <image name="play_stop" width="48" height="48"/>
+        <image name="record_highlight" width="36" height="36"/>
+        <image name="record_normal" width="36" height="36"/>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

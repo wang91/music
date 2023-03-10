@@ -6,7 +6,7 @@
 //
 
 #import "Bridge.h"
-
+#import <CoreAudio/CoreAudioTypes.h>
 @implementation Bridge
 
 @end
